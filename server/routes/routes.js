@@ -217,33 +217,7 @@ let  dataObj = {
       "quantity": 1,
       "total": "$1.89"
     },
-    {
-      "description": "Maltesers . (192 gr)",
-      "code": "AH-238097",
-      "invoicePrice": "$2.09",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$2.09"
-    },
-    {
-      "description": "Nutella & go (39 gr)",
-      "code": "AH-370830",
-      "invoicePrice": "$3.09",
-      "vat": "9%",
-      "contents": "2",
-      "quantity": 1,
-      "total": "$3.09"
-    },
-    {
-      "description": "Nutella & Go (39 gr)",
-      "code": "8868",
-      "invoicePrice": "$0.49",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$1.47"
-    },
+    
     {
       "description": "Perrier & juice aardbei kiwi (250 ml)",
       "code": "AH-437934",
@@ -421,9 +395,14 @@ module.exports = function (server) {
         .text("Total", 0, 325 ,{ align: "right" })
 
 
+  
+        
+
+
 
       }
-      
+
+
       function generateFooter(doc) {
         doc
           .fontSize(10)
@@ -484,7 +463,54 @@ function generateInvoiceTable(doc, invoice) {
 
       );
     }
+
+    doc
+    .roundedRect(50, 30+invoiceTableTop + dataObj.products.length * 10, 515, 20, 0)
+    .fillAndStroke( '#8DDBF6')
+    .fill('black').stroke()
+    .text(`Total Order  ${dataObj.headers.totals.noDiscount}` , 50, 35+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
+    
+    .roundedRect(50, 50+invoiceTableTop + dataObj.products.length * 10, 515, 20, 0)
+    .fillAndStroke( '#8DDBF6')
+    .fill('black').stroke()
+    .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}` , 50, 55+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
+
+    .roundedRect(50, 70+invoiceTableTop + dataObj.products.length * 10, 515, 20, 0)
+    .fillAndStroke( 'white')
+    .fill('black').stroke()
+    .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}` , 50, 75+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
+
+    .roundedRect(50, 90+invoiceTableTop + dataObj.products.length * 10, 515, 20, 0)
+    .fillAndStroke( '#8DDBF6')
+    .fill('black').stroke()
+    .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}` , 50, 95+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
+
+    .roundedRect(50, 110+invoiceTableTop + dataObj.products.length * 10, 515, 20, 0)
+    .fillAndStroke( 'white')
+    .fill('black').stroke()
+    .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}` , 50, 115+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
+
+    .roundedRect(50, 130+invoiceTableTop + dataObj.products.length * 10, 515, 20, 0)
+    .fillAndStroke( '#8DDBF6')
+    .fill('black').stroke()
+    .text(`Total Vat   ${dataObj.headers.totals.vat}` , 50, 135+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
+
+    .roundedRect(50, 150+invoiceTableTop + dataObj.products.length * 10, 515, 20, 0)
+    .fillAndStroke( 'white')
+    .fill('black').stroke()
+
+
+    .roundedRect(50, 170+invoiceTableTop + dataObj.products.length * 10, 515, 20, 0)
+    .fillAndStroke( '#8DDBF6')
+    .fill('black').stroke()
+    .text(`TOTAL  ${dataObj.headers.total}` , 50, 175+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
+
+          
   }
+
+
+
+  
         generateHeader(doc);
         // generateCustomerInformation(doc, invoice);
         generateInvoiceTable(doc, invoice);
