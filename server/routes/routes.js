@@ -127,24 +127,7 @@ let  dataObj = {
       "quantity": 2,
       "total": "$6.98"
     },
-    {
-      "description": "Dauvergne Ranvier & Ranvier",
-      "code": "AH-448226",
-      "invoicePrice": "$83.94",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$83.94"
-    },
-    {
-      "description": "Elke Melk . (800 ml)",
-      "code": "AH-460620",
-      "invoicePrice": "$1.39",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$1.39"
-    },
+    
     {
       "description": "Gulden Draak . (330 ml)",
       "code": "AH-201936",
@@ -155,32 +138,435 @@ let  dataObj = {
       "total": "$4.35"
     },
     {
-      "description": "HG (combi) magnetron reiniger (500 ml)",
-      "code": "AH-170821",
-      "invoicePrice": "$3.89",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$3.89"
-    },
-    {
-      "description": "Jack Daniels & Lynchburg lemon (330 ml)",
-      "code": "AH-436939",
-      "invoicePrice": "$2.39",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$2.39"
-    },
-    {
-      "description": "Klene 'n Berg zoet gesuikerd (450 gr)",
-      "code": "AH-213580",
-      "invoicePrice": "$1.98",
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
       "vat": "9%",
       "contents": "1",
       "quantity": 3,
-      "total": "$5.94"
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
     },
+    {
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },
+    {
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    }
+    ,{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },
+    {
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },{
+      "description": "Gulden Draak . (330 ml)",
+      "code": "AH-201936",
+      "invoicePrice": "$1.45",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 3,
+      "total": "$4.35"
+    },
+    
     {
       "description": "Klene 'n Berg zoete drop (450 gr) zoete drop zoete drop",
       "code": "AH-213581",
@@ -190,6 +576,7 @@ let  dataObj = {
       "quantity": 3,
       "total": "$5.94"
     },
+    
     {
       "description": "La Chouffe + glas (4 x 0.33l gr)",
       "code": "AH-403940",
@@ -198,54 +585,24 @@ let  dataObj = {
       "contents": "1",
       "quantity": 1,
       "total": "$11.49"
-    },
-    {
-      "description": "Malibu & Cola (250 ml)",
-      "code": "AH-198900",
-      "invoicePrice": "$1.95",
+    }, {
+      "description": "La Chouffe + glas (4 x 0.33l gr)",
+      "code": "AH-403940",
+      "invoicePrice": "$11.49",
       "vat": "9%",
       "contents": "1",
       "quantity": 1,
-      "total": "$1.95"
-    },
-    {
-      "description": "Malibu & Pineapple (250 ml)",
-      "code": "AH-211399",
-      "invoicePrice": "$1.89",
+      "total": "$11.49"
+    }, {
+      "description": "La Chouffe + glas (4 x 0.33l gr)",
+      "code": "AH-403940",
+      "invoicePrice": "$11.49",
       "vat": "9%",
       "contents": "1",
       "quantity": 1,
-      "total": "$1.89"
-    },
-    
-    {
-      "description": "Perrier & juice aardbei kiwi (250 ml)",
-      "code": "AH-437934",
-      "invoicePrice": "$2.75",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 3,
-      "total": "$8.25"
-    },
-    {
-      "description": "Perrier & juice perzik kers (250 ml)",
-      "code": "AH-437932",
-      "invoicePrice": "$2.75",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$2.75"
-    },
-    {
-      "description": "Pure blonde . (250 ml)",
-      "code": "AH-435204",
-      "invoicePrice": "$3.9",
-      "vat": "9%",
-      "contents": "6",
-      "quantity": 1,
-      "total": "$3.9"
-    },
-    {
+      "total": "$11.49"
+    }
+    ,{
       "description": "Sao Miguel do Sul . (750 ml)",
       "code": "AH-382911",
       "invoicePrice": "$5.99",
@@ -253,6 +610,49 @@ let  dataObj = {
       "contents": "1",
       "quantity": 1,
       "total": "$5.99"
+    },{
+      "description": "Sao Miguel do Sul . (750 ml)",
+      "code": "AH-382911",
+      "invoicePrice": "$5.99",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 1,
+      "total": "$5.99"
+    },{
+      "description": "Sao Miguel do Sul . (750 ml)",
+      "code": "AH-382911",
+      "invoicePrice": "$5.99",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 1,
+      "total": "$5.99"
+    },
+    {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    },
+    {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    },
+    {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
     },
     {
       "description": "Tripel Karmeliet . (330 ml)",
@@ -322,8 +722,8 @@ const invoice = {
   };
  
 dotenv.config();
+console.log(dataObj.products.length)
 
-console.log("data:",dataObj)
 
 
 
@@ -381,7 +781,7 @@ module.exports = function (server) {
         .text(`${dataObj.headers.page}`, 480, 285)
 
 
-        .font('Times-Roman').roundedRect(50, 340, 5280, 0, 0)
+        .font('Times-Roman').roundedRect(50, 340, 520, 0, 0)
         .fillAndStroke( 'white','#8DDBF6')
         .fill('black').stroke()
 
@@ -403,16 +803,16 @@ module.exports = function (server) {
       }
 
 
-      function generateFooter(doc) {
-        doc
-          .fontSize(10)
-          .text(
-            "Payment is due within 15 days. Thank you for your business.",
-            50,
-            780,
-            { align: "center", width: 500 }
-          );
-      }
+      // function generateFooter(doc) {
+      //   doc
+      //     .fontSize(10)
+      //     .text(
+      //       "Payment is due within 15 days. Thank you for your business.",
+      //       50,
+      //       780,
+      //       { align: "center", width: 500 }
+      //     );
+      // }
       // function generateCustomerInformation(doc, invoice) {
       //   const shipping = invoice.shipping;
       
@@ -446,76 +846,274 @@ function generateInvoiceTable(doc, invoice) {
     let i,
       invoiceTableTop = 340;
   
-    for (i = 0; i < dataObj.products.length; i++) {
-      const item = dataObj.products[i];
-      const position = invoiceTableTop + (i + 1) * 10;
-      generateTableRow(
-        doc,
-        position,
-        i+1,
-        item.code,
-        item.description,
-        item.contents,
-        item.quantity,
-        item.vat,
-        item.invoicePrice,
-        item.total,
-
-      );
-    }
-
-    doc
-    .roundedRect(50, 30+invoiceTableTop + dataObj.products.length * 10, 515, 20, 0)
-    .fillAndStroke( '#8DDBF6')
-    .fill('black').stroke()
-    .text(`Total Order  ${dataObj.headers.totals.noDiscount}` , 50, 35+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
+      let pageNo = 1;
     
-    .roundedRect(50, 50+invoiceTableTop + dataObj.products.length * 10, 515, 20, 0)
-    .fillAndStroke( '#8DDBF6')
-    .fill('black').stroke()
-    .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}` , 50, 55+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
+    for (i = 0; i < dataObj.products.length; i++) {
 
-    .roundedRect(50, 70+invoiceTableTop + dataObj.products.length * 10, 515, 20, 0)
-    .fillAndStroke( 'white')
-    .fill('black').stroke()
-    .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}` , 50, 75+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
+      const item = dataObj.products[i];
+       
+function lastResult(){
+  doc
+  .roundedRect(465, 30+invoiceTableTop + dataObj.products.length * 10, 100, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`Total Order    ${dataObj.headers.totals.noDiscount}` , 50, 35+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
 
-    .roundedRect(50, 90+invoiceTableTop + dataObj.products.length * 10, 515, 20, 0)
-    .fillAndStroke( '#8DDBF6')
-    .fill('black').stroke()
-    .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}` , 50, 95+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
+  .roundedRect(400, 50+invoiceTableTop + dataObj.products.length * 10, 165, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}` , 50, 55+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
 
-    .roundedRect(50, 110+invoiceTableTop + dataObj.products.length * 10, 515, 20, 0)
-    .fillAndStroke( 'white')
-    .fill('black').stroke()
-    .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}` , 50, 115+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
+  .roundedRect(390, 70+invoiceTableTop + dataObj.products.length * 10, 175, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}` , 50, 75+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
 
-    .roundedRect(50, 130+invoiceTableTop + dataObj.products.length * 10, 515, 20, 0)
-    .fillAndStroke( '#8DDBF6')
-    .fill('black').stroke()
-    .text(`Total Vat   ${dataObj.headers.totals.vat}` , 50, 135+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
+  .roundedRect(465, 90+invoiceTableTop + dataObj.products.length * 10, 100, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}` , 50, 95+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
 
-    .roundedRect(50, 150+invoiceTableTop + dataObj.products.length * 10, 515, 20, 0)
-    .fillAndStroke( 'white')
-    .fill('black').stroke()
+  .roundedRect(500, 110+invoiceTableTop + dataObj.products.length * 10, 65, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}` , 50, 115+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
+
+  .roundedRect(485, 130+invoiceTableTop + dataObj.products.length * 10,80, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`Total Vat   ${dataObj.headers.totals.vat}` , 50, 135+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
+
+  // .roundedRect(450, 150+invoiceTableTop + dataObj.products.length * 10, 100, 20, 0)
+  // .fillAndStroke( 'white')
+  // .fill('black').stroke()
 
 
-    .roundedRect(50, 170+invoiceTableTop + dataObj.products.length * 10, 515, 20, 0)
-    .fillAndStroke( '#8DDBF6')
-    .fill('black').stroke()
-    .text(`TOTAL  ${dataObj.headers.total}` , 50, 175+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
+  .roundedRect(510, 160+invoiceTableTop + dataObj.products.length * 10, 55, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`TOTAL  ${dataObj.headers.total}` , 50, 165+invoiceTableTop + dataObj.products.length * 10 ,{ align: "right" })
+
+}
+
+      
+      if(i<22){
+        const position = invoiceTableTop + (i + 1) * 10;
+        generateTableRow(
+          doc,
+          position,
+          i+1,
+          item.code,
+          item.description,
+          item.contents,
+          item.quantity,
+          item.vat,
+          item.invoicePrice,
+          item.total,
+  
+        );
+        if(dataObj.products.length==i+1){
+          lastResult()
+        }
+      }
+       if(i>=22 && i<70) {
+        if(i==22){
+            doc.addPage({
+            margin: 50 })
+    
+            doc.font('Times-Bold').text("#", 50, 50)
+            .text("Code", 70, 50)
+            .text("Description", 130, 50)
+            .text("Contents", 355, 50)
+            .text("Qty", 405, 50)
+            .text("Vat", 435, 50)
+            .text("Price", 480, 50)
+            .text("Total", 0, 50 ,{ align: "right" })
+    
+    
+            .font('Times-Roman').roundedRect(50, 65, 520, 0, 0)
+            .fillAndStroke( 'white','#8DDBF6')
+            .fill('black').stroke()
+    
+
+        }
+
+          const position =   50+((i-21) + 1) * 10;
+          generateTableRow(
+            doc,
+            position,
+            i+1,
+            item.code,
+            item.description,
+            item.contents,
+            item.quantity,
+            item.vat,
+            item.invoicePrice,
+            item.total,
+    
+          );
+         
+       
+if(dataObj.products.length==i+1){
+  doc
+  .roundedRect(465, 30+ (dataObj.products.length-15) * 10, 100, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`Total Order    ${dataObj.headers.totals.noDiscount}` , 50, 35 + (dataObj.products.length-15)*10 ,{ align: "right" })
+
+  .roundedRect(400, 50 + (dataObj.products.length-15) *10, 165, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}` , 50, 55 +(dataObj.products.length-15) *10,{ align: "right" })
+
+  .roundedRect(390, 70 + (dataObj.products.length-15)*10, 175, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}` , 50, 75 + (dataObj.products.length-15)*10,{ align: "right" })
+
+  .roundedRect(465, 90 + (dataObj.products.length-15)*10, 100, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}` , 50, 95 + (dataObj.products.length-15)*10 ,{ align: "right" })
+
+  .roundedRect(500, 110 + (dataObj.products.length-15)*10, 65, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}` , 50, 115 + (dataObj.products.length-15)*10 ,{ align: "right" })
+
+  .roundedRect(485, 130 + (dataObj.products.length-15)*10,80, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`Total Vat   ${dataObj.headers.totals.vat}` , 50, 135 +(dataObj.products.length-15) *10,{ align: "right" })
+
+  // .roundedRect(450, 150 + dataObj.products.length * 10, 100, 20, 0)
+  // .fillAndStroke( 'white')
+  // .fill('black').stroke()
+
+
+  .roundedRect(510, 160 + (dataObj.products.length-15)*10, 55, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`TOTAL  ${dataObj.headers.total}` , 50, 165 + (dataObj.products.length-15)*10 ,{ align: "right" })
+
+
+
+         
+
+        }
+         
+          
+          
+          
+        }
+
+        if(i>=70){
+          
+          if(i==70){
+            doc.addPage({
+            margin: 50 })
+    
+            doc.font('Times-Bold').text("#", 50, 50)
+            .text("Code", 70, 50)
+            .text("Description", 130, 50)
+            .text("Contents", 355, 50)
+            .text("Qty", 405, 50)
+            .text("Vat", 435, 50)
+            .text("Price", 480, 50)
+            .text("Total", 0, 50 ,{ align: "right" })
+    
+    
+            .font('Times-Roman').roundedRect(50, 65, 520, 0, 0)
+            .fillAndStroke( 'white','#8DDBF6')
+            .fill('black').stroke()
+    
+
+        }
+
+          const position =   50 +((i-69) + 1) * 10;
+          generateTableRow(
+            doc,
+            position,
+            i+1,
+            item.code,
+            item.description,
+            item.contents,
+            item.quantity,
+            item.vat,
+            item.invoicePrice,
+            item.total,
+    
+          );
+         
+       
+if(dataObj.products.length==i+1){
+  doc
+  .roundedRect(465, 30+ (dataObj.products.length-65) * 10, 100, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`Total Order    ${dataObj.headers.totals.noDiscount}` , 50, 35 + (dataObj.products.length-65)*10 ,{ align: "right" })
+
+  .roundedRect(400, 50 + (dataObj.products.length-65) *10, 165, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}` , 50, 55 +(dataObj.products.length-65) *10,{ align: "right" })
+
+  .roundedRect(390, 70 + (dataObj.products.length-65)*10, 175, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}` , 50, 75 + (dataObj.products.length-65)*10,{ align: "right" })
+
+  .roundedRect(465, 90 + (dataObj.products.length-65)*10, 100, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}` , 50, 95 + (dataObj.products.length-65)*10 ,{ align: "right" })
+
+  .roundedRect(500, 110 + (dataObj.products.length-65)*10, 65, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}` , 50, 115 + (dataObj.products.length-65)*10 ,{ align: "right" })
+
+  .roundedRect(485, 130 + (dataObj.products.length-65)*10,80, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`Total Vat   ${dataObj.headers.totals.vat}` , 50, 135 +(dataObj.products.length-65) *10,{ align: "right" })
+
+  // .roundedRect(450, 150 + dataObj.products.length * 10, 100, 20, 0)
+  // .fillAndStroke( 'white')
+  // .fill('black').stroke()
+
+
+  .roundedRect(510, 160 + (dataObj.products.length-65)*10, 55, 20, 0)
+  .fillAndStroke( '#8DDBF6')
+  .fill('black').stroke()
+  .text(`TOTAL  ${dataObj.headers.total}` , 50, 165 + (dataObj.products.length-65)*10 ,{ align: "right" })
+
+
+
+         
+
+        }
+ 
+        }
+
+
+      }
+    
+
+      }
+      
+      
+   
+
 
           
-  }
+  
 
 
 
   
         generateHeader(doc);
-        // generateCustomerInformation(doc, invoice);
         generateInvoiceTable(doc, invoice);
-        generateFooter(doc);
-      
         doc.end();
         doc.pipe(res)
     }
