@@ -128,7 +128,7 @@ let  dataObj = {
       "total": "$6.98"
     },
     {
-      "description": "Dauvergne Ranvier & Ranvier Grd Vin Cotes du Rhone (4500 ml)",
+      "description": "Dauvergne Ranvier & Ranvier",
       "code": "AH-448226",
       "invoicePrice": "$83.94",
       "vat": "9%",
@@ -358,11 +358,70 @@ module.exports = function (server) {
     let doc = new PDFDocument({ margin: 50 });
     function generateHeader(doc) {
         doc
-        .image(__dirname+'/img.jpg', 30, 5, {fit: [180, 230]})
-        .roundedRect(350, 5, 230, 220, 10)
+        .image(__dirname+'/img.jpg', 40, 30, {fit: [180, 230]})
+        .roundedRect(330, 30, 250, 220, 10)
         .fillAndStroke( '#8DDBF6','#8DDBF6')
         .fill('black').stroke()
-        .text("text goes here", 10, 95)
+       
+        .font('Times-Bold').text(`${dataObj.headers.title}`, 40, 110 )
+        .font('Times-Bold').text("Hassan", 40, 140 )
+        .font('Times-Roman').text("1", 40, 160 )
+        .text("2", 40, 170 )
+        .text("3", 40, 180 )
+        .text("4", 40, 210 )
+        .text(`Debtor: ${dataObj.headers.profile.debtorId}`, 40, 220 )
+        .text(`Vat: ${dataObj.headers.products.vat}`, 40, 230 )   
+        
+        .text("Tell", 340, 110)
+        .text("Mobile ", 340, 130)
+        .text("cov", 340, 150)
+        .text("vot", 340, 170)
+        .text("email",340, 190)
+        .text("website", 340, 210)
+
+        .font('Times-Bold').text("This is a PDFKIT", 0, 40 ,  { align: "right" })
+        .font('Times-Roman').text("asdjflss", 0, 70 ,  { align: "right" })
+        .text("asdjflss", 0, 80 ,  { align: "right" })
+        .text("asdjflss", 0, 90 ,  { align: "right" })
+        
+        .text(`${dataObj.headers.customer.telephone}`, 0, 110 ,  { align: "right" })
+        .text(`${dataObj.headers.customer.mobile}`, 0, 130 ,  { align: "right" })
+        .text(`${dataObj.headers.customer.coc}`, 0, 150 ,  { align: "right" })
+        .text(`${dataObj.headers.customer.vat}`, 0,170 ,  { align: "right" })
+        .text(`${dataObj.headers.customer.email}`, 0,190 ,  { align: "right" })
+        .text(`${dataObj.headers.customer.website}`, 0,210 ,  { align: "right" })
+
+        
+        .roundedRect(50, 270, 530, 40, 8)
+        .fillAndStroke( 'white','#8DDBF6')
+        .fill('black').stroke()
+
+        .font('Times-Bold').text("Order nr", 120, 280)
+        .text("Order date", 240, 280)
+        .text("Products", 360, 280)
+        .text("Page", 480, 280)
+
+        .font('Times-Roman').text(`${dataObj.headers.invoiceId}`, 120, 290)
+        .text(`${dataObj.headers.date}`, 240, 290)
+        .text(`${dataObj.headers.totals.totalProducts}`, 360, 290)
+        .text(`${dataObj.headers.page}`, 480, 290)
+
+
+        .roundedRect(50, 340, 530, 0, 0)
+        .fillAndStroke( 'white','#8DDBF6')
+        .fill('black').stroke()
+
+        .text("#", 50, 320)
+        .text("Code", 70, 320)
+        .text("Description", 130, 320)
+        .text("Contents", 350, 320)
+        .text("Qty", 405, 320)
+        .text("Vat", 435, 320)
+        .text("Price", 480, 320)
+        .text("Total", 0, 320 ,{ align: "right" })
+
+
+
       }
       
       function generateFooter(doc) {
@@ -375,36 +434,37 @@ module.exports = function (server) {
             { align: "center", width: 500 }
           );
       }
-      function generateCustomerInformation(doc, invoice) {
-        const shipping = invoice.shipping;
+      // function generateCustomerInformation(doc, invoice) {
+      //   const shipping = invoice.shipping;
       
-        doc
-          .text(`Invoice Number: ${invoice.invoice_nr}`, 50, 200)
-          .text(`Invoice Date: ${new Date()}`, 50, 215)
-          .text(`Balance Due: ${invoice.subtotal - invoice.paid}`, 50, 130)
+      //   doc
+      //     .text(`Invoice Number: ${invoice.invoice_nr}`, 50, 200)
+      //     .text(`Invoice Date: ${new Date()}`, 50, 215)
+      //     .text(`Balance Due: ${invoice.subtotal - invoice.paid}`, 50, 130)
       
-          .text(shipping.name, 300, 200)
-          .text(shipping.address, 300, 215)
-          .text(`${shipping.city}, ${shipping.state}, ${shipping.country}`, 300, 130)
-          .moveDown();
-      }
+      //     .text(shipping.name, 300, 200)
+      //     .text(shipping.address, 300, 215)
+      //     .text(`${shipping.city}, ${shipping.state}, ${shipping.country}`, 500, 130)
+      //     .moveDown();
+      // }
        
-      function generateTableRow(doc, y, c1, c2, c3, c4, c5,c6,c7) {
+      function generateTableRow(doc, y, c1, c2, c3, c4, c5,c6,c7 ,c8) {
         doc
-          .fontSize(8)
-          .text(c1, 10, y)
-          .text(c2, 30, y)
-          .text(c3, 100, y)
-          .text(c4, 270, y, { width: 90, align: "right" })
-          .text(c5, 330, y, { width: 90, align: "right" })
-          .text(c6, 480, y)
-          .text(c7, 10, y, { align: "right" });
+          .fontSize(10)
+          .text(c1, 50, y)
+          .text(c2, 70, y)
+          .text(c3, 130, y)
+          .text(c4, 380, y)
+          .text(c5, 410, y )
+          .text(c6, 440, y)
+          .text(c7, 480, y)
+          .text(c8, 0, y, { align: "right" });
 
       }
 
 function generateInvoiceTable(doc, invoice) {
     let i,
-      invoiceTableTop = 330;
+      invoiceTableTop = 340;
   
     for (i = 0; i < dataObj.products.length; i++) {
       const item = dataObj.products[i];
@@ -417,6 +477,7 @@ function generateInvoiceTable(doc, invoice) {
         item.description,
         item.contents,
         item.quantity,
+        item.vat,
         item.invoicePrice,
         item.total,
 
@@ -424,7 +485,7 @@ function generateInvoiceTable(doc, invoice) {
     }
   }
         generateHeader(doc);
-        generateCustomerInformation(doc, invoice);
+        // generateCustomerInformation(doc, invoice);
         generateInvoiceTable(doc, invoice);
         generateFooter(doc);
       
