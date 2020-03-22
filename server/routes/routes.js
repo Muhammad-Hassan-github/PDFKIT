@@ -1,11 +1,11 @@
 let  dataObj = {
   "headers": {
     "title": "Order to",
-    "date": "Order date",
-    "invoiceId": "Order nr",
+    "date": "19.03.2020",
+    "invoiceId": "ORD-G1377E-000037",
     "noVat": "VAT Statement:",
     "note": "Note:",
-    "page": "Page",
+    "page": "1/3",
     "payment_terms": "Payment Terms:",
     "total": "Total",
     "totals": {
@@ -18,7 +18,7 @@ let  dataObj = {
           "totalVat": "9% Vat"
         }
       ],
-      "totalProducts": "Products",
+      "totalProducts": "182",
       "exVat": "Total Ex Vat",
       "incVat": "TOTAL",
       "vat": "Total Vat"
@@ -30,19 +30,19 @@ let  dataObj = {
       "price": "Price",
       "quantity": "Qty",
       "total": "Total Price",
-      "vat": "Vat"
+      "vat": "1345778"
     },
     "profile": {
-      "debtorId": "Debtor ID"
+      "debtorId": "G1377E"
     },
     "customer": {
-      "coc": "CoC",
-      "email": "Email",
+      "coc": "76119572",
+      "email": "emrahhanokruiden40@gmail.com",
       "fax": "Fax",
-      "mobile": "Mobile",
-      "telephone": "Tel",
-      "vat": "Vat",
-      "website": "Website"
+      "mobile": "+31642114250",
+      "telephone": "+31642114250",
+      "vat": "NL860514298B01",
+      "website": "www.ora-ts.com"
     }
   },
   "profile": {
@@ -182,7 +182,7 @@ let  dataObj = {
       "total": "$5.94"
     },
     {
-      "description": "Klene 'n Berg zoete drop (450 gr)",
+      "description": "Klene 'n Berg zoete drop (450 gr) zoete drop zoete drop",
       "code": "AH-213581",
       "invoicePrice": "$1.98",
       "vat": "9%",
@@ -359,30 +359,30 @@ module.exports = function (server) {
     function generateHeader(doc) {
         doc
         .image(__dirname+'/img.jpg', 40, 30, {fit: [180, 230]})
-        .roundedRect(330, 30, 250, 220, 10)
+        .roundedRect(365, 30, 220, 210, 10)
         .fillAndStroke( '#8DDBF6','#8DDBF6')
         .fill('black').stroke()
-       
-        .font('Times-Bold').text(`${dataObj.headers.title}`, 40, 110 )
-        .font('Times-Bold').text("Hassan", 40, 140 )
-        .font('Times-Roman').text("1", 40, 160 )
-        .text("2", 40, 170 )
-        .text("3", 40, 180 )
-        .text("4", 40, 210 )
+        .fontSize(15).font('Helvetica-Bold').text(`${dataObj.headers.title}:`, 40, 110 )
+        .fontSize(12).font('Times-Bold').text("Hajo Janse", 40, 140 )
+        .fontSize(9)
+        .font('Times-Roman').text("Damaschkering 3", 40, 170 )
+        .text("48599, Gronau", 40, 180 )
+        .text("Germany", 40, 190 )
+
         .text(`Debtor: ${dataObj.headers.profile.debtorId}`, 40, 220 )
         .text(`Vat: ${dataObj.headers.products.vat}`, 40, 230 )   
         
-        .text("Tell", 340, 110)
-        .text("Mobile ", 340, 130)
-        .text("cov", 340, 150)
-        .text("vot", 340, 170)
-        .text("email",340, 190)
-        .text("website", 340, 210)
+        .text("Tel:", 380, 110)
+        .text("Mobile:", 380, 130)
+        .text("Email:", 380, 150)
+        .text("Website:", 380, 170)
+        .text("CoC:",380, 190)
+        .text("Vat:", 380, 210)
 
-        .font('Times-Bold').text("This is a PDFKIT", 0, 40 ,  { align: "right" })
-        .font('Times-Roman').text("asdjflss", 0, 70 ,  { align: "right" })
-        .text("asdjflss", 0, 80 ,  { align: "right" })
-        .text("asdjflss", 0, 90 ,  { align: "right" })
+        .fontSize(10).font('Helvetica-Bold').text("Or.a Trade Solutions BV", 0, 50 ,  { align: "right" })
+        .fontSize(9).font('Times-Roman').text("Agonstraat 8", 0, 70 ,  { align: "right" })
+        .text("7552 TJ, Hengelo", 0, 80 ,  { align: "right" })
+        .text("Nederland", 0, 90 ,  { align: "right" })
         
         .text(`${dataObj.headers.customer.telephone}`, 0, 110 ,  { align: "right" })
         .text(`${dataObj.headers.customer.mobile}`, 0, 130 ,  { align: "right" })
@@ -391,34 +391,34 @@ module.exports = function (server) {
         .text(`${dataObj.headers.customer.email}`, 0,190 ,  { align: "right" })
         .text(`${dataObj.headers.customer.website}`, 0,210 ,  { align: "right" })
 
-        
-        .roundedRect(50, 270, 530, 40, 8)
+        .fontSize(10)
+        .roundedRect(50, 270, 530, 30, 8)
         .fillAndStroke( 'white','#8DDBF6')
         .fill('black').stroke()
 
-        .font('Times-Bold').text("Order nr", 120, 280)
-        .text("Order date", 240, 280)
-        .text("Products", 360, 280)
-        .text("Page", 480, 280)
+       .text("Order nr", 120, 275)
+        .text("Order date", 240, 275)
+        .text("Products", 360, 275)
+        .text("Page", 480, 275)
 
-        .font('Times-Roman').text(`${dataObj.headers.invoiceId}`, 120, 290)
-        .text(`${dataObj.headers.date}`, 240, 290)
-        .text(`${dataObj.headers.totals.totalProducts}`, 360, 290)
-        .text(`${dataObj.headers.page}`, 480, 290)
+        .font('Times-Bold').text(`${dataObj.headers.invoiceId}`, 100, 285)
+        .text(`${dataObj.headers.date}`, 240, 285,)
+        .text(`${dataObj.headers.totals.totalProducts}`, 370, 285)
+        .text(`${dataObj.headers.page}`, 480, 285)
 
 
-        .roundedRect(50, 340, 530, 0, 0)
+        .font('Times-Roman').roundedRect(50, 340, 5280, 0, 0)
         .fillAndStroke( 'white','#8DDBF6')
         .fill('black').stroke()
 
-        .text("#", 50, 320)
-        .text("Code", 70, 320)
-        .text("Description", 130, 320)
-        .text("Contents", 350, 320)
-        .text("Qty", 405, 320)
-        .text("Vat", 435, 320)
-        .text("Price", 480, 320)
-        .text("Total", 0, 320 ,{ align: "right" })
+        .font('Times-Bold').text("#", 50, 325)
+        .text("Code", 70, 325)
+        .text("Description", 130, 325)
+        .text("Contents", 355, 325)
+        .text("Qty", 405, 325)
+        .text("Vat", 435, 325)
+        .text("Price", 480, 325)
+        .text("Total", 0, 325 ,{ align: "right" })
 
 
 
@@ -450,9 +450,10 @@ module.exports = function (server) {
        
       function generateTableRow(doc, y, c1, c2, c3, c4, c5,c6,c7 ,c8) {
         doc
-          .fontSize(10)
-          .text(c1, 50, y)
-          .text(c2, 70, y)
+          .fontSize(9)
+          .font('Times-Roman')
+          .font('Times-Bold').text(c1, 50, y)
+          .font('Times-Roman').text(c2, 70, y)
           .text(c3, 130, y)
           .text(c4, 380, y)
           .text(c5, 410, y )
@@ -472,7 +473,7 @@ function generateInvoiceTable(doc, invoice) {
       generateTableRow(
         doc,
         position,
-        i,
+        i+1,
         item.code,
         item.description,
         item.contents,
@@ -490,8 +491,6 @@ function generateInvoiceTable(doc, invoice) {
         generateFooter(doc);
       
         doc.end();
-        doc.pipe(fs.createWriteStream('output.pdf'));
-      
-     res.send('creeated')
+        doc.pipe(res)
     }
   )}
