@@ -108,245 +108,231 @@ let dataObj = {
       "contents": "1",
       "quantity": 1,
       "total": "$1.53"
-    },
-    {
-      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
-      "code": "AH-222039",
-      "invoicePrice": "$1.95",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 3,
-      "total": "$5.85"
-    },
-    {
-      "description": "Danone & Fruit volle yoghurt mix (125 gr)",
-      "code": "AH-222042",
-      "invoicePrice": "$3.49",
-      "vat": "9%",
-      "contents": "8",
-      "quantity": 2,
-      "total": "$6.98"
-    },
-    {
-      "description": "Dauvergne Ranvier & Ranvier Grd Vin Cotes du Rhone (4500 ml)",
-      "code": "AH-448226",
-      "invoicePrice": "$83.94",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$83.94"
-    },
-    {
-      "description": "Elke Melk . (800 ml)",
-      "code": "AH-460620",
-      "invoicePrice": "$1.39",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$1.39"
-    },
-    {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    },
-    {
-      "description": "HG (combi) magnetron reiniger (500 ml)",
-      "code": "AH-170821",
-      "invoicePrice": "$3.89",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$3.89"
-    },
-    {
-      "description": "Maltesers . (192 gr)",
-      "code": "AH-238097",
-      "invoicePrice": "$2.09",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$2.09"
     }, {
-      "description": "Maltesers . (192 gr)",
-      "code": "AH-238097",
-      "invoicePrice": "$2.09",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$2.09"
-    }, {
-      "description": "Maltesers . (192 gr)",
-      "code": "AH-238097",
-      "invoicePrice": "$2.09",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$2.09"
-    }, {
-      "description": "Maltesers . (192 gr)",
-      "code": "AH-238097",
-      "invoicePrice": "$2.09",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$2.09"
-    }, {
-      "description": "Maltesers . (192 gr)",
-      "code": "AH-238097",
-      "invoicePrice": "$2.09",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$2.09"
-    }, {
-      "description": "Maltesers . (192 gr)",
-      "code": "AH-238097",
-      "invoicePrice": "$2.09",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$2.09"
-    }, {
-      "description": "Maltesers . (192 gr)",
-      "code": "AH-238097",
-      "invoicePrice": "$2.09",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$2.09"
-    }, {
-      "description": "Maltesers . (192 gr)",
-      "code": "AH-238097",
-      "invoicePrice": "$2.09",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$2.09"
-    }, {
-      "description": "Maltesers . (192 gr)",
-      "code": "AH-238097",
-      "invoicePrice": "$2.09",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$2.09"
-    }, {
-      "description": "Maltesers . (192 gr)",
-      "code": "AH-238097",
-      "invoicePrice": "$2.09",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$2.09"
-    }, {
-      "description": "Maltesers . (192 gr)",
-      "code": "AH-238097",
-      "invoicePrice": "$2.09",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$2.09"
-    }, {
-      "description": "Maltesers . (192 gr)",
-      "code": "AH-238097",
-      "invoicePrice": "$2.09",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$2.09"
-    }, {
-      "description": "Maltesers . (192 gr)",
-      "code": "AH-238097",
-      "invoicePrice": "$2.09",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$2.09"
-    }, {
-      "description": "Maltesers . (192 gr)",
-      "code": "AH-238097",
-      "invoicePrice": "$2.09",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$2.09"
-    }, {
-      "description": "Maltesers . (192 gr)",
-      "code": "AH-238097",
-      "invoicePrice": "$2.09",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$2.09"
-    }, {
-      "description": "Maltesers . (192 gr)",
-      "code": "AH-238097",
-      "invoicePrice": "$2.09",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$2.09"
-    },
-    {
-      "description": "Nutella & go (39 gr)",
-      "code": "AH-370830",
-      "invoicePrice": "$3.09",
-      "vat": "9%",
-      "contents": "2",
-      "quantity": 1,
-      "total": "$3.09"
-    },
-    {
-      "description": "Nutella & Go (39 gr)",
-      "code": "8868",
-      "invoicePrice": "$0.49",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$1.47"
-    },
-    {
-      "description": "Perrier & juice aardbei kiwi (250 ml)",
-      "code": "AH-437934",
-      "invoicePrice": "$2.75",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 3,
-      "total": "$8.25"
-    },
-    {
-      "description": "Perrier & juice perzik kers (250 ml)",
-      "code": "AH-437932",
-      "invoicePrice": "$2.75",
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
       "vat": "9%",
       "contents": "4",
       "quantity": 1,
-      "total": "$2.75"
-    },
-    {
-      "description": "Pure blonde . (250 ml)",
-      "code": "AH-435204",
-      "invoicePrice": "$3.9",
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
       "vat": "9%",
-      "contents": "6",
+      "contents": "4",
       "quantity": 1,
-      "total": "$3.9"
-    },
-    {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
       "vat": "9%",
-      "contents": "1",
+      "contents": "4",
       "quantity": 1,
-      "total": "$5.99"
-    },
-    {
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
+      "description": "Tripel Karmeliet . (330 ml)",
+      "code": "AH-438908",
+      "invoicePrice": "$6.89",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$6.89"
+    }, {
       "description": "Tripel Karmeliet . (330 ml)",
       "code": "AH-438908",
       "invoicePrice": "$6.89",
@@ -556,23 +542,27 @@ module.exports = function (server) {
             .fillAndStroke(`${dataObj.settings.secondaryColor}`)
             .fill('black').stroke()
             .text(`Total Ex Vat  ${dataObj.totals.exVat}`, 50, 95 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
+            
+            let number = dataObj.totals.vatCategories.length;
+          
+            for (let i = 1; i <= number; i++) {
 
-            .roundedRect(350, 110 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
+            doc.roundedRect(350, (i*20)+90 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
             .fillAndStroke(`${dataObj.settings.primaryColor}`)
             .fill('black').stroke()
-            .text(`9% Vat   ${dataObj.totals.vatCategories[0].totalVat}`, 50, 115 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
-
-            .roundedRect(350, 130 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
+            .text(`${dataObj.totals.vatCategories[i-1].category}% Vat   ${dataObj.totals.vatCategories[i-1].totalVat}  `, 50, (i*20)+95 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
+            }
+            doc.roundedRect(350, (number*20)+110 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
             .fillAndStroke(`${dataObj.settings.secondaryColor}`)
             .fill('black').stroke()
-            .text(`Total Vat   ${dataObj.totals.vat}`, 50, 135 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
+            .text(`Total Vat   ${dataObj.totals.vat}`, 50, (number*20)+115 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
 
-            .roundedRect(350, 160 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
+            .roundedRect(350, (number*20)+150 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
             .fillAndStroke(`${dataObj.settings.primaryColor}`)
             .fill('black').stroke()
-            .text(`TOTAL  ${dataObj.totals.total}`, 50, 165 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
+            .text(`TOTAL  ${dataObj.totals.total}`, 50, (number*20)+155 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
 
-            .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, 180 + dataObj.products.length * 10)
+            .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, (number*10)+180+invoiceTableTop + dataObj.products.length * 10)
 
         }
 
@@ -594,7 +584,7 @@ module.exports = function (server) {
           );
 
         }
-        if (dataObj.products.length > 22 && dataObj.products.length < 39) {
+        if (dataObj.products.length > 18 && dataObj.products.length < 39) {
           console.log("legnth", dataObj.products.length)
 
           if (dataObj.products.length == i + 1) {
@@ -762,22 +752,27 @@ module.exports = function (server) {
                 .fill('black').stroke()
                 .text(`Total Ex Vat  ${dataObj.totals.exVat}`, 50, 95 + (dataObj.products.length - 30) * 10, { align: "right" })
 
-                .roundedRect(350, 110 + (dataObj.products.length - 30) * 10, 215, 20, 0)
+
+                let number = dataObj.totals.vatCategories.length;
+          
+                for (let i = 1; i <= number; i++) {
+
+                doc.roundedRect(350, (i*20)+90 + (dataObj.products.length - 30) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
-                .text(`9% Vat   ${dataObj.totals.vatCategories[0].totalVat}`, 50, 115 + (dataObj.products.length - 30) * 10, { align: "right" })
-
-                .roundedRect(350, 130 + (dataObj.products.length - 30) * 10, 215, 20, 0)
+                .text(`${dataObj.totals.vatCategories[i-1].category}% Vat   ${dataObj.totals.vatCategories[i-1].totalVat}`, 50, (i*20)+95 + (dataObj.products.length - 30) * 10, { align: "right" })
+                }
+                doc.roundedRect(350, (number*20)+110  + (dataObj.products.length - 30) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
-                .text(`Total Vat   ${dataObj.totals.vat}`, 50, 135 + (dataObj.products.length - 30) * 10, { align: "right" })
+                .text(`Total Vat   ${dataObj.totals.vat}`, 50, (number*20)+115 + (dataObj.products.length - 30) * 10, { align: "right" })
 
-                .roundedRect(350, 160 + (dataObj.products.length - 30) * 10, 215, 20, 0)
+                .roundedRect(350, (number*20)+150 + (dataObj.products.length - 30) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
-                .text(`TOTAL  ${dataObj.totals.total}`, 50, 165 + (dataObj.products.length - 30) * 10, { align: "right" })
+                .text(`TOTAL   ${dataObj.totals.total}`, 50, (number*20)+155 + (dataObj.products.length - 30) * 10, { align: "right" })
 
-                .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, 180 + (dataObj.products.length - 30) * 10)
+                .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, (number*10)+180 + (dataObj.products.length - 30) * 10)
 
             }
           }
