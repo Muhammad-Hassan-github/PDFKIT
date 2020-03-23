@@ -340,7 +340,6 @@ let dataObj = {
   "invoiceId": "ORD-123-000037"
 }
 
-
 var dotenv = require('dotenv');
 var path = require("path")
 const PDFDocument = require('pdfkit');
@@ -374,10 +373,6 @@ const invoice = {
 };
 
 dotenv.config();
-console.log(dataObj.products.length)
-
-
-
 
 module.exports = function (server) {
   server.get('/generatePdf', (req, res) => {
@@ -432,7 +427,6 @@ module.exports = function (server) {
         .text(`${dataObj.headers.totals.totalProducts}`, 370, 285)
         .text(`${dataObj.headers.page}`, 480, 285)
 
-
         .font('Times-Roman').roundedRect(50, 340, 520, 0, 0)
         .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
         .fill('black').stroke()
@@ -441,12 +435,10 @@ module.exports = function (server) {
         .text("Code", 70, 325)
         .text("Description", 130, 325)
         .text("Contents", 355, 325)
-        .text("Vat", 405, 325)       
+        .text("Vat", 405, 325)
         .text("Qty", 435, 325)
         .text("Price", 480, 325)
         .text("Total", 0, 325, { align: "right" })
-
-      //  -----------start-footer------------
 
       doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
         .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
@@ -455,39 +447,7 @@ module.exports = function (server) {
         align: "center",
         lineBreak: false,
       });
-
-      //  -----------start-footer------------
-
-
-
-
-
     }
-
-
-    // function generateFooter(doc) {
-    //   doc
-    //     .fontSize(10)
-    //     .text(
-    //       "Payment is due within 15 days. Thank you for your business.",
-    //       50,
-    //       780,
-    //       { align: "center", width: 500 }
-    //     );
-    // }
-    // function generateCustomerInformation(doc, invoice) {
-    //   const shipping = invoice.shipping;
-
-    //   doc
-    //     .text(`Invoice Number: ${invoice.invoice_nr}`, 50, 200)
-    //     .text(`Invoice Date: ${new Date()}`, 50, 215)
-    //     .text(`Balance Due: ${invoice.subtotal - invoice.paid}`, 50, 130)
-
-    //     .text(shipping.name, 300, 200)
-    //     .text(shipping.address, 300, 215)
-    //     .text(`${shipping.city}, ${shipping.state}, ${shipping.country}`, 500, 130)
-    //     .moveDown();
-    // }
 
     function generateTableRow(doc, y, c1, c2, c3, c4, c5, c6, c7, c8) {
       doc
@@ -507,64 +467,48 @@ module.exports = function (server) {
     function generateInvoiceTable(doc, invoice) {
       let i,
         invoiceTableTop = 340;
-
-      let pageNo = 1;
-
       for (i = 0; i < dataObj.products.length; i++) {
-
         const item = dataObj.products[i];
-
         function lastResult() {
           doc
-            .roundedRect(465, 30 + invoiceTableTop + dataObj.products.length * 10, 100, 20, 0)
+            .roundedRect(350, 30 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
             .fillAndStroke(`${dataObj.settings.primaryColor}`)
             .fill('black').stroke()
             .text(`Total Order    ${dataObj.headers.totals.noDiscount}`, 50, 35 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
 
-            .roundedRect(400, 50 + invoiceTableTop + dataObj.products.length * 10, 165, 20, 0)
+            .roundedRect(350, 50 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
             .fillAndStroke(`${dataObj.settings.secondaryColor}`)
             .fill('black').stroke()
             .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}`, 50, 55 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
 
-            .roundedRect(390, 70 + invoiceTableTop + dataObj.products.length * 10, 175, 20, 0)
+            .roundedRect(350, 70 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
             .fillAndStroke(`${dataObj.settings.primaryColor}`)
             .fill('black').stroke()
             .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}`, 50, 75 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
 
-            .roundedRect(465, 90 + invoiceTableTop + dataObj.products.length * 10, 100, 20, 0)
+            .roundedRect(350, 90 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
             .fillAndStroke(`${dataObj.settings.secondaryColor}`)
             .fill('black').stroke()
             .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}`, 50, 95 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
 
-            .roundedRect(500, 110 + invoiceTableTop + dataObj.products.length * 10, 65, 20, 0)
+            .roundedRect(350, 110 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
             .fillAndStroke(`${dataObj.settings.primaryColor}`)
             .fill('black').stroke()
             .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}`, 50, 115 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
 
-            .roundedRect(485, 130 + invoiceTableTop + dataObj.products.length * 10, 80, 20, 0)
+            .roundedRect(350, 130 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
             .fillAndStroke(`${dataObj.settings.secondaryColor}`)
             .fill('black').stroke()
             .text(`Total Vat   ${dataObj.headers.totals.vat}`, 50, 135 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
 
-            // .roundedRect(450, 150+invoiceTableTop + dataObj.products.length * 10, 100, 20, 0)
-            // .fillAndStroke( 'white')
-            // .fill('black').stroke()
-
-
-            .roundedRect(510, 160 + invoiceTableTop + dataObj.products.length * 10, 55, 20, 0)
+            .roundedRect(350, 160 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
             .fillAndStroke(`${dataObj.settings.primaryColor}`)
             .fill('black').stroke()
             .text(`TOTAL  ${dataObj.headers.total}`, 50, 165 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
 
-
-            // note
             .text("Payment Terms: Within 30 days after invoice date.", 50, 180 + dataObj.products.length * 10)
-          // note
-
-
 
         }
-
 
         if (i < 38) {
           console.log("1", i)
@@ -591,7 +535,6 @@ module.exports = function (server) {
             doc.addPage({
               margin: 50
             })
-            //  -----------start-footer------------
 
             doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
@@ -601,77 +544,56 @@ module.exports = function (server) {
               lineBreak: false,
             });
 
-            //  -----------start-footer------------
-
             doc
-              .roundedRect(465, 30 + (26 - 25) * 10, 100, 20, 0)
+              .roundedRect(350, 30 + (26 - 25) * 10, 215, 20, 0)
               .fillAndStroke(`${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
               .text(`Total Order    ${dataObj.headers.totals.noDiscount}`, 50, 35 + (26 - 25) * 10, { align: "right" })
 
-              .roundedRect(400, 50 + (26 - 25) * 10, 165, 20, 0)
+              .roundedRect(350, 50 + (26 - 25) * 10, 215, 20, 0)
               .fillAndStroke(`${dataObj.settings.secondaryColor}`)
               .fill('black').stroke()
               .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}`, 50, 55 + (26 - 25) * 10, { align: "right" })
 
-              .roundedRect(390, 70 + (26 - 25) * 10, 175, 20, 0)
+              .roundedRect(350, 70 + (26 - 25) * 10, 215, 20, 0)
               .fillAndStroke(`${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
               .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}`, 50, 75 + (26 - 25) * 10, { align: "right" })
 
-              .roundedRect(465, 90 + (26 - 25) * 10, 100, 20, 0)
+              .roundedRect(350, 90 + (26 - 25) * 10, 215, 20, 0)
               .fillAndStroke(`${dataObj.settings.secondaryColor}`)
               .fill('black').stroke()
               .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}`, 50, 95 + (26 - 25) * 10, { align: "right" })
 
-              .roundedRect(500, 110 + (26 - 25) * 10, 65, 20, 0)
+              .roundedRect(350, 110 + (26 - 25) * 10, 215, 20, 0)
               .fillAndStroke(`${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
               .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}`, 50, 115 + (26 - 25) * 10, { align: "right" })
 
-              .roundedRect(485, 130 + (26 - 25) * 10, 80, 20, 0)
+              .roundedRect(350, 130 + (26 - 25) * 10, 215, 20, 0)
               .fillAndStroke(`${dataObj.settings.secondaryColor}`)
               .fill('black').stroke()
               .text(`Total Vat   ${dataObj.headers.totals.vat}`, 50, 135 + (26 - 25) * 10, { align: "right" })
 
-              // .roundedRect(450, 150 + dataObj.products.length * 10, 100, 20, 0)
-              // .fillAndStroke( 'white')
-              // .fill('black').stroke()
-
-
-              .roundedRect(510, 160 + (26 - 25) * 10, 55, 20, 0)
+              .roundedRect(350, 160 + (26 - 25) * 10, 215, 20, 0)
               .fillAndStroke(`${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
               .text(`TOTAL  ${dataObj.headers.total}`, 50, 165 + (26 - 25) * 10, { align: "right" })
 
-
-
-
-              // note
               .text("Payment Terms: Within 30 days after invoice date.", 50, 180 + (26 - 25) * 10)
-            // note
-
-
-
-
           }
 
-
         } else if (dataObj.products.length <= 22) {
-          console.log("3")
 
           if (dataObj.products.length == i + 1) {
             lastResult()
           }
         }
         if (i >= 38 && i < 105) {
-          console.log("4", i)
-
           if (i == 38) {
             doc.addPage({
               margin: 50
             })
-            //  -----------start-footer------------
 
             doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
@@ -680,8 +602,6 @@ module.exports = function (server) {
               align: "center",
               lineBreak: false,
             });
-
-            //  -----------start-footer------------
 
             doc.font('Times-Bold').text("#", 50, 50)
               .text("Code", 70, 50)
@@ -692,11 +612,9 @@ module.exports = function (server) {
               .text("Price", 480, 50)
               .text("Total", 0, 50, { align: "right" })
 
-
               .font('Times-Roman').roundedRect(50, 65, 520, 0, 0)
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
-
 
           }
 
@@ -718,67 +636,51 @@ module.exports = function (server) {
           if (i < 86) {
             if (dataObj.products.length == i + 1) {
               doc
-                .roundedRect(465, 30 + (dataObj.products.length - 30) * 10, 100, 20, 0)
+                .roundedRect(350, 30 + (dataObj.products.length - 30) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order    ${dataObj.headers.totals.noDiscount}`, 50, 35 + (dataObj.products.length - 30) * 10, { align: "right" })
 
-                .roundedRect(400, 50 + (dataObj.products.length - 30) * 10, 165, 20, 0)
+                .roundedRect(350, 50 + (dataObj.products.length - 30) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}`, 50, 55 + (dataObj.products.length - 30) * 10, { align: "right" })
 
-                .roundedRect(390, 70 + (dataObj.products.length - 30) * 10, 175, 20, 0)
+                .roundedRect(350, 70 + (dataObj.products.length - 30) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}`, 50, 75 + (dataObj.products.length - 30) * 10, { align: "right" })
 
-                .roundedRect(465, 90 + (dataObj.products.length - 30) * 10, 100, 20, 0)
+                .roundedRect(350, 90 + (dataObj.products.length - 30) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}`, 50, 95 + (dataObj.products.length - 30) * 10, { align: "right" })
 
-                .roundedRect(500, 110 + (dataObj.products.length - 30) * 10, 65, 20, 0)
+                .roundedRect(350, 110 + (dataObj.products.length - 30) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}`, 50, 115 + (dataObj.products.length - 30) * 10, { align: "right" })
 
-                .roundedRect(485, 130 + (dataObj.products.length - 30) * 10, 80, 20, 0)
+                .roundedRect(350, 130 + (dataObj.products.length - 30) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat   ${dataObj.headers.totals.vat}`, 50, 135 + (dataObj.products.length - 30) * 10, { align: "right" })
 
-                // .roundedRect(450, 150 + dataObj.products.length * 10, 100, 20, 0)
-                // .fillAndStroke( 'white')
-                // .fill('black').stroke()
-
-
-                .roundedRect(510, 160 + (dataObj.products.length - 30) * 10, 55, 20, 0)
+                .roundedRect(350, 160 + (dataObj.products.length - 30) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`TOTAL  ${dataObj.headers.total}`, 50, 165 + (dataObj.products.length - 30) * 10, { align: "right" })
 
-
-
-
-                // note
                 .text("Payment Terms: Within 30 days after invoice date.", 50, 180 + (dataObj.products.length - 30) * 10)
-              // note
-
-
-
-
 
             }
           }
           else {
 
-
             if (dataObj.products.length == i + 1) {
               doc.addPage({
                 margin: 50
               })
-              //  -----------start-footer------------
 
               doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
                 .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
@@ -788,79 +690,52 @@ module.exports = function (server) {
                 lineBreak: false,
               });
 
-              //  -----------start-footer------------
-
               doc
-                .roundedRect(465, 30 + (26 - 25) * 10, 100, 20, 0)
+                .roundedRect(350, 30 + (26 - 25) * 10, 100, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order    ${dataObj.headers.totals.noDiscount}`, 50, 35 + (26 - 25) * 10, { align: "right" })
 
-                .roundedRect(400, 50 + (26 - 25) * 10, 165, 20, 0)
+                .roundedRect(350, 50 + (26 - 25) * 10, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}`, 50, 55 + (26 - 25) * 10, { align: "right" })
 
-                .roundedRect(390, 70 + (26 - 25) * 10, 175, 20, 0)
+                .roundedRect(350, 70 + (26 - 25) * 10, 175, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}`, 50, 75 + (26 - 25) * 10, { align: "right" })
 
-                .roundedRect(465, 90 + (26 - 25) * 10, 100, 20, 0)
+                .roundedRect(350, 90 + (26 - 25) * 10, 100, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}`, 50, 95 + (26 - 25) * 10, { align: "right" })
 
-                .roundedRect(500, 110 + (26 - 25) * 10, 65, 20, 0)
+                .roundedRect(350, 110 + (26 - 25) * 10, 65, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}`, 50, 115 + (26 - 25) * 10, { align: "right" })
 
-                .roundedRect(485, 130 + (26 - 25) * 10, 80, 20, 0)
+                .roundedRect(350, 130 + (26 - 25) * 10, 80, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat   ${dataObj.headers.totals.vat}`, 50, 135 + (26 - 25) * 10, { align: "right" })
 
-                // .roundedRect(450, 150 + dataObj.products.length * 10, 100, 20, 0)
-                // .fillAndStroke( 'white')
-                // .fill('black').stroke()
-
-
-                .roundedRect(510, 160 + (26 - 25) * 10, 55, 20, 0)
+                .roundedRect(350, 160 + (26 - 25) * 10, 55, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`TOTAL  ${dataObj.headers.total}`, 50, 165 + (26 - 25) * 10, { align: "right" })
 
-
-
-                // note
                 .text("Payment Terms: Within 30 days after invoice date.", 50, 180 + (26 - 25) * 10)
-              // note
-
-
-
-
             }
-
-
-
-
           }
-
-
-
-
-
-
         }
         if (i >= 105 && i < 172) {
-
 
           if (i == 105) {
             doc.addPage({
               margin: 50
             })
-            //  -----------start-footer------------
 
             doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
@@ -870,7 +745,6 @@ module.exports = function (server) {
               lineBreak: false,
             });
 
-            //  -----------start-footer------------
             doc.font('Times-Bold').text("#", 50, 50)
               .text("Code", 70, 50)
               .text("Description", 130, 50)
@@ -880,11 +754,9 @@ module.exports = function (server) {
               .text("Price", 480, 50)
               .text("Total", 0, 50, { align: "right" })
 
-
               .font('Times-Roman').roundedRect(50, 65, 520, 0, 0)
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
-
 
           }
 
@@ -906,130 +778,108 @@ module.exports = function (server) {
           if (i < 155) {
             if (dataObj.products.length == i + 1) {
               doc
-                .roundedRect(465, 30 + (dataObj.products.length - 100) * 10, 100, 20, 0)
+                .roundedRect(350, 30 + (dataObj.products.length - 100) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order    ${dataObj.headers.totals.noDiscount}`, 50, 35 + (dataObj.products.length - 100) * 10, { align: "right" })
 
-                .roundedRect(400, 50 + (dataObj.products.length - 100) * 10, 165, 20, 0)
+                .roundedRect(350, 50 + (dataObj.products.length - 100) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}`, 50, 55 + (dataObj.products.length - 100) * 10, { align: "right" })
 
-                .roundedRect(390, 70 + (dataObj.products.length - 100) * 10, 175, 20, 0)
+                .roundedRect(350, 70 + (dataObj.products.length - 100) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}`, 50, 75 + (dataObj.products.length - 100) * 10, { align: "right" })
 
-                .roundedRect(465, 90 + (dataObj.products.length - 100) * 10, 100, 20, 0)
+                .roundedRect(350, 90 + (dataObj.products.length - 100) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}`, 50, 95 + (dataObj.products.length - 100) * 10, { align: "right" })
 
-                .roundedRect(500, 110 + (dataObj.products.length - 100) * 10, 65, 20, 0)
+                .roundedRect(350, 110 + (dataObj.products.length - 100) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}`, 50, 115 + (dataObj.products.length - 100) * 10, { align: "right" })
 
-                .roundedRect(485, 130 + (dataObj.products.length - 100) * 10, 80, 20, 0)
+                .roundedRect(350, 130 + (dataObj.products.length - 100) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat   ${dataObj.headers.totals.vat}`, 50, 135 + (dataObj.products.length - 100) * 10, { align: "right" })
 
-                // .roundedRect(450, 150 + dataObj.products.length * 10, 100, 20, 0)
-                // .fillAndStroke( 'white')
-                // .fill('black').stroke()
-
-
-                .roundedRect(510, 160 + (dataObj.products.length - 100) * 10, 55, 20, 0)
+                .roundedRect(350, 160 + (dataObj.products.length - 100) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`TOTAL  ${dataObj.headers.total}`, 50, 165 + (dataObj.products.length - 100) * 10, { align: "right" })
 
-
-                // note
                 .text("Payment Terms: Within 30 days after invoice date.", 50, 180 + (dataObj.products.length - 100) * 10)
-              // note
-
-
-
-
             }
           }
           else {
-
 
             if (dataObj.products.length == i + 1) {
               doc.addPage({
                 margin: 50
               })
 
+              doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
+                .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
+                .fill('black').stroke()
+              doc.text('footer footer  footer  footer  footer  footer', 250, doc.page.height - 30, {
+                align: "center",
+                lineBreak: false,
+              });
+
               doc
-                .roundedRect(465, 30 + (26 - 25) * 10, 100, 20, 0)
+                .roundedRect(350, 30 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order    ${dataObj.headers.totals.noDiscount}`, 50, 35 + (26 - 25) * 10, { align: "right" })
 
-                .roundedRect(400, 50 + (26 - 25) * 10, 165, 20, 0)
+                .roundedRect(350, 50 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}`, 50, 55 + (26 - 25) * 10, { align: "right" })
 
-                .roundedRect(390, 70 + (26 - 25) * 10, 175, 20, 0)
+                .roundedRect(350, 70 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}`, 50, 75 + (26 - 25) * 10, { align: "right" })
 
-                .roundedRect(465, 90 + (26 - 25) * 10, 100, 20, 0)
+                .roundedRect(350, 90 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}`, 50, 95 + (26 - 25) * 10, { align: "right" })
 
-                .roundedRect(500, 110 + (26 - 25) * 10, 65, 20, 0)
+                .roundedRect(350, 110 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}`, 50, 115 + (26 - 25) * 10, { align: "right" })
 
-                .roundedRect(485, 130 + (26 - 25) * 10, 80, 20, 0)
+                .roundedRect(350, 130 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat   ${dataObj.headers.totals.vat}`, 50, 135 + (26 - 25) * 10, { align: "right" })
 
-                // .roundedRect(450, 150 + dataObj.products.length * 10, 100, 20, 0)
-                // .fillAndStroke( 'white')
-                // .fill('black').stroke()
-
-
-                .roundedRect(510, 160 + (26 - 25) * 10, 55, 20, 0)
+                .roundedRect(350, 160 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`TOTAL  ${dataObj.headers.total}`, 50, 165 + (26 - 25) * 10, { align: "right" })
 
-
-
-
+                .text("Payment Terms: Within 30 days after invoice date.", 50, 180 + (dataObj.products.length - 165) * 10)
 
             }
 
-
-
-
           }
-
-
-
-
-
 
         }
         if (i >= 172 && i < 239) {
-
 
           if (i == 172) {
             doc.addPage({
               margin: 50
             })
-            //  -----------start-footer------------
 
             doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
@@ -1039,7 +889,6 @@ module.exports = function (server) {
               lineBreak: false,
             });
 
-            //  -----------start-footer------------
             doc.font('Times-Bold').text("#", 50, 50)
               .text("Code", 70, 50)
               .text("Description", 130, 50)
@@ -1049,12 +898,9 @@ module.exports = function (server) {
               .text("Price", 480, 50)
               .text("Total", 0, 50, { align: "right" })
 
-
               .font('Times-Roman').roundedRect(50, 65, 520, 0, 0)
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
-
-
           }
 
           const position = 50 + ((i - 171) + 1) * 10;
@@ -1075,65 +921,51 @@ module.exports = function (server) {
           if (i < 220) {
             if (dataObj.products.length == i + 1) {
               doc
-                .roundedRect(465, 30 + (dataObj.products.length - 165) * 10, 100, 20, 0)
+                .roundedRect(350, 30 + (dataObj.products.length - 165) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order    ${dataObj.headers.totals.noDiscount}`, 50, 35 + (dataObj.products.length - 165) * 10, { align: "right" })
 
-                .roundedRect(400, 50 + (dataObj.products.length - 165) * 10, 165, 20, 0)
+                .roundedRect(350, 50 + (dataObj.products.length - 165) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}`, 50, 55 + (dataObj.products.length - 165) * 10, { align: "right" })
 
-                .roundedRect(390, 70 + (dataObj.products.length - 165) * 10, 175, 20, 0)
+                .roundedRect(350, 70 + (dataObj.products.length - 165) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}`, 50, 75 + (dataObj.products.length - 165) * 10, { align: "right" })
 
-                .roundedRect(465, 90 + (dataObj.products.length - 165) * 10, 100, 20, 0)
+                .roundedRect(350, 90 + (dataObj.products.length - 165) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}`, 50, 95 + (dataObj.products.length - 165) * 10, { align: "right" })
 
-                .roundedRect(500, 110 + (dataObj.products.length - 165) * 10, 65, 20, 0)
+                .roundedRect(350, 110 + (dataObj.products.length - 165) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}`, 50, 115 + (dataObj.products.length - 165) * 10, { align: "right" })
 
-                .roundedRect(485, 130 + (dataObj.products.length - 165) * 10, 80, 20, 0)
+                .roundedRect(350, 130 + (dataObj.products.length - 165) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat   ${dataObj.headers.totals.vat}`, 50, 135 + (dataObj.products.length - 165) * 10, { align: "right" })
 
-                // .roundedRect(450, 150 + dataObj.products.length * 10, 100, 20, 0)
-                // .fillAndStroke( 'white')
-                // .fill('black').stroke()
-
-
-                .roundedRect(510, 160 + (dataObj.products.length - 165) * 10, 55, 20, 0)
+                .roundedRect(350, 160 + (dataObj.products.length - 165) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`TOTAL  ${dataObj.headers.total}`, 50, 165 + (dataObj.products.length - 165) * 10, { align: "right" })
 
-
-
-                // note
                 .text("Payment Terms: Within 30 days after invoice date.", 50, 180 + (dataObj.products.length - 165) * 10)
-              // note
-
-
-
 
             }
           }
           else {
 
-
             if (dataObj.products.length == i + 1) {
               doc.addPage({
                 margin: 50
               })
-              //  -----------start-footer------------
 
               doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
                 .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
@@ -1143,80 +975,55 @@ module.exports = function (server) {
                 lineBreak: false,
               });
 
-              //  -----------start-footer------------
               doc
-                .roundedRect(465, 30 + (26 - 25) * 10, 100, 20, 0)
+                .roundedRect(350, 30 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order    ${dataObj.headers.totals.noDiscount}`, 50, 35 + (26 - 25) * 10, { align: "right" })
 
-                .roundedRect(400, 50 + (26 - 25) * 10, 165, 20, 0)
+                .roundedRect(350, 50 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}`, 50, 55 + (26 - 25) * 10, { align: "right" })
 
-                .roundedRect(390, 70 + (26 - 25) * 10, 175, 20, 0)
+                .roundedRect(350, 70 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}`, 50, 75 + (26 - 25) * 10, { align: "right" })
 
-                .roundedRect(465, 90 + (26 - 25) * 10, 100, 20, 0)
+                .roundedRect(350, 90 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}`, 50, 95 + (26 - 25) * 10, { align: "right" })
 
-                .roundedRect(500, 110 + (26 - 25) * 10, 65, 20, 0)
+                .roundedRect(350, 110 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}`, 50, 115 + (26 - 25) * 10, { align: "right" })
 
-                .roundedRect(485, 130 + (26 - 25) * 10, 80, 20, 0)
+                .roundedRect(350, 130 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat   ${dataObj.headers.totals.vat}`, 50, 135 + (26 - 25) * 10, { align: "right" })
 
-                // .roundedRect(450, 150 + dataObj.products.length * 10, 100, 20, 0)
-                // .fillAndStroke( 'white')
-                // .fill('black').stroke()
-
-
-                .roundedRect(510, 160 + (26 - 25) * 10, 55, 20, 0)
+                .roundedRect(350, 160 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`TOTAL  ${dataObj.headers.total}`, 50, 165 + (26 - 25) * 10, { align: "right" })
 
-
-
-                // note
                 .text("Payment Terms: Within 30 days after invoice date.", 50, 180 + (26 - 25) * 10)
-              // note
-
-
-
-
-
 
             }
 
-
-
-
           }
-
-
-
-
-
 
         }
         if (i >= 239 && i < 306) {
-
 
           if (i == 239) {
             doc.addPage({
               margin: 50
             })
-            //  -----------start-footer------------
 
             doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
@@ -1226,7 +1033,6 @@ module.exports = function (server) {
               lineBreak: false,
             });
 
-            //  -----------start-footer------------
             doc.font('Times-Bold').text("#", 50, 50)
               .text("Code", 70, 50)
               .text("Description", 130, 50)
@@ -1236,11 +1042,9 @@ module.exports = function (server) {
               .text("Price", 480, 50)
               .text("Total", 0, 50, { align: "right" })
 
-
               .font('Times-Roman').roundedRect(50, 65, 520, 0, 0)
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
-
 
           }
 
@@ -1262,62 +1066,51 @@ module.exports = function (server) {
           if (i < 285) {
             if (dataObj.products.length == i + 1) {
               doc
-                .roundedRect(465, 30 + (dataObj.products.length - 230) * 10, 100, 20, 0)
+                .roundedRect(350, 30 + (dataObj.products.length - 230) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order    ${dataObj.headers.totals.noDiscount}`, 50, 35 + (dataObj.products.length - 230) * 10, { align: "right" })
 
-                .roundedRect(400, 50 + (dataObj.products.length - 230) * 10, 165, 20, 0)
+                .roundedRect(350, 50 + (dataObj.products.length - 230) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}`, 50, 55 + (dataObj.products.length - 230) * 10, { align: "right" })
 
-                .roundedRect(390, 70 + (dataObj.products.length - 230) * 10, 175, 20, 0)
+                .roundedRect(350, 70 + (dataObj.products.length - 230) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}`, 50, 75 + (dataObj.products.length - 230) * 10, { align: "right" })
 
-                .roundedRect(465, 90 + (dataObj.products.length - 230) * 10, 100, 20, 0)
+                .roundedRect(350, 90 + (dataObj.products.length - 230) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}`, 50, 95 + (dataObj.products.length - 230) * 10, { align: "right" })
 
-                .roundedRect(500, 110 + (dataObj.products.length - 230) * 10, 65, 20, 0)
+                .roundedRect(350, 110 + (dataObj.products.length - 230) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}`, 50, 115 + (dataObj.products.length - 230) * 10, { align: "right" })
 
-                .roundedRect(485, 130 + (dataObj.products.length - 230) * 10, 80, 20, 0)
+                .roundedRect(350, 130 + (dataObj.products.length - 230) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat   ${dataObj.headers.totals.vat}`, 50, 135 + (dataObj.products.length - 230) * 10, { align: "right" })
 
-                // .roundedRect(450, 150 + dataObj.products.length * 10, 100, 20, 0)
-                // .fillAndStroke( 'white')
-                // .fill('black').stroke()
-
-
-                .roundedRect(510, 160 + (dataObj.products.length - 230) * 10, 55, 20, 0)
+                .roundedRect(350, 160 + (dataObj.products.length - 230) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`TOTAL  ${dataObj.headers.total}`, 50, 165 + (dataObj.products.length - 230) * 10, { align: "right" })
 
-
-                // note
                 .text("Payment Terms: Within 30 days after invoice date.", 50, 180 + (dataObj.products.length - 230) * 10)
-              // note
-
 
             }
           }
           else {
 
-
             if (dataObj.products.length == i + 1) {
               doc.addPage({
                 margin: 50
               })
-              //  -----------start-footer------------
 
               doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
                 .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
@@ -1327,64 +1120,48 @@ module.exports = function (server) {
                 lineBreak: false,
               });
 
-              //  -----------start-footer------------
               doc
-                .roundedRect(465, 30 + (26 - 25) * 10, 100, 20, 0)
+                .roundedRect(350, 30 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order    ${dataObj.headers.totals.noDiscount}`, 50, 35 + (26 - 25) * 10, { align: "right" })
 
-                .roundedRect(400, 50 + (26 - 25) * 10, 165, 20, 0)
+                .roundedRect(350, 50 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}`, 50, 55 + (26 - 25) * 10, { align: "right" })
 
-                .roundedRect(390, 70 + (26 - 25) * 10, 175, 20, 0)
+                .roundedRect(350, 70 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}`, 50, 75 + (26 - 25) * 10, { align: "right" })
 
-                .roundedRect(465, 90 + (26 - 25) * 10, 100, 20, 0)
+                .roundedRect(350, 90 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}`, 50, 95 + (26 - 25) * 10, { align: "right" })
 
-                .roundedRect(500, 110 + (26 - 25) * 10, 65, 20, 0)
+                .roundedRect(350, 110 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}`, 50, 115 + (26 - 25) * 10, { align: "right" })
 
-                .roundedRect(485, 130 + (26 - 25) * 10, 80, 20, 0)
+                .roundedRect(350, 130 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat   ${dataObj.headers.totals.vat}`, 50, 135 + (26 - 25) * 10, { align: "right" })
 
-                // .roundedRect(450, 150 + dataObj.products.length * 10, 100, 20, 0)
-                // .fillAndStroke( 'white')
-                // .fill('black').stroke()
-
-
-                .roundedRect(510, 160 + (26 - 25) * 10, 55, 20, 0)
+                .roundedRect(350, 160 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`TOTAL  ${dataObj.headers.total}`, 50, 165 + (26 - 25) * 10, { align: "right" })
 
-
-
-                // note
                 .text("Payment Terms: Within 30 days after invoice date.", 50, 180 + (26 - 25) * 10)
-              // note
 
             }
 
 
-
-
           }
-
-
-
-
 
 
         }
