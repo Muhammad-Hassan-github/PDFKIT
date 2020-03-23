@@ -1,11 +1,11 @@
 let dataObj = {
   "headers": {
     "title": "Order to",
-    "date": "19.03.2020",
-    "invoiceId": "ORD-G1377E-000037",
+    "date": "Order date",
+    "invoiceId": "Order nr",
     "noVat": "VAT Statement:",
     "note": "Note:",
-    "page": "1/3",
+    "page": "Page",
     "payment_terms": "Payment Terms:",
     "total": "Total",
     "totals": {
@@ -18,7 +18,7 @@ let dataObj = {
           "totalVat": "9% Vat"
         }
       ],
-      "totalProducts": "182",
+      "totalProducts": "Products",
       "exVat": "Total Ex Vat",
       "incVat": "TOTAL",
       "vat": "Total Vat"
@@ -30,19 +30,19 @@ let dataObj = {
       "price": "Price",
       "quantity": "Qty",
       "total": "Total Price",
-      "vat": "1345778"
+      "vat": "Vat"
     },
     "profile": {
-      "debtorId": "G1377E"
+      "debtorId": "Debtor ID"
     },
     "customer": {
-      "coc": "76119572",
-      "email": "emrahhanokruiden40@gmail.com",
+      "coc": "CoC",
+      "email": "Email",
       "fax": "Fax",
-      "mobile": "+31642114250",
-      "telephone": "+31642114250",
-      "vat": "NL860514298B01",
-      "website": "www.ora-ts.com"
+      "mobile": "Mobile",
+      "telephone": "Tel",
+      "vat": "Vat",
+      "website": "Website"
     }
   },
   "profile": {
@@ -123,11 +123,28 @@ let dataObj = {
       "code": "AH-222042",
       "invoicePrice": "$3.49",
       "vat": "9%",
-      "contents": "12",
+      "contents": "8",
       "quantity": 2,
       "total": "$6.98"
     },
-
+    {
+      "description": "Dauvergne Ranvier & Ranvier Grd Vin Cotes du Rhone (4500 ml)",
+      "code": "AH-448226",
+      "invoicePrice": "$83.94",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 1,
+      "total": "$83.94"
+    },
+    {
+      "description": "Elke Melk . (800 ml)",
+      "code": "AH-460620",
+      "invoicePrice": "$1.39",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 1,
+      "total": "$1.39"
+    },
     {
       "description": "Gulden Draak . (330 ml)",
       "code": "AH-201936",
@@ -136,2360 +153,132 @@ let dataObj = {
       "contents": "1",
       "quantity": 3,
       "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
+    },
+    {
+      "description": "HG (combi) magnetron reiniger (500 ml)",
+      "code": "AH-170821",
+      "invoicePrice": "$3.89",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 1,
+      "total": "$3.89"
+    },
+    {
+      "description": "Jack Daniels & Lynchburg lemon (330 ml)",
+      "code": "AH-436939",
+      "invoicePrice": "$2.39",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 1,
+      "total": "$2.39"
+    },
+    {
+      "description": "Klene 'n Berg zoet gesuikerd (450 gr)",
+      "code": "AH-213580",
+      "invoicePrice": "$1.98",
       "vat": "9%",
       "contents": "1",
       "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
+      "total": "$5.94"
+    },
+    {
+      "description": "Klene 'n Berg zoete drop (450 gr)",
+      "code": "AH-213581",
+      "invoicePrice": "$1.98",
       "vat": "9%",
       "contents": "1",
       "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
+      "total": "$5.94"
+    },
+    {
+      "description": "La Chouffe + glas (4 x 0.33l gr)",
+      "code": "AH-403940",
+      "invoicePrice": "$11.49",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 1,
+      "total": "$11.49"
+    },
+    {
+      "description": "Malibu & Cola (250 ml)",
+      "code": "AH-198900",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 1,
+      "total": "$1.95"
+    },
+    {
+      "description": "Malibu & Pineapple (250 ml)",
+      "code": "AH-211399",
+      "invoicePrice": "$1.89",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 1,
+      "total": "$1.89"
+    },
+    {
+      "description": "Maltesers . (192 gr)",
+      "code": "AH-238097",
+      "invoicePrice": "$2.09",
+      "vat": "9%",
+      "contents": "1",
+      "quantity": 1,
+      "total": "$2.09"
+    },
+    {
+      "description": "Nutella & go (39 gr)",
+      "code": "AH-370830",
+      "invoicePrice": "$3.09",
+      "vat": "9%",
+      "contents": "2",
+      "quantity": 1,
+      "total": "$3.09"
+    },
+    {
+      "description": "Nutella & Go (39 gr)",
+      "code": "8868",
+      "invoicePrice": "$0.49",
       "vat": "9%",
       "contents": "1",
       "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
+      "total": "$1.47"
+    },
+    {
+      "description": "Perrier & juice aardbei kiwi (250 ml)",
+      "code": "AH-437934",
+      "invoicePrice": "$2.75",
       "vat": "9%",
-      "contents": "1",
+      "contents": "4",
       "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }, {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    }
-    , {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }
-    , {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },{
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "total": "$8.25"
+    },
+    {
+      "description": "Perrier & juice perzik kers (250 ml)",
+      "code": "AH-437932",
+      "invoicePrice": "$2.75",
       "vat": "9%",
       "contents": "4",
       "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "total": "$2.75"
+    },
+    {
+      "description": "Pure blonde . (250 ml)",
+      "code": "AH-435204",
+      "invoicePrice": "$3.9",
       "vat": "9%",
-      "contents": "4",
+      "contents": "6",
       "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "total": "$3.9"
+    },
+    {
+      "description": "Sao Miguel do Sul . (750 ml)",
+      "code": "AH-382911",
+      "invoicePrice": "$5.99",
       "vat": "9%",
-      "contents": "4",
+      "contents": "1",
       "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
+      "total": "$5.99"
     },
     {
       "description": "Tripel Karmeliet . (330 ml)",
@@ -2499,6 +288,24 @@ let dataObj = {
       "contents": "4",
       "quantity": 1,
       "total": "$6.89"
+    },
+    {
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },
+    {
+      "description": "Some other product with VAT 21",
+      "code": "AH-538908",
+      "invoicePrice": "$50",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$50"
     }
   ],
   "date": "2020-03-18",
@@ -2508,23 +315,31 @@ let dataObj = {
         "category": "9",
         "totalPrice": "$191.34",
         "totalVat": "$17.22"
+      },
+      {
+        "category": "21",
+        "totalPrice": "$200",
+        "totalVat": "$42"
       }
     ],
-    "discount": "$21.26",
-    "exVat": "$191.34",
-    "incVat": "$208.56",
-    "noDiscount": "$212.60",
-    "totalProducts": 41,
-    "vat": "$17.22",
-    "total": "$208.56"
+    "discount": "$41.26",
+    "exVat": "$371.34",
+    "incVat": "$430.56",
+    "noDiscount": "$412.60",
+    "totalProducts": 43,
+    "vat": "$59.22",
+    "total": "$430.56"
   },
   "settings": {
     "paymentTerms": "Within 14 days after invoice date.",
     "note": "Some note to customers",
-    "footer": "This should show on each page at the footer."
+    "footer": "This should show on each page at the footer.",
+    "primaryColor": "#bbdefb",
+    "secondaryColor": "#e3f2fd"
   },
   "invoiceId": "ORD-123-000037"
 }
+
 
 var dotenv = require('dotenv');
 var path = require("path")
@@ -2571,7 +386,7 @@ module.exports = function (server) {
       doc
         .image(__dirname + '/img.jpg', 40, 30, { fit: [180, 230] })
         .roundedRect(365, 30, 220, 210, 10)
-        .fillAndStroke('#8DDBF6', '#8DDBF6')
+        .fillAndStroke(`${dataObj.settings.primaryColor}`, `${dataObj.settings.primaryColor}`)
         .fill('black').stroke()
         .fontSize(15).font('Helvetica-Bold').text(`${dataObj.headers.title}:`, 40, 110)
         .fontSize(12).font('Times-Bold').text("Hajo Janse", 40, 140)
@@ -2604,7 +419,7 @@ module.exports = function (server) {
 
         .fontSize(10)
         .roundedRect(50, 270, 530, 30, 8)
-        .fillAndStroke('white', '#8DDBF6')
+        .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
         .fill('black').stroke()
 
         .text("Order nr", 120, 275)
@@ -2619,19 +434,29 @@ module.exports = function (server) {
 
 
         .font('Times-Roman').roundedRect(50, 340, 520, 0, 0)
-        .fillAndStroke('white', '#8DDBF6')
+        .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
         .fill('black').stroke()
 
         .font('Times-Bold').text("#", 50, 325)
         .text("Code", 70, 325)
         .text("Description", 130, 325)
         .text("Contents", 355, 325)
-        .text("Qty", 405, 325)
-        .text("Vat", 435, 325)
+        .text("Vat", 405, 325)       
+        .text("Qty", 435, 325)
         .text("Price", 480, 325)
         .text("Total", 0, 325, { align: "right" })
 
+      //  -----------start-footer------------
 
+      doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
+        .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
+        .fill('black').stroke()
+      doc.text('footer footer  footer  footer  footer  footer', 250, doc.page.height - 30, {
+        align: "center",
+        lineBreak: false,
+      });
+
+      //  -----------start-footer------------
 
 
 
@@ -2692,32 +517,32 @@ module.exports = function (server) {
         function lastResult() {
           doc
             .roundedRect(465, 30 + invoiceTableTop + dataObj.products.length * 10, 100, 20, 0)
-            .fillAndStroke('#8DDBF6')
+            .fillAndStroke(`${dataObj.settings.primaryColor}`)
             .fill('black').stroke()
             .text(`Total Order    ${dataObj.headers.totals.noDiscount}`, 50, 35 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
 
             .roundedRect(400, 50 + invoiceTableTop + dataObj.products.length * 10, 165, 20, 0)
-            .fillAndStroke('#8DDBF6')
+            .fillAndStroke(`${dataObj.settings.secondaryColor}`)
             .fill('black').stroke()
             .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}`, 50, 55 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
 
             .roundedRect(390, 70 + invoiceTableTop + dataObj.products.length * 10, 175, 20, 0)
-            .fillAndStroke('#8DDBF6')
+            .fillAndStroke(`${dataObj.settings.primaryColor}`)
             .fill('black').stroke()
             .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}`, 50, 75 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
 
             .roundedRect(465, 90 + invoiceTableTop + dataObj.products.length * 10, 100, 20, 0)
-            .fillAndStroke('#8DDBF6')
+            .fillAndStroke(`${dataObj.settings.secondaryColor}`)
             .fill('black').stroke()
             .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}`, 50, 95 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
 
             .roundedRect(500, 110 + invoiceTableTop + dataObj.products.length * 10, 65, 20, 0)
-            .fillAndStroke('#8DDBF6')
+            .fillAndStroke(`${dataObj.settings.primaryColor}`)
             .fill('black').stroke()
             .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}`, 50, 115 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
 
             .roundedRect(485, 130 + invoiceTableTop + dataObj.products.length * 10, 80, 20, 0)
-            .fillAndStroke('#8DDBF6')
+            .fillAndStroke(`${dataObj.settings.secondaryColor}`)
             .fill('black').stroke()
             .text(`Total Vat   ${dataObj.headers.totals.vat}`, 50, 135 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
 
@@ -2727,9 +552,16 @@ module.exports = function (server) {
 
 
             .roundedRect(510, 160 + invoiceTableTop + dataObj.products.length * 10, 55, 20, 0)
-            .fillAndStroke('#8DDBF6')
+            .fillAndStroke(`${dataObj.settings.primaryColor}`)
             .fill('black').stroke()
             .text(`TOTAL  ${dataObj.headers.total}`, 50, 165 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
+
+
+            // note
+            .text("Payment Terms: Within 30 days after invoice date.", 50, 180 + dataObj.products.length * 10)
+          // note
+
+
 
         }
 
@@ -2744,8 +576,8 @@ module.exports = function (server) {
             item.code,
             item.description,
             item.contents,
-            item.quantity,
             item.vat,
+            item.quantity,
             item.invoicePrice,
             item.total,
 
@@ -2759,35 +591,46 @@ module.exports = function (server) {
             doc.addPage({
               margin: 50
             })
+            //  -----------start-footer------------
+
+            doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
+              .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
+              .fill('black').stroke()
+            doc.text('footer footer  footer  footer  footer  footer', 250, doc.page.height - 30, {
+              align: "center",
+              lineBreak: false,
+            });
+
+            //  -----------start-footer------------
 
             doc
               .roundedRect(465, 30 + (26 - 25) * 10, 100, 20, 0)
-              .fillAndStroke('#8DDBF6')
+              .fillAndStroke(`${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
               .text(`Total Order    ${dataObj.headers.totals.noDiscount}`, 50, 35 + (26 - 25) * 10, { align: "right" })
 
               .roundedRect(400, 50 + (26 - 25) * 10, 165, 20, 0)
-              .fillAndStroke('#8DDBF6')
+              .fillAndStroke(`${dataObj.settings.secondaryColor}`)
               .fill('black').stroke()
               .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}`, 50, 55 + (26 - 25) * 10, { align: "right" })
 
               .roundedRect(390, 70 + (26 - 25) * 10, 175, 20, 0)
-              .fillAndStroke('#8DDBF6')
+              .fillAndStroke(`${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
               .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}`, 50, 75 + (26 - 25) * 10, { align: "right" })
 
               .roundedRect(465, 90 + (26 - 25) * 10, 100, 20, 0)
-              .fillAndStroke('#8DDBF6')
+              .fillAndStroke(`${dataObj.settings.secondaryColor}`)
               .fill('black').stroke()
               .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}`, 50, 95 + (26 - 25) * 10, { align: "right" })
 
               .roundedRect(500, 110 + (26 - 25) * 10, 65, 20, 0)
-              .fillAndStroke('#8DDBF6')
+              .fillAndStroke(`${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
               .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}`, 50, 115 + (26 - 25) * 10, { align: "right" })
 
               .roundedRect(485, 130 + (26 - 25) * 10, 80, 20, 0)
-              .fillAndStroke('#8DDBF6')
+              .fillAndStroke(`${dataObj.settings.secondaryColor}`)
               .fill('black').stroke()
               .text(`Total Vat   ${dataObj.headers.totals.vat}`, 50, 135 + (26 - 25) * 10, { align: "right" })
 
@@ -2797,10 +640,16 @@ module.exports = function (server) {
 
 
               .roundedRect(510, 160 + (26 - 25) * 10, 55, 20, 0)
-              .fillAndStroke('#8DDBF6')
+              .fillAndStroke(`${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
               .text(`TOTAL  ${dataObj.headers.total}`, 50, 165 + (26 - 25) * 10, { align: "right" })
 
+
+
+
+              // note
+              .text("Payment Terms: Within 30 days after invoice date.", 50, 180 + (26 - 25) * 10)
+            // note
 
 
 
@@ -2822,6 +671,17 @@ module.exports = function (server) {
             doc.addPage({
               margin: 50
             })
+            //  -----------start-footer------------
+
+            doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
+              .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
+              .fill('black').stroke()
+            doc.text('footer footer  footer  footer  footer  footer', 250, doc.page.height - 30, {
+              align: "center",
+              lineBreak: false,
+            });
+
+            //  -----------start-footer------------
 
             doc.font('Times-Bold').text("#", 50, 50)
               .text("Code", 70, 50)
@@ -2834,7 +694,7 @@ module.exports = function (server) {
 
 
               .font('Times-Roman').roundedRect(50, 65, 520, 0, 0)
-              .fillAndStroke('white', '#8DDBF6')
+              .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
 
 
@@ -2848,8 +708,8 @@ module.exports = function (server) {
             item.code,
             item.description,
             item.contents,
-            item.quantity,
             item.vat,
+            item.quantity,
             item.invoicePrice,
             item.total,
 
@@ -2859,32 +719,32 @@ module.exports = function (server) {
             if (dataObj.products.length == i + 1) {
               doc
                 .roundedRect(465, 30 + (dataObj.products.length - 30) * 10, 100, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order    ${dataObj.headers.totals.noDiscount}`, 50, 35 + (dataObj.products.length - 30) * 10, { align: "right" })
 
                 .roundedRect(400, 50 + (dataObj.products.length - 30) * 10, 165, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}`, 50, 55 + (dataObj.products.length - 30) * 10, { align: "right" })
 
                 .roundedRect(390, 70 + (dataObj.products.length - 30) * 10, 175, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}`, 50, 75 + (dataObj.products.length - 30) * 10, { align: "right" })
 
                 .roundedRect(465, 90 + (dataObj.products.length - 30) * 10, 100, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}`, 50, 95 + (dataObj.products.length - 30) * 10, { align: "right" })
 
                 .roundedRect(500, 110 + (dataObj.products.length - 30) * 10, 65, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}`, 50, 115 + (dataObj.products.length - 30) * 10, { align: "right" })
 
                 .roundedRect(485, 130 + (dataObj.products.length - 30) * 10, 80, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat   ${dataObj.headers.totals.vat}`, 50, 135 + (dataObj.products.length - 30) * 10, { align: "right" })
 
@@ -2894,9 +754,16 @@ module.exports = function (server) {
 
 
                 .roundedRect(510, 160 + (dataObj.products.length - 30) * 10, 55, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`TOTAL  ${dataObj.headers.total}`, 50, 165 + (dataObj.products.length - 30) * 10, { align: "right" })
+
+
+
+
+                // note
+                .text("Payment Terms: Within 30 days after invoice date.", 50, 180 + (dataObj.products.length - 30) * 10)
+              // note
 
 
 
@@ -2906,40 +773,51 @@ module.exports = function (server) {
           }
           else {
 
-           
+
             if (dataObj.products.length == i + 1) {
               doc.addPage({
                 margin: 50
               })
+              //  -----------start-footer------------
+
+              doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
+                .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
+                .fill('black').stroke()
+              doc.text('footer footer  footer  footer  footer  footer', 250, doc.page.height - 30, {
+                align: "center",
+                lineBreak: false,
+              });
+
+              //  -----------start-footer------------
 
               doc
                 .roundedRect(465, 30 + (26 - 25) * 10, 100, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order    ${dataObj.headers.totals.noDiscount}`, 50, 35 + (26 - 25) * 10, { align: "right" })
 
                 .roundedRect(400, 50 + (26 - 25) * 10, 165, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}`, 50, 55 + (26 - 25) * 10, { align: "right" })
 
                 .roundedRect(390, 70 + (26 - 25) * 10, 175, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}`, 50, 75 + (26 - 25) * 10, { align: "right" })
 
                 .roundedRect(465, 90 + (26 - 25) * 10, 100, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}`, 50, 95 + (26 - 25) * 10, { align: "right" })
 
                 .roundedRect(500, 110 + (26 - 25) * 10, 65, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}`, 50, 115 + (26 - 25) * 10, { align: "right" })
 
                 .roundedRect(485, 130 + (26 - 25) * 10, 80, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat   ${dataObj.headers.totals.vat}`, 50, 135 + (26 - 25) * 10, { align: "right" })
 
@@ -2949,10 +827,15 @@ module.exports = function (server) {
 
 
                 .roundedRect(510, 160 + (26 - 25) * 10, 55, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`TOTAL  ${dataObj.headers.total}`, 50, 165 + (26 - 25) * 10, { align: "right" })
 
+
+
+                // note
+                .text("Payment Terms: Within 30 days after invoice date.", 50, 180 + (26 - 25) * 10)
+              // note
 
 
 
@@ -2970,14 +853,24 @@ module.exports = function (server) {
 
 
         }
-        if (i >= 105 && i <172) {
-    
+        if (i >= 105 && i < 172) {
+
 
           if (i == 105) {
             doc.addPage({
               margin: 50
             })
+            //  -----------start-footer------------
 
+            doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
+              .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
+              .fill('black').stroke()
+            doc.text('footer footer  footer  footer  footer  footer', 250, doc.page.height - 30, {
+              align: "center",
+              lineBreak: false,
+            });
+
+            //  -----------start-footer------------
             doc.font('Times-Bold').text("#", 50, 50)
               .text("Code", 70, 50)
               .text("Description", 130, 50)
@@ -2989,13 +882,13 @@ module.exports = function (server) {
 
 
               .font('Times-Roman').roundedRect(50, 65, 520, 0, 0)
-              .fillAndStroke('white', '#8DDBF6')
+              .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
 
 
           }
 
-          const position = 50 + ((i -104) + 1) * 10;
+          const position = 50 + ((i - 104) + 1) * 10;
           generateTableRow(
             doc,
             position,
@@ -3003,8 +896,8 @@ module.exports = function (server) {
             item.code,
             item.description,
             item.contents,
-            item.quantity,
             item.vat,
+            item.quantity,
             item.invoicePrice,
             item.total,
 
@@ -3014,32 +907,32 @@ module.exports = function (server) {
             if (dataObj.products.length == i + 1) {
               doc
                 .roundedRect(465, 30 + (dataObj.products.length - 100) * 10, 100, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order    ${dataObj.headers.totals.noDiscount}`, 50, 35 + (dataObj.products.length - 100) * 10, { align: "right" })
 
                 .roundedRect(400, 50 + (dataObj.products.length - 100) * 10, 165, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}`, 50, 55 + (dataObj.products.length - 100) * 10, { align: "right" })
 
                 .roundedRect(390, 70 + (dataObj.products.length - 100) * 10, 175, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}`, 50, 75 + (dataObj.products.length - 100) * 10, { align: "right" })
 
                 .roundedRect(465, 90 + (dataObj.products.length - 100) * 10, 100, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}`, 50, 95 + (dataObj.products.length - 100) * 10, { align: "right" })
 
                 .roundedRect(500, 110 + (dataObj.products.length - 100) * 10, 65, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}`, 50, 115 + (dataObj.products.length - 100) * 10, { align: "right" })
 
                 .roundedRect(485, 130 + (dataObj.products.length - 100) * 10, 80, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat   ${dataObj.headers.totals.vat}`, 50, 135 + (dataObj.products.length - 100) * 10, { align: "right" })
 
@@ -3049,10 +942,14 @@ module.exports = function (server) {
 
 
                 .roundedRect(510, 160 + (dataObj.products.length - 100) * 10, 55, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`TOTAL  ${dataObj.headers.total}`, 50, 165 + (dataObj.products.length - 100) * 10, { align: "right" })
 
+
+                // note
+                .text("Payment Terms: Within 30 days after invoice date.", 50, 180 + (dataObj.products.length - 100) * 10)
+              // note
 
 
 
@@ -3061,7 +958,7 @@ module.exports = function (server) {
           }
           else {
 
-           
+
             if (dataObj.products.length == i + 1) {
               doc.addPage({
                 margin: 50
@@ -3069,32 +966,32 @@ module.exports = function (server) {
 
               doc
                 .roundedRect(465, 30 + (26 - 25) * 10, 100, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order    ${dataObj.headers.totals.noDiscount}`, 50, 35 + (26 - 25) * 10, { align: "right" })
 
                 .roundedRect(400, 50 + (26 - 25) * 10, 165, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}`, 50, 55 + (26 - 25) * 10, { align: "right" })
 
                 .roundedRect(390, 70 + (26 - 25) * 10, 175, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}`, 50, 75 + (26 - 25) * 10, { align: "right" })
 
                 .roundedRect(465, 90 + (26 - 25) * 10, 100, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}`, 50, 95 + (26 - 25) * 10, { align: "right" })
 
                 .roundedRect(500, 110 + (26 - 25) * 10, 65, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}`, 50, 115 + (26 - 25) * 10, { align: "right" })
 
                 .roundedRect(485, 130 + (26 - 25) * 10, 80, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat   ${dataObj.headers.totals.vat}`, 50, 135 + (26 - 25) * 10, { align: "right" })
 
@@ -3104,7 +1001,7 @@ module.exports = function (server) {
 
 
                 .roundedRect(510, 160 + (26 - 25) * 10, 55, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`TOTAL  ${dataObj.headers.total}`, 50, 165 + (26 - 25) * 10, { align: "right" })
 
@@ -3125,14 +1022,24 @@ module.exports = function (server) {
 
 
         }
-        if (i >= 172 && i <239) {
-    
+        if (i >= 172 && i < 239) {
+
 
           if (i == 172) {
             doc.addPage({
               margin: 50
             })
+            //  -----------start-footer------------
 
+            doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
+              .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
+              .fill('black').stroke()
+            doc.text('footer footer  footer  footer  footer  footer', 250, doc.page.height - 30, {
+              align: "center",
+              lineBreak: false,
+            });
+
+            //  -----------start-footer------------
             doc.font('Times-Bold').text("#", 50, 50)
               .text("Code", 70, 50)
               .text("Description", 130, 50)
@@ -3144,13 +1051,13 @@ module.exports = function (server) {
 
 
               .font('Times-Roman').roundedRect(50, 65, 520, 0, 0)
-              .fillAndStroke('white', '#8DDBF6')
+              .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
 
 
           }
 
-          const position = 50 + ((i -171) + 1) * 10;
+          const position = 50 + ((i - 171) + 1) * 10;
           generateTableRow(
             doc,
             position,
@@ -3158,8 +1065,8 @@ module.exports = function (server) {
             item.code,
             item.description,
             item.contents,
-            item.quantity,
             item.vat,
+            item.quantity,
             item.invoicePrice,
             item.total,
 
@@ -3169,32 +1076,32 @@ module.exports = function (server) {
             if (dataObj.products.length == i + 1) {
               doc
                 .roundedRect(465, 30 + (dataObj.products.length - 165) * 10, 100, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order    ${dataObj.headers.totals.noDiscount}`, 50, 35 + (dataObj.products.length - 165) * 10, { align: "right" })
 
                 .roundedRect(400, 50 + (dataObj.products.length - 165) * 10, 165, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}`, 50, 55 + (dataObj.products.length - 165) * 10, { align: "right" })
 
                 .roundedRect(390, 70 + (dataObj.products.length - 165) * 10, 175, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}`, 50, 75 + (dataObj.products.length - 165) * 10, { align: "right" })
 
                 .roundedRect(465, 90 + (dataObj.products.length - 165) * 10, 100, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}`, 50, 95 + (dataObj.products.length - 165) * 10, { align: "right" })
 
                 .roundedRect(500, 110 + (dataObj.products.length - 165) * 10, 65, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}`, 50, 115 + (dataObj.products.length - 165) * 10, { align: "right" })
 
                 .roundedRect(485, 130 + (dataObj.products.length - 165) * 10, 80, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat   ${dataObj.headers.totals.vat}`, 50, 135 + (dataObj.products.length - 165) * 10, { align: "right" })
 
@@ -3204,10 +1111,15 @@ module.exports = function (server) {
 
 
                 .roundedRect(510, 160 + (dataObj.products.length - 165) * 10, 55, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`TOTAL  ${dataObj.headers.total}`, 50, 165 + (dataObj.products.length - 165) * 10, { align: "right" })
 
+
+
+                // note
+                .text("Payment Terms: Within 30 days after invoice date.", 50, 180 + (dataObj.products.length - 165) * 10)
+              // note
 
 
 
@@ -3216,40 +1128,50 @@ module.exports = function (server) {
           }
           else {
 
-           
+
             if (dataObj.products.length == i + 1) {
               doc.addPage({
                 margin: 50
               })
+              //  -----------start-footer------------
 
+              doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
+                .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
+                .fill('black').stroke()
+              doc.text('footer footer  footer  footer  footer  footer', 250, doc.page.height - 30, {
+                align: "center",
+                lineBreak: false,
+              });
+
+              //  -----------start-footer------------
               doc
                 .roundedRect(465, 30 + (26 - 25) * 10, 100, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order    ${dataObj.headers.totals.noDiscount}`, 50, 35 + (26 - 25) * 10, { align: "right" })
 
                 .roundedRect(400, 50 + (26 - 25) * 10, 165, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}`, 50, 55 + (26 - 25) * 10, { align: "right" })
 
                 .roundedRect(390, 70 + (26 - 25) * 10, 175, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}`, 50, 75 + (26 - 25) * 10, { align: "right" })
 
                 .roundedRect(465, 90 + (26 - 25) * 10, 100, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}`, 50, 95 + (26 - 25) * 10, { align: "right" })
 
                 .roundedRect(500, 110 + (26 - 25) * 10, 65, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}`, 50, 115 + (26 - 25) * 10, { align: "right" })
 
                 .roundedRect(485, 130 + (26 - 25) * 10, 80, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat   ${dataObj.headers.totals.vat}`, 50, 135 + (26 - 25) * 10, { align: "right" })
 
@@ -3259,9 +1181,16 @@ module.exports = function (server) {
 
 
                 .roundedRect(510, 160 + (26 - 25) * 10, 55, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`TOTAL  ${dataObj.headers.total}`, 50, 165 + (26 - 25) * 10, { align: "right" })
+
+
+
+                // note
+                .text("Payment Terms: Within 30 days after invoice date.", 50, 180 + (26 - 25) * 10)
+              // note
+
 
 
 
@@ -3280,14 +1209,24 @@ module.exports = function (server) {
 
 
         }
-        if (i >= 239 && i <306) {
-    
+        if (i >= 239 && i < 306) {
+
 
           if (i == 239) {
             doc.addPage({
               margin: 50
             })
+            //  -----------start-footer------------
 
+            doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
+              .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
+              .fill('black').stroke()
+            doc.text('footer footer  footer  footer  footer  footer', 250, doc.page.height - 30, {
+              align: "center",
+              lineBreak: false,
+            });
+
+            //  -----------start-footer------------
             doc.font('Times-Bold').text("#", 50, 50)
               .text("Code", 70, 50)
               .text("Description", 130, 50)
@@ -3299,13 +1238,13 @@ module.exports = function (server) {
 
 
               .font('Times-Roman').roundedRect(50, 65, 520, 0, 0)
-              .fillAndStroke('white', '#8DDBF6')
+              .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
 
 
           }
 
-          const position = 50 + ((i -238) + 1) * 10;
+          const position = 50 + ((i - 238) + 1) * 10;
           generateTableRow(
             doc,
             position,
@@ -3313,8 +1252,8 @@ module.exports = function (server) {
             item.code,
             item.description,
             item.contents,
-            item.quantity,
             item.vat,
+            item.quantity,
             item.invoicePrice,
             item.total,
 
@@ -3324,32 +1263,32 @@ module.exports = function (server) {
             if (dataObj.products.length == i + 1) {
               doc
                 .roundedRect(465, 30 + (dataObj.products.length - 230) * 10, 100, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order    ${dataObj.headers.totals.noDiscount}`, 50, 35 + (dataObj.products.length - 230) * 10, { align: "right" })
 
                 .roundedRect(400, 50 + (dataObj.products.length - 230) * 10, 165, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}`, 50, 55 + (dataObj.products.length - 230) * 10, { align: "right" })
 
                 .roundedRect(390, 70 + (dataObj.products.length - 230) * 10, 175, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}`, 50, 75 + (dataObj.products.length - 230) * 10, { align: "right" })
 
                 .roundedRect(465, 90 + (dataObj.products.length - 230) * 10, 100, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}`, 50, 95 + (dataObj.products.length - 230) * 10, { align: "right" })
 
                 .roundedRect(500, 110 + (dataObj.products.length - 230) * 10, 65, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}`, 50, 115 + (dataObj.products.length - 230) * 10, { align: "right" })
 
                 .roundedRect(485, 130 + (dataObj.products.length - 230) * 10, 80, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat   ${dataObj.headers.totals.vat}`, 50, 135 + (dataObj.products.length - 230) * 10, { align: "right" })
 
@@ -3359,49 +1298,64 @@ module.exports = function (server) {
 
 
                 .roundedRect(510, 160 + (dataObj.products.length - 230) * 10, 55, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`TOTAL  ${dataObj.headers.total}`, 50, 165 + (dataObj.products.length - 230) * 10, { align: "right" })
+
+
+                // note
+                .text("Payment Terms: Within 30 days after invoice date.", 50, 180 + (dataObj.products.length - 230) * 10)
+              // note
 
 
             }
           }
           else {
 
-           
+
             if (dataObj.products.length == i + 1) {
               doc.addPage({
                 margin: 50
               })
+              //  -----------start-footer------------
 
+              doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
+                .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
+                .fill('black').stroke()
+              doc.text('footer footer  footer  footer  footer  footer', 250, doc.page.height - 30, {
+                align: "center",
+                lineBreak: false,
+              });
+
+              //  -----------start-footer------------
               doc
                 .roundedRect(465, 30 + (26 - 25) * 10, 100, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order    ${dataObj.headers.totals.noDiscount}`, 50, 35 + (26 - 25) * 10, { align: "right" })
 
                 .roundedRect(400, 50 + (26 - 25) * 10, 165, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)  ${dataObj.headers.totals.discount}`, 50, 55 + (26 - 25) * 10, { align: "right" })
 
                 .roundedRect(390, 70 + (26 - 25) * 10, 175, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total 9% Vat Category   ${dataObj.headers.totals.vatCategories[0].totalPrice}`, 50, 75 + (26 - 25) * 10, { align: "right" })
 
                 .roundedRect(465, 90 + (26 - 25) * 10, 100, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat  ${dataObj.headers.totals.exVat}`, 50, 95 + (26 - 25) * 10, { align: "right" })
 
                 .roundedRect(500, 110 + (26 - 25) * 10, 65, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`9% Vat   ${dataObj.headers.totals.vatCategories[0].totalVat}`, 50, 115 + (26 - 25) * 10, { align: "right" })
 
                 .roundedRect(485, 130 + (26 - 25) * 10, 80, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat   ${dataObj.headers.totals.vat}`, 50, 135 + (26 - 25) * 10, { align: "right" })
 
@@ -3411,13 +1365,15 @@ module.exports = function (server) {
 
 
                 .roundedRect(510, 160 + (26 - 25) * 10, 55, 20, 0)
-                .fillAndStroke('#8DDBF6')
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`TOTAL  ${dataObj.headers.total}`, 50, 165 + (26 - 25) * 10, { align: "right" })
 
 
 
-
+                // note
+                .text("Payment Terms: Within 30 days after invoice date.", 50, 180 + (26 - 25) * 10)
+              // note
 
             }
 
@@ -3439,15 +1395,6 @@ module.exports = function (server) {
 
 
     }
-
-
-
-
-
-
-
-
-
 
 
     generateHeader(doc);
