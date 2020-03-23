@@ -163,7 +163,7 @@ let dataObj = {
       "quantity": 1,
       "total": "$3.89"
     },
-     {
+    {
       "description": "Maltesers . (192 gr)",
       "code": "AH-238097",
       "invoicePrice": "$2.09",
@@ -171,7 +171,7 @@ let dataObj = {
       "contents": "1",
       "quantity": 1,
       "total": "$2.09"
-    },{
+    }, {
       "description": "Maltesers . (192 gr)",
       "code": "AH-238097",
       "invoicePrice": "$2.09",
@@ -179,7 +179,7 @@ let dataObj = {
       "contents": "1",
       "quantity": 1,
       "total": "$2.09"
-    },{
+    }, {
       "description": "Maltesers . (192 gr)",
       "code": "AH-238097",
       "invoicePrice": "$2.09",
@@ -187,7 +187,7 @@ let dataObj = {
       "contents": "1",
       "quantity": 1,
       "total": "$2.09"
-    },{
+    }, {
       "description": "Maltesers . (192 gr)",
       "code": "AH-238097",
       "invoicePrice": "$2.09",
@@ -195,7 +195,7 @@ let dataObj = {
       "contents": "1",
       "quantity": 1,
       "total": "$2.09"
-    },{
+    }, {
       "description": "Maltesers . (192 gr)",
       "code": "AH-238097",
       "invoicePrice": "$2.09",
@@ -203,7 +203,7 @@ let dataObj = {
       "contents": "1",
       "quantity": 1,
       "total": "$2.09"
-    },{
+    }, {
       "description": "Maltesers . (192 gr)",
       "code": "AH-238097",
       "invoicePrice": "$2.09",
@@ -211,7 +211,7 @@ let dataObj = {
       "contents": "1",
       "quantity": 1,
       "total": "$2.09"
-    },{
+    }, {
       "description": "Maltesers . (192 gr)",
       "code": "AH-238097",
       "invoicePrice": "$2.09",
@@ -644,21 +644,26 @@ module.exports = function (server) {
               .fillAndStroke(`${dataObj.settings.secondaryColor}`)
               .fill('black').stroke()
               .text(`Total Ex Vat  ${dataObj.totals.exVat}`, 50, 125 + (26 - 25) * 10, { align: "right" })
+            let number = dataObj.totals.vatCategories.length;
+            // let number = 3;
 
-              .roundedRect(350, 140 + (26 - 25) * 10, 215, 20, 0)
-              .fillAndStroke(`${dataObj.settings.primaryColor}`)
-              .fill('black').stroke()
-              .text(`9% Vat   ${dataObj.totals.vatCategories[0].totalVat}`, 50, 145 + (26 - 25) * 10, { align: "right" })
-
-              .roundedRect(350, 160 + (26 - 25) * 10, 215, 20, 0)
+              for (let i = 1; i <= number; i++) {
+              doc.roundedRect(350, (i*20)+120 + (26 - 25) * 10, 215, 20, 0)
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
+                .fill('black').stroke()
+                .text(`${dataObj.totals.vatCategories[i-1].category}% Vat   ${dataObj.totals.vatCategories[i-1].totalVat}  `, 50, 125+(i*20) + (26 - 25) * 10, { align: "right" })
+            }
+            
+            doc
+              .roundedRect(350, (20*number)+140 + (26 - 25) * 10, 215, 20, 0)
               .fillAndStroke(`${dataObj.settings.secondaryColor}`)
               .fill('black').stroke()
-              .text(`Total Vat   ${dataObj.totals.vat}`, 50, 165 + (26 - 25) * 10, { align: "right" })
+              .text(`Total Vat   ${dataObj.totals.vat}`, 50, (20*number)+145 + (26 - 25) * 10, { align: "right" })
 
-              .roundedRect(350, 200 + (26 - 25) * 10, 215, 20, 0)
+              .roundedRect(350, (20*number)+180 + (26 - 25) * 10, 215, 20, 0)
               .fillAndStroke(`${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
-              .text(`TOTAL  ${dataObj.totals.total}`, 50, 205 + (26 - 25) * 10, { align: "right" })
+              .text(`TOTAL  ${dataObj.totals.total}`, 50, (20*number)+185 + (26 - 25) * 10, { align: "right" })
 
               .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, 230 + (26 - 25) * 10)
 
