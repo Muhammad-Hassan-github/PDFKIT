@@ -90,240 +90,6 @@ let dataObj = {
       "contents": "1",
       "quantity": 4,
       "total": "$22.4"
-    },{
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    },{
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    },{
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    },{
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    },{
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    },{
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    },{
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    },{
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    },{
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    },{
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    },{
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    },{
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    },{
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    },{
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    },{
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    },{
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    },{
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    },
-    {
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    }, {
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    }, {
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    }, {
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    },
-    {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
-      "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
     }, {
       "description": "Tripel Karmeliet . (330 ml)",
       "code": "AH-438908",
@@ -349,6 +115,230 @@ let dataObj = {
       "contents": "4",
       "quantity": 1,
       "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
+    },{
+      "description": "Some product with VAT 21",
+      "code": "AH-435908",
+      "invoicePrice": "$150",
+      "vat": "21%",
+      "contents": "4",
+      "quantity": 1,
+      "total": "$150"
     },
     {
       "description": "Some other product with VAT 21",
@@ -363,7 +353,7 @@ let dataObj = {
   "date": "2020-03-18",
   "totals": {
     "vatCategories": [
-      {
+       {
         "category": "9",
         "totalPrice": "$191.34",
         "totalVat": "$17.22"
@@ -429,6 +419,23 @@ dotenv.config();
 module.exports = function (server) {
   server.get('/generatePdf', (req, res) => {
     let doc = new PDFDocument({ margin: 50 });
+    let pageNumber = 1;
+    let pageTotal = 1;
+    if(dataObj.products.length<=15){
+        pageTotal=1
+    }
+    else  if(dataObj.products.length>15 && dataObj.products.length<=75){
+      pageTotal=2;
+
+    }else if(dataObj.products.length>75 && dataObj.products.length<=150){
+      pageTotal=3;
+
+    }else if(dataObj.products.length>150 && dataObj.products.length<=215){
+      pageTotal=4;
+    }else{
+      pageTotal=5;
+    }
+
     function generateHeader(doc) {
       doc
         .image(__dirname + '/img.jpg', 40, 30, { fit: [180, 230] })
@@ -476,8 +483,8 @@ module.exports = function (server) {
 
         .font('Times-Bold').text(`${dataObj.invoiceId}`, 120, 285)
         .text(`${dataObj.date}`, 240, 285)
-        .text(`${dataObj.totals.totalProducts}`, 360, 285)
-        .text(`${dataObj.headers.page}`, 480, 285)
+        .text(`${dataObj.products.length}`, 360, 285)
+        .text(`${pageNumber}/${pageTotal}`, 480, 285)
 
         .font('Times-Roman').roundedRect(50, 340, 520, 0, 0)
         .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
@@ -568,7 +575,7 @@ module.exports = function (server) {
             .fill('black').stroke()
             .text(`TOTAL  ${dataObj.totals.total}`, 50, ((number + numberFirst - 1) * 20) + 155 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
 
-            .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, (number * 20) + 180 + invoiceTableTop + dataObj.products.length * 10)
+            .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, ((number+numberFirst) * 20) + 160 + invoiceTableTop + dataObj.products.length * 10)
 
         }
 
@@ -597,20 +604,22 @@ module.exports = function (server) {
             doc.addPage({
               margin: 50
             })
+            pageNumber++;
+         
             console.log("First")
             doc
               .roundedRect(50, 25, 530, 30, 8)
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
-              .text("Order nr", 120, 30)
+              .text("Order nr", 140, 30)
               .text("Order date", 240, 30)
-              .text("Products", 360, 30)
+              .text("Products", 350, 30)
               .text("Page", 480, 30)
 
               .font('Times-Bold').text(`${dataObj.invoiceId}`, 120, 40)
               .text(`${dataObj.date}`, 240, 40)
-              .text(`${dataObj.headers.totals.totalProducts}`, 360, 40)
-              .text(`${dataObj.headers.page}`, 480, 40)
+              .text(`${dataObj.products.length}`, 360, 40)
+              .text(`${pageNumber}/${pageTotal}`, 480, 40)
 
             doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
@@ -666,7 +675,7 @@ module.exports = function (server) {
               .fill('black').stroke()
               .text(`TOTAL  ${dataObj.totals.total}`, 50, (20 * (number + numberFirst - 1)) + 185 + (26 - 25) * 10, { align: "right" })
 
-              .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, (number * 20) + 230 + (26 - 25) * 10)
+              .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, ((number+numberFirst) * 20) + 210 + (26 - 25) * 10)
 
           }
 
@@ -681,6 +690,7 @@ module.exports = function (server) {
             doc.addPage({
               margin: 50
             })
+            pageNumber++;
 
             // ---------current page -------------
 
@@ -689,16 +699,16 @@ module.exports = function (server) {
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
 
-              .text("Order nr", 120, 22)
+              .text("Order nr", 140, 22)
               .text("Order date", 240, 22)
-              .text("Products", 360, 22)
+              .text("Products", 350, 22)
               .text("Page", 480, 22)
 
 
               .font('Times-Bold').text(`${dataObj.invoiceId}`, 120, 32)
               .text(`${dataObj.date}`, 240, 32)
-              .text(`${dataObj.headers.totals.totalProducts}`, 360, 32)
-              .text(`${dataObj.headers.page}`, 480, 32)
+              .text(`${dataObj.products.length}`, 360, 32)
+              .text(`${pageNumber}/${pageTotal}`, 480, 32)
 
             // ---------current page -------------
 
@@ -740,7 +750,7 @@ module.exports = function (server) {
 
           );
 
-          if (i < 86) {
+          if (i < 75) {
             if (dataObj.products.length == i + 1) {
               doc
                 .roundedRect(350, 30 + (dataObj.products.length - 30) * 10, 215, 20, 0)
@@ -790,7 +800,7 @@ module.exports = function (server) {
                 .fill('black').stroke()
                 .text(`TOTAL   ${dataObj.totals.total}`, 50, ((number + numberFirst - 1) * 20) + 155 + (dataObj.products.length - 30) * 10, { align: "right" })
 
-                .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, (number * 20) + 180 + (dataObj.products.length - 30) * 10)
+                .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, ((number+numberFirst) * 20) + 160 + (dataObj.products.length - 30) * 10)
 
             }
           }
@@ -800,19 +810,20 @@ module.exports = function (server) {
               doc.addPage({
                 margin: 50
               })
+              pageNumber++;
               doc
                 .roundedRect(50, 25, 530, 30, 8)
                 .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
-                .text("Order nr", 120, 30)
+                .text("Order nr", 140, 30)
                 .text("Order date", 240, 30)
-                .text("Products", 360, 30)
+                .text("Products", 350, 30)
                 .text("Page", 480, 30)
 
                 .font('Times-Bold').text(`${dataObj.invoiceId}`, 120, 40)
                 .text(`${dataObj.date}`, 240, 40)
-                .text(`${dataObj.headers.totals.totalProducts}`, 360, 40)
-                .text(`${dataObj.headers.page}`, 480, 40)
+                .text(`${dataObj.products.length}`, 360, 40)
+                .text(`${pageNumber}/${pageTotal}`, 480, 40)
               doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
                 .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
@@ -868,7 +879,7 @@ module.exports = function (server) {
             doc.addPage({
               margin: 50
             })
-
+            pageNumber++;
             // ---------current page -------------
 
             doc
@@ -876,16 +887,16 @@ module.exports = function (server) {
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
 
-              .text("Order nr", 120, 22)
+              .text("Order nr", 140, 22)
               .text("Order date", 240, 22)
-              .text("Products", 360, 22)
+              .text("Products", 350, 22)
               .text("Page", 480, 22)
 
 
               .font('Times-Bold').text(`${dataObj.invoiceId}`, 120, 32)
               .text(`${dataObj.date}`, 240, 32)
-              .text(`${dataObj.headers.totals.totalProducts}`, 360, 32)
-              .text(`${dataObj.headers.page}`, 480, 32)
+              .text(`${dataObj.products.length}`, 360, 32)
+              .text(`${pageNumber}/${pageTotal}`, 480, 32)
 
             // ---------current page -------------
             doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
@@ -926,7 +937,7 @@ module.exports = function (server) {
 
           );
 
-          if (i < 155) {
+          if (i < 150) {
             if (dataObj.products.length == i + 1) {
               doc
                 .roundedRect(350, 30 + (dataObj.products.length - 100) * 10, 215, 20, 0)
@@ -973,19 +984,20 @@ module.exports = function (server) {
               doc.addPage({
                 margin: 50
               })
+              pageNumber++;
               doc
                 .roundedRect(50, 25, 530, 30, 8)
                 .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
-                .text("Order nr", 120, 30)
+                .text("Order nr", 140, 30)
                 .text("Order date", 240, 30)
-                .text("Products", 360, 30)
+                .text("Products", 350, 30)
                 .text("Page", 480, 30)
 
                 .font('Times-Bold').text(`${dataObj.invoiceId}`, 120, 40)
                 .text(`${dataObj.date}`, 240, 40)
-                .text(`${dataObj.headers.totals.totalProducts}`, 360, 40)
-                .text(`${dataObj.headers.page}`, 480, 40)
+                .text(`${dataObj.products.length}`, 360, 40)
+                .text(`${pageNumber}/${pageTotal}`, 480, 40)
               doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
                 .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
@@ -1043,7 +1055,7 @@ module.exports = function (server) {
             doc.addPage({
               margin: 50
             })
-
+            pageNumber++;
             // ---------current page -------------
 
             doc
@@ -1051,16 +1063,16 @@ module.exports = function (server) {
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
 
-              .text("Order nr", 120, 22)
+              .text("Order nr", 140, 22)
               .text("Order date", 240, 22)
-              .text("Products", 360, 22)
+              .text("Products", 350, 22)
               .text("Page", 480, 22)
 
 
               .font('Times-Bold').text(`${dataObj.invoiceId}`, 120, 32)
               .text(`${dataObj.date}`, 240, 32)
-              .text(`${dataObj.headers.totals.totalProducts}`, 360, 32)
-              .text(`${dataObj.headers.page}`, 480, 32)
+              .text(`${dataObj.products.length}`, 360, 32)
+              .text(`${pageNumber}/${pageTotal}`, 480, 32)
 
             // ---------current page -------------
 
@@ -1101,7 +1113,7 @@ module.exports = function (server) {
 
           );
 
-          if (i < 220) {
+          if (i < 215) {
             if (dataObj.products.length == i + 1) {
               doc
                 .roundedRect(350, 30 + (dataObj.products.length - 165) * 10, 215, 20, 0)
@@ -1149,19 +1161,20 @@ module.exports = function (server) {
               doc.addPage({
                 margin: 50
               })
+              pageNumber++;
               doc
                 .roundedRect(50, 25, 530, 30, 8)
                 .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
-                .text("Order nr", 120, 30)
+                .text("Order nr", 140, 30)
                 .text("Order date", 240, 30)
-                .text("Products", 360, 30)
+                .text("Products", 350, 30)
                 .text("Page", 480, 30)
 
                 .font('Times-Bold').text(`${dataObj.invoiceId}`, 120, 40)
                 .text(`${dataObj.date}`, 240, 40)
-                .text(`${dataObj.headers.totals.totalProducts}`, 360, 40)
-                .text(`${dataObj.headers.page}`, 480, 40)
+                .text(`${dataObj.products.length}`, 360, 40)
+                .text(`${pageNumber}/${pageTotal}`, 480, 40)
               doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
                 .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
@@ -1220,6 +1233,7 @@ module.exports = function (server) {
             doc.addPage({
               margin: 50
             })
+            pageNumber++;
 
             // ---------current page -------------
 
@@ -1228,16 +1242,16 @@ module.exports = function (server) {
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
 
-              .text("Order nr", 120, 22)
+              .text("Order nr", 140, 22)
               .text("Order date", 240, 22)
-              .text("Products", 360, 22)
+              .text("Products", 350, 22)
               .text("Page", 480, 22)
 
 
               .font('Times-Bold').text(`${dataObj.invoiceId}`, 120, 32)
               .text(`${dataObj.date}`, 240, 32)
-              .text(`${dataObj.headers.totals.totalProducts}`, 360, 32)
-              .text(`${dataObj.headers.page}`, 480, 32)
+              .text(`${dataObj.products.length}`, 360, 32)
+              .text(`${pageNumber}/${pageTotal}`, 480, 32)
 
             // ---------current page -------------
             doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
@@ -1326,19 +1340,20 @@ module.exports = function (server) {
               doc.addPage({
                 margin: 50
               })
+              pageNumber++;
               doc
                 .roundedRect(50, 25, 530, 30, 8)
                 .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
-                .text("Order nr", 120, 30)
+                .text("Order nr", 140, 30)
                 .text("Order date", 240, 30)
-                .text("Products", 360, 30)
+                .text("Products", 350, 30)
                 .text("Page", 480, 30)
 
                 .font('Times-Bold').text(`${dataObj.invoiceId}`, 120, 40)
                 .text(`${dataObj.date}`, 240, 40)
-                .text(`${dataObj.headers.totals.totalProducts}`, 360, 40)
-                .text(`${dataObj.headers.page}`, 480, 40)
+                .text(`${dataObj.products.length}`, 360, 40)
+                .text(`${pageNumber}/${pageTotal}`, 480, 40)
               doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
                 .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
