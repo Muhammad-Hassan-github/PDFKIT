@@ -90,177 +90,177 @@ let dataObj = {
       "contents": "1",
       "quantity": 4,
       "total": "$22.4"
-    },
-    {
-      "description": "Bacardi & Cola 4 pack (4 x 0,25 l gr)",
-      "code": "AH-178075",
-      "invoicePrice": "$7.79",
+    },{
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
       "contents": "1",
-      "quantity": 2,
-      "total": "$15.58"
-    },
-    {
-      "description": "Chocomel , fles (1000 ml)",
-      "code": "AH-188164",
-      "invoicePrice": "$1.53",
+      "quantity": 4,
+      "total": "$22.4"
+    },{
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
       "contents": "1",
-      "quantity": 1,
-      "total": "$1.53"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "quantity": 4,
+      "total": "$22.4"
+    },{
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "contents": "1",
+      "quantity": 4,
+      "total": "$22.4"
+    },{
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "contents": "1",
+      "quantity": 4,
+      "total": "$22.4"
+    },{
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "contents": "1",
+      "quantity": 4,
+      "total": "$22.4"
+    },{
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "contents": "1",
+      "quantity": 4,
+      "total": "$22.4"
+    },{
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "contents": "1",
+      "quantity": 4,
+      "total": "$22.4"
+    },{
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "contents": "1",
+      "quantity": 4,
+      "total": "$22.4"
+    },{
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "contents": "1",
+      "quantity": 4,
+      "total": "$22.4"
+    },{
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "contents": "1",
+      "quantity": 4,
+      "total": "$22.4"
+    },{
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "contents": "1",
+      "quantity": 4,
+      "total": "$22.4"
+    },{
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "contents": "1",
+      "quantity": 4,
+      "total": "$22.4"
+    },{
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "contents": "1",
+      "quantity": 4,
+      "total": "$22.4"
+    },{
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "contents": "1",
+      "quantity": 4,
+      "total": "$22.4"
+    },{
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "contents": "1",
+      "quantity": 4,
+      "total": "$22.4"
+    },{
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "contents": "1",
+      "quantity": 4,
+      "total": "$22.4"
+    },{
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "contents": "1",
+      "quantity": 4,
+      "total": "$22.4"
+    },
+    {
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
+      "contents": "1",
+      "quantity": 4,
+      "total": "$22.4"
     }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
+      "contents": "1",
+      "quantity": 4,
+      "total": "$22.4"
     }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
+      "contents": "1",
+      "quantity": 4,
+      "total": "$22.4"
     }, {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "description": "Amsterdammertje . (500 gr)",
+      "code": "AH-357529",
+      "invoicePrice": "$5.6",
       "vat": "9%",
-      "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    }, {
+      "contents": "1",
+      "quantity": 4,
+      "total": "$22.4"
+    },
+    {
       "description": "Tripel Karmeliet . (330 ml)",
       "code": "AH-438908",
       "invoicePrice": "$6.89",
@@ -533,36 +533,42 @@ module.exports = function (server) {
             .fill('black').stroke()
             .text(`Total Discount (10%)  ${dataObj.totals.discount}`, 50, 55 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
 
-            .roundedRect(350, 70 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
-            .fillAndStroke(`${dataObj.settings.primaryColor}`)
-            .fill('black').stroke()
-            .text(`Total 9% Vat Category   ${dataObj.totals.vatCategories[0].totalPrice}`, 50, 75 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
+          let numberFirst = dataObj.totals.vatCategories.length;
+          // let numberFirst = 1
+          for (let a = 1; a <= numberFirst; a++) {
 
-            .roundedRect(350, 90 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
+            doc
+              .roundedRect(350, (a * 20) + 50 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
+              .fillAndStroke(`${dataObj.settings.primaryColor}`)
+              .fill('black').stroke()
+              .text(`Total ${dataObj.totals.vatCategories[a - 1].category}% Vat Category  ${dataObj.totals.vatCategories[a - 1].totalPrice}  `, 50, (a * 20) + 55 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
+
+          }
+          doc.roundedRect(350, (numberFirst * 20) + 70 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
             .fillAndStroke(`${dataObj.settings.secondaryColor}`)
             .fill('black').stroke()
-            .text(`Total Ex Vat  ${dataObj.totals.exVat}`, 50, 95 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
-            
-            let number = dataObj.totals.vatCategories.length;
-          
-            for (let i = 1; i <= number; i++) {
+            .text(`Total Ex Vat  ${dataObj.totals.exVat}`, 50, (numberFirst * 20) + 75 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
 
-            doc.roundedRect(350, (i*20)+90 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
-            .fillAndStroke(`${dataObj.settings.primaryColor}`)
-            .fill('black').stroke()
-            .text(`${dataObj.totals.vatCategories[i-1].category}% Vat   ${dataObj.totals.vatCategories[i-1].totalVat}  `, 50, (i*20)+95 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
-            }
-            doc.roundedRect(350, (number*20)+110 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
+          let number = dataObj.totals.vatCategories.length;
+
+          for (let i = 1; i <= number; i++) {
+
+            doc.roundedRect(350, ((numberFirst - 1 + i) * 20) + 90 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
+              .fillAndStroke(`${dataObj.settings.primaryColor}`)
+              .fill('black').stroke()
+              .text(`${dataObj.totals.vatCategories[i - 1].category}% Vat   ${dataObj.totals.vatCategories[i - 1].totalVat}  `, 50, ((numberFirst - 1 + i) * 20) + 95 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
+          }
+          doc.roundedRect(350, ((number + numberFirst - 1) * 20) + 110 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
             .fillAndStroke(`${dataObj.settings.secondaryColor}`)
             .fill('black').stroke()
-            .text(`Total Vat   ${dataObj.totals.vat}`, 50, (number*20)+115 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
+            .text(`Total Vat   ${dataObj.totals.vat}`, 50, ((number + numberFirst - 1) * 20) + 115 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
 
-            .roundedRect(350, (number*20)+150 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
+            .roundedRect(350, ((number + numberFirst - 1) * 20) + 150 + invoiceTableTop + dataObj.products.length * 10, 215, 20, 0)
             .fillAndStroke(`${dataObj.settings.primaryColor}`)
             .fill('black').stroke()
-            .text(`TOTAL  ${dataObj.totals.total}`, 50, (number*20)+155 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
+            .text(`TOTAL  ${dataObj.totals.total}`, 50, ((number + numberFirst - 1) * 20) + 155 + invoiceTableTop + dataObj.products.length * 10, { align: "right" })
 
-            .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, (number*10)+180+invoiceTableTop + dataObj.products.length * 10)
+            .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, (number * 20) + 180 + invoiceTableTop + dataObj.products.length * 10)
 
         }
 
@@ -584,7 +590,7 @@ module.exports = function (server) {
           );
 
         }
-        if (dataObj.products.length > 18 && dataObj.products.length < 39) {
+        if (dataObj.products.length > 15 && dataObj.products.length < 39) {
           console.log("legnth", dataObj.products.length)
 
           if (dataObj.products.length == i + 1) {
@@ -624,38 +630,43 @@ module.exports = function (server) {
               .fillAndStroke(`${dataObj.settings.secondaryColor}`)
               .fill('black').stroke()
               .text(`Total Discount (10%)  ${dataObj.totals.discount}`, 50, 85 + (26 - 25) * 10, { align: "right" })
+            let numberFirst = dataObj.totals.vatCategories.length;
+            // let numberFirst = 1
+            for (let a = 1; a <= numberFirst; a++) {
 
-              .roundedRect(350, 100 + (26 - 25) * 10, 215, 20, 0)
-              .fillAndStroke(`${dataObj.settings.primaryColor}`)
-              .fill('black').stroke()
-              .text(`Total 9% Vat Category   ${dataObj.totals.vatCategories[0].totalPrice}`, 50, 105 + (26 - 25) * 10, { align: "right" })
+              doc.roundedRect(350, (a * 20) + 80 + (26 - 25) * 10, 215, 20, 0)
+                .fillAndStroke(`${dataObj.settings.primaryColor}`)
+                .fill('black').stroke()
+                .text(`Total ${dataObj.totals.vatCategories[a - 1].category}% Vat Category  ${dataObj.totals.vatCategories[a - 1].totalPrice}  `, 50, (a * 20) + 85 + (26 - 25) * 10, { align: "right" })
 
-              .roundedRect(350, 120 + (26 - 25) * 10, 215, 20, 0)
+            }
+            doc
+              .roundedRect(350, (numberFirst * 20) + 100 + (26 - 25) * 10, 215, 20, 0)
               .fillAndStroke(`${dataObj.settings.secondaryColor}`)
               .fill('black').stroke()
-              .text(`Total Ex Vat  ${dataObj.totals.exVat}`, 50, 125 + (26 - 25) * 10, { align: "right" })
+              .text(`Total Ex Vat  ${dataObj.totals.exVat}`, 50, (numberFirst * 20) + 105 + (26 - 25) * 10, { align: "right" })
             let number = dataObj.totals.vatCategories.length;
             // let number = 3;
 
-              for (let i = 1; i <= number; i++) {
-              doc.roundedRect(350, (i*20)+120 + (26 - 25) * 10, 215, 20, 0)
+            for (let i = 1; i <= number; i++) {
+              doc.roundedRect(350, ((numberFirst - 1 + i) * 20) + 120 + (26 - 25) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
-                .text(`${dataObj.totals.vatCategories[i-1].category}% Vat   ${dataObj.totals.vatCategories[i-1].totalVat}  `, 50, 125+(i*20) + (26 - 25) * 10, { align: "right" })
+                .text(`${dataObj.totals.vatCategories[i - 1].category}% Vat   ${dataObj.totals.vatCategories[i - 1].totalVat}  `, 50, ((numberFirst - 1 + i) * 20) + 125 + (26 - 25) * 10, { align: "right" })
             }
-            
+
             doc
-              .roundedRect(350, (20*number)+140 + (26 - 25) * 10, 215, 20, 0)
+              .roundedRect(350, (20 * (number + numberFirst - 1)) + 140 + (26 - 25) * 10, 215, 20, 0)
               .fillAndStroke(`${dataObj.settings.secondaryColor}`)
               .fill('black').stroke()
-              .text(`Total Vat   ${dataObj.totals.vat}`, 50, (20*number)+145 + (26 - 25) * 10, { align: "right" })
+              .text(`Total Vat   ${dataObj.totals.vat}`, 50, (20 * (number + numberFirst - 1)) + 145 + (26 - 25) * 10, { align: "right" })
 
-              .roundedRect(350, (20*number)+180 + (26 - 25) * 10, 215, 20, 0)
+              .roundedRect(350, (20 * (number + numberFirst - 1)) + 180 + (26 - 25) * 10, 215, 20, 0)
               .fillAndStroke(`${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
-              .text(`TOTAL  ${dataObj.totals.total}`, 50, (20*number)+185 + (26 - 25) * 10, { align: "right" })
+              .text(`TOTAL  ${dataObj.totals.total}`, 50, (20 * (number + numberFirst - 1)) + 185 + (26 - 25) * 10, { align: "right" })
 
-              .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, 230 + (26 - 25) * 10)
+              .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, (number * 20) + 230 + (26 - 25) * 10)
 
           }
 
@@ -742,37 +753,44 @@ module.exports = function (server) {
                 .fill('black').stroke()
                 .text(`Total Discount (10%)  ${dataObj.totals.discount}`, 50, 55 + (dataObj.products.length - 30) * 10, { align: "right" })
 
-                .roundedRect(350, 70 + (dataObj.products.length - 30) * 10, 215, 20, 0)
-                .fillAndStroke(`${dataObj.settings.primaryColor}`)
-                .fill('black').stroke()
-                .text(`Total 9% Vat Category   ${dataObj.totals.vatCategories[0].totalPrice}`, 50, 75 + (dataObj.products.length - 30) * 10, { align: "right" })
 
-                .roundedRect(350, 90 + (dataObj.products.length - 30) * 10, 215, 20, 0)
+              let numberFirst = dataObj.totals.vatCategories.length;
+              // let numberFirst = 1
+              for (let a = 1; a <= numberFirst; a++) {
+
+                doc
+                  .roundedRect(350, (a*20)+50 + (dataObj.products.length - 30) * 10, 215, 20, 0)
+                  .fillAndStroke(`${dataObj.settings.primaryColor}`)
+                  .fill('black').stroke()
+                  .text(`Total ${dataObj.totals.vatCategories[a - 1].category}% Vat Category  ${dataObj.totals.vatCategories[a - 1].totalPrice}  `, 50, (a*20)+55 + (dataObj.products.length - 30) * 10, { align: "right" })
+              }
+              doc
+                .roundedRect(350, (numberFirst*20)+70 + (dataObj.products.length - 30) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
-                .text(`Total Ex Vat  ${dataObj.totals.exVat}`, 50, 95 + (dataObj.products.length - 30) * 10, { align: "right" })
+                .text(`Total Ex Vat  ${dataObj.totals.exVat}`, 50, (numberFirst*20)+75 + (dataObj.products.length - 30) * 10, { align: "right" })
 
 
-                let number = dataObj.totals.vatCategories.length;
-          
-                for (let i = 1; i <= number; i++) {
+              let number = dataObj.totals.vatCategories.length;
 
-                doc.roundedRect(350, (i*20)+90 + (dataObj.products.length - 30) * 10, 215, 20, 0)
-                .fillAndStroke(`${dataObj.settings.primaryColor}`)
-                .fill('black').stroke()
-                .text(`${dataObj.totals.vatCategories[i-1].category}% Vat   ${dataObj.totals.vatCategories[i-1].totalVat}`, 50, (i*20)+95 + (dataObj.products.length - 30) * 10, { align: "right" })
-                }
-                doc.roundedRect(350, (number*20)+110  + (dataObj.products.length - 30) * 10, 215, 20, 0)
+              for (let i = 1; i <= number; i++) {
+
+                doc.roundedRect(350, ((numberFirst - 1 + i) * 20) + 90 + (dataObj.products.length - 30) * 10, 215, 20, 0)
+                  .fillAndStroke(`${dataObj.settings.primaryColor}`)
+                  .fill('black').stroke()
+                  .text(`${dataObj.totals.vatCategories[i - 1].category}% Vat   ${dataObj.totals.vatCategories[i - 1].totalVat}`, 50, ((numberFirst - 1 + i) * 20)+ 95 + (dataObj.products.length - 30) * 10, { align: "right" })
+              }
+              doc.roundedRect(350, ((number + numberFirst - 1) * 20) + 110 + (dataObj.products.length - 30) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
-                .text(`Total Vat   ${dataObj.totals.vat}`, 50, (number*20)+115 + (dataObj.products.length - 30) * 10, { align: "right" })
+                .text(`Total Vat   ${dataObj.totals.vat}`, 50, ((number + numberFirst - 1) * 20) + 115 + (dataObj.products.length - 30) * 10, { align: "right" })
 
-                .roundedRect(350, (number*20)+150 + (dataObj.products.length - 30) * 10, 215, 20, 0)
+                .roundedRect(350, ((number + numberFirst - 1) * 20) + 150 + (dataObj.products.length - 30) * 10, 215, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
-                .text(`TOTAL   ${dataObj.totals.total}`, 50, (number*20)+155 + (dataObj.products.length - 30) * 10, { align: "right" })
+                .text(`TOTAL   ${dataObj.totals.total}`, 50, ((number + numberFirst - 1) * 20) + 155 + (dataObj.products.length - 30) * 10, { align: "right" })
 
-                .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, (number*10)+180 + (dataObj.products.length - 30) * 10)
+                .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, (number * 20) + 180 + (dataObj.products.length - 30) * 10)
 
             }
           }
