@@ -212,7 +212,7 @@ let dataObj = {
       "quantity": 3,
       "total": "$5.85"
     },{
-      "description": "Danone & Fruit magere yoghurt kers  (125 gr)",
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
       "code": "AH-222039",
       "invoicePrice": "$1.95",
       "vat": "9%",
@@ -228,7 +228,695 @@ let dataObj = {
       "quantity": 3,
       "total": "$5.85"
     },{
-      "description": "Danone & Fruit magere yoghurt kers Danone & Fruit magere yoghurt kers (125 gr)",
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
       "code": "AH-222039",
       "invoicePrice": "$1.95",
       "vat": "9%",
@@ -589,59 +1277,59 @@ module.exports = function (server) {
         function lastResult() {
           doc .
             font(__dirname + '/roboto/Roboto-Regular.ttf')
-            .roundedRect(415, 10 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
+            .roundedRect(415, 10 +10 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
             .fillAndStroke(`${dataObj.settings.primaryColor}`)
             .fill('black').stroke()
-            .text(`Total Order`, 420, 15 + invoiceTableTop + dataObj.products.length * 20)
-            .text(`${dataObj.totals.noDiscount}`, 50, 15 + invoiceTableTop + dataObj.products.length * 20, { align: "right" })
+            .text(`Total Order`, 420,10 + 15 + invoiceTableTop + dataObj.products.length * 20)
+            .text(`${dataObj.totals.noDiscount}`, 50,10 + 15 + invoiceTableTop + dataObj.products.length * 20, { align: "right" })
 
-            .roundedRect(415, 30 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
+            .roundedRect(415, 10 +30 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
             .fillAndStroke(`${dataObj.settings.secondaryColor}`)
             .fill('black').stroke()
-            .text(`Total Discount (10%)`, 420, 35 + invoiceTableTop + dataObj.products.length * 20)
-            .text(`${dataObj.totals.discount}`, 50, 35 + invoiceTableTop + dataObj.products.length * 20, { align: "right" })
+            .text(`Total Discount (10%)`, 420, 10 +35 + invoiceTableTop + dataObj.products.length * 20)
+            .text(`${dataObj.totals.discount}`, 50, 10 +35 + invoiceTableTop + dataObj.products.length * 20, { align: "right" })
 
           let numberFirst = dataObj.totals.vatCategories.length;
           // let numberFirst = 1
           for (let a = 1; a <= numberFirst; a++) {
 
             doc
-              .roundedRect(415, (a * 20) + 30 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
+              .roundedRect(415, (a * 20) + 10 +30 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
               .fillAndStroke(`${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
-              .text(`Total ${dataObj.totals.vatCategories[a - 1].category}% Vat Category`, 420, (a * 20) + 35 + invoiceTableTop + dataObj.products.length * 20)
-              .text(`${dataObj.totals.vatCategories[a - 1].totalPrice}  `, 50, (a * 20) + 35 + invoiceTableTop + dataObj.products.length * 20, { align: "right" })
+              .text(`Total ${dataObj.totals.vatCategories[a - 1].category}% Vat Category`, 420, (a * 20) + 10 +35 + invoiceTableTop + dataObj.products.length * 20)
+              .text(`${dataObj.totals.vatCategories[a - 1].totalPrice}  `, 50, (a * 20) +10 + 35 + invoiceTableTop + dataObj.products.length * 20, { align: "right" })
 
           }
-          doc.roundedRect(415, (numberFirst * 20) + 50 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
+          doc.roundedRect(415, (numberFirst * 20) + 10 +50 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
             .fillAndStroke(`${dataObj.settings.secondaryColor}`)
             .fill('black').stroke()
-            .text(`Total Ex Vat`, 420, (numberFirst * 20) + 55 + invoiceTableTop + dataObj.products.length * 20)
-            .text(`${dataObj.totals.exVat}`, 50, (numberFirst * 20) + 55 + invoiceTableTop + dataObj.products.length * 20, { align: "right" })
+            .text(`Total Ex Vat`, 420, (numberFirst * 20) + 10 +55 + invoiceTableTop + dataObj.products.length * 20)
+            .text(`${dataObj.totals.exVat}`, 50, (numberFirst * 20) + 10 +55 + invoiceTableTop + dataObj.products.length * 20, { align: "right" })
 
           let number = dataObj.totals.vatCategories.length;
 
           for (let i = 1; i <= number; i++) {
 
-            doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 70 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
+            doc.roundedRect(415, ((numberFirst - 1 + i) * 20) +10 + 70 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
               .fillAndStroke(`${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
-              .text(`${dataObj.totals.vatCategories[i - 1].category}% Vat`, 420, ((numberFirst - 1 + i) * 20) + 75 + invoiceTableTop + dataObj.products.length * 20)
-              .text(`${dataObj.totals.vatCategories[i - 1].totalVat}  `, 50, ((numberFirst - 1 + i) * 20) + 75 + invoiceTableTop + dataObj.products.length * 20, { align: "right" })
+              .text(`${dataObj.totals.vatCategories[i - 1].category}% Vat`, 420, ((numberFirst - 1 + i) * 20) +10 + 75 + invoiceTableTop + dataObj.products.length * 20)
+              .text(`${dataObj.totals.vatCategories[i - 1].totalVat}  `, 50, ((numberFirst - 1 + i) * 20) +10 + 75 + invoiceTableTop + dataObj.products.length * 20, { align: "right" })
           }
-          doc.roundedRect(415, ((number + numberFirst - 1) * 20) + 90 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
+          doc.roundedRect(415, ((number + numberFirst - 1) * 20) + 10 +90 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
             .fillAndStroke(`${dataObj.settings.secondaryColor}`)
             .fill('black').stroke()
-            .text(`Total Vat`, 420, ((number + numberFirst - 1) * 20) + 95 + invoiceTableTop + dataObj.products.length * 20)
-            .text(`${dataObj.totals.vat}`, 50, ((number + numberFirst - 1) * 20) + 95 + invoiceTableTop + dataObj.products.length * 20, { align: "right" })
+            .text(`Total Vat`, 420, ((number + numberFirst - 1) * 20) + 10 +95 + invoiceTableTop + dataObj.products.length * 20)
+            .text(`${dataObj.totals.vat}`, 50, ((number + numberFirst - 1) * 20) + 10 +95 + invoiceTableTop + dataObj.products.length * 20, { align: "right" })
 
-            .roundedRect(415, ((number + numberFirst - 1) * 20) + 110 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
+            .roundedRect(415, ((number + numberFirst - 1) * 20) + 10 +110 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
             .fillAndStroke(`${dataObj.settings.primaryColor}`)
             .fill('black').stroke()
-            .text(`TOTAL`, 420, ((number + numberFirst - 1) * 20) + 115 + invoiceTableTop + dataObj.products.length * 20)
-            .text(`${dataObj.totals.total}`, 50, ((number + numberFirst - 1) * 20) + 115 + invoiceTableTop + dataObj.products.length * 20, { align: "right" })
+            .text(`TOTAL`, 420, ((number + numberFirst - 1) * 20) + 10 +115 + invoiceTableTop + dataObj.products.length * 20)
+            .text(`${dataObj.totals.total}`, 50, ((number + numberFirst - 1) * 20) + 10 +115 + invoiceTableTop + dataObj.products.length * 20, { align: "right" })
 
-            .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, ((number + numberFirst) * 20) + 110 + invoiceTableTop + dataObj.products.length * 20)
+            .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, ((number + numberFirst) * 20) +10 + 110 + invoiceTableTop + dataObj.products.length * 20)
 
         }
 
