@@ -82,35 +82,8 @@ let dataObj = {
       "contents": "1",
       "quantity": 1,
       "total": "$2.66"
-    },
-    {
-      "description": "Amsterdammertje . (500 gr)",
-      "code": "AH-357529",
-      "invoicePrice": "$5.6",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 4,
-      "total": "$22.4"
-    },
-    {
-      "description": "Bacardi & Cola 4 pack (4 x 0,25 l gr)",
-      "code": "AH-178075",
-      "invoicePrice": "$7.79",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 2,
-      "total": "$15.58"
-    },
-    {
-      "description": "Chocomel , fles (1000 ml)",
-      "code": "AH-188164",
-      "invoicePrice": "$1.53",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$1.53"
-    },
-    {
+    }
+    ,{
       "description": "Danone & Fruit magere yoghurt kers (125 gr)",
       "code": "AH-222039",
       "invoicePrice": "$1.95",
@@ -118,186 +91,302 @@ let dataObj = {
       "contents": "4",
       "quantity": 3,
       "total": "$5.85"
-    },
-    {
-      "description": "Danone & Fruit volle yoghurt mix (125 gr)",
-      "code": "AH-222042",
-      "invoicePrice": "$3.49",
-      "vat": "9%",
-      "contents": "12",
-      "quantity": 2,
-      "total": "$6.98"
-    },
-    {
-      "description": "Dauvergne Ranvier & Ranvier Grd Vin Cotes du Rhone (4500 ml)",
-      "code": "AH-448226",
-      "invoicePrice": "$83.94",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$83.94"
-    },
-    {
-      "description": "Elke Melk . (800 ml)",
-      "code": "AH-460620",
-      "invoicePrice": "$1.39",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$1.39"
-    },
-    {
-      "description": "Gulden Draak . (330 ml)",
-      "code": "AH-201936",
-      "invoicePrice": "$1.45",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$4.35"
-    },
-    {
-      "description": "HG (combi) magnetron reiniger (500 ml)",
-      "code": "AH-170821",
-      "invoicePrice": "$3.89",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$3.89"
-    },
-    {
-      "description": "Jack Daniels & Lynchburg lemon (330 ml)",
-      "code": "AH-436939",
-      "invoicePrice": "$2.39",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$2.39"
-    },
-    {
-      "description": "Klene 'n Berg zoet gesuikerd (450 gr)",
-      "code": "AH-213580",
-      "invoicePrice": "$1.98",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$5.94"
-    },
-    {
-      "description": "Klene 'n Berg zoete drop (450 gr)",
-      "code": "AH-213581",
-      "invoicePrice": "$1.98",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 3,
-      "total": "$5.94"
-    },
-    {
-      "description": "La Chouffe + glas (4 x 0.33l gr)",
-      "code": "AH-403940",
-      "invoicePrice": "$11.49",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$11.49"
-    },
-    {
-      "description": "Malibu & Cola (250 ml)",
-      "code": "AH-198900",
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
       "invoicePrice": "$1.95",
       "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$1.95"
-    },
-    {
-      "description": "Malibu & Pineapple (250 ml)",
-      "code": "AH-211399",
-      "invoicePrice": "$1.89",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$1.89"
-    },
-    {
-      "description": "Maltesers . (192 gr)",
-      "code": "AH-238097",
-      "invoicePrice": "$2.09",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$2.09"
-    },
-    {
-      "description": "Nutella & go (39 gr)",
-      "code": "AH-370830",
-      "invoicePrice": "$3.09",
-      "vat": "9%",
-      "contents": "2",
-      "quantity": 1,
-      "total": "$3.09"
-    },
-    {
-      "description": "Nutella & Go (39 gr)",
-      "code": "8868",
-      "invoicePrice": "$0.49",
-      "vat": "9%",
-      "contents": "1",
+      "contents": "4",
       "quantity": 3,
-      "total": "$1.47"
-    },
-    {
-      "description": "Perrier & juice aardbei kiwi (250 ml)",
-      "code": "AH-437934",
-      "invoicePrice": "$2.75",
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
       "vat": "9%",
       "contents": "4",
       "quantity": 3,
-      "total": "$8.25"
-    },
-    {
-      "description": "Perrier & juice perzik kers (250 ml)",
-      "code": "AH-437932",
-      "invoicePrice": "$2.75",
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
       "vat": "9%",
       "contents": "4",
-      "quantity": 1,
-      "total": "$2.75"
-    },
-    {
-      "description": "Pure blonde . (250 ml)",
-      "code": "AH-435204",
-      "invoicePrice": "$3.9",
-      "vat": "9%",
-      "contents": "6",
-      "quantity": 1,
-      "total": "$3.9"
-    },
-    {
-      "description": "Sao Miguel do Sul . (750 ml)",
-      "code": "AH-382911",
-      "invoicePrice": "$5.99",
-      "vat": "9%",
-      "contents": "1",
-      "quantity": 1,
-      "total": "$5.99"
-    },
-    {
-      "description": "Tripel Karmeliet . (330 ml)",
-      "code": "AH-438908",
-      "invoicePrice": "$6.89",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
       "vat": "9%",
       "contents": "4",
-      "quantity": 1,
-      "total": "$6.89"
-    },
-    {
-      "description": "Some product with VAT 21 and a pretty long name, because some people love naming products forever",
-      "code": "AH-435908",
-      "invoicePrice": "$150",
-      "vat": "21%",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
       "contents": "4",
-      "quantity": 1,
-      "total": "$150"
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers  (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
+    },{
+      "description": "Danone & Fruit magere yoghurt kers (125 gr)",
+      "code": "AH-222039",
+      "invoicePrice": "$1.95",
+      "vat": "9%",
+      "contents": "4",
+      "quantity": 3,
+      "total": "$5.85"
     },
     {
       "description": "Some other product with VAT 21 and a pretty long name, because some people love naming products forever",
@@ -379,7 +468,7 @@ dotenv.config();
 
 module.exports = function (server) {
   server.get('/generatePdf', (req, res) => {
-    let doc = new PDFDocument({ margin: 50 });
+    let doc = new PDFDocument({ margin: 40 });
     let pageNumber = 1;
     let pageTotal = 1;
     if (dataObj.products.length <= 10) {
@@ -437,7 +526,7 @@ module.exports = function (server) {
         .text(`${dataObj.profile.vat}`, 0, 210, { align: "right" })
 
         .fontSize(10)
-        .roundedRect(50, 270, 530, 30, 8)
+        .roundedRect(40, 270, 530, 30, 8)
         .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
         .fill('black').stroke()
 
@@ -448,7 +537,7 @@ module.exports = function (server) {
 
         .font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.invoiceId}`, 120, 285)
         .text(`${dataObj.date}`, 238, 285)
-        .text(`${dataObj.products.length}`, 360, 285)
+        .text(`${dataObj.products.length}`, 367, 285)
         .text(`${pageNumber}/${pageTotal}`, 483, 285)
 
         .font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, 340, 520, 0, 0)
@@ -475,7 +564,7 @@ module.exports = function (server) {
 
     function generateTableRow(doc, y, c1, c2, c3, c4, c5, c6, c7, c8) {
       doc
-        .fontSize(10)
+        .fontSize(9)
         .font(__dirname + '/roboto/Roboto-Regular.ttf')
         .font(__dirname + '/roboto/Roboto-Bold.ttf').text(c1, 50, y)
         .font(__dirname + '/roboto/Roboto-Regular.ttf').text(c2, 70, y)
@@ -500,13 +589,13 @@ module.exports = function (server) {
         function lastResult() {
           doc .
             font(__dirname + '/roboto/Roboto-Regular.ttf')
-            .roundedRect(415, 10 + invoiceTableTop + dataObj.products.length * 20, 150, 20, 0)
+            .roundedRect(415, 10 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
             .fillAndStroke(`${dataObj.settings.primaryColor}`)
             .fill('black').stroke()
             .text(`Total Order`, 420, 15 + invoiceTableTop + dataObj.products.length * 20)
             .text(`${dataObj.totals.noDiscount}`, 50, 15 + invoiceTableTop + dataObj.products.length * 20, { align: "right" })
 
-            .roundedRect(415, 30 + invoiceTableTop + dataObj.products.length * 20, 150, 20, 0)
+            .roundedRect(415, 30 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
             .fillAndStroke(`${dataObj.settings.secondaryColor}`)
             .fill('black').stroke()
             .text(`Total Discount (10%)`, 420, 35 + invoiceTableTop + dataObj.products.length * 20)
@@ -517,14 +606,14 @@ module.exports = function (server) {
           for (let a = 1; a <= numberFirst; a++) {
 
             doc
-              .roundedRect(415, (a * 20) + 30 + invoiceTableTop + dataObj.products.length * 20, 150, 20, 0)
+              .roundedRect(415, (a * 20) + 30 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
               .fillAndStroke(`${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
               .text(`Total ${dataObj.totals.vatCategories[a - 1].category}% Vat Category`, 420, (a * 20) + 35 + invoiceTableTop + dataObj.products.length * 20)
               .text(`${dataObj.totals.vatCategories[a - 1].totalPrice}  `, 50, (a * 20) + 35 + invoiceTableTop + dataObj.products.length * 20, { align: "right" })
 
           }
-          doc.roundedRect(415, (numberFirst * 20) + 50 + invoiceTableTop + dataObj.products.length * 20, 150, 20, 0)
+          doc.roundedRect(415, (numberFirst * 20) + 50 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
             .fillAndStroke(`${dataObj.settings.secondaryColor}`)
             .fill('black').stroke()
             .text(`Total Ex Vat`, 420, (numberFirst * 20) + 55 + invoiceTableTop + dataObj.products.length * 20)
@@ -534,29 +623,29 @@ module.exports = function (server) {
 
           for (let i = 1; i <= number; i++) {
 
-            doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 70 + invoiceTableTop + dataObj.products.length * 20, 150, 20, 0)
+            doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 70 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
               .fillAndStroke(`${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
               .text(`${dataObj.totals.vatCategories[i - 1].category}% Vat`, 420, ((numberFirst - 1 + i) * 20) + 75 + invoiceTableTop + dataObj.products.length * 20)
               .text(`${dataObj.totals.vatCategories[i - 1].totalVat}  `, 50, ((numberFirst - 1 + i) * 20) + 75 + invoiceTableTop + dataObj.products.length * 20, { align: "right" })
           }
-          doc.roundedRect(415, ((number + numberFirst - 1) * 20) + 90 + invoiceTableTop + dataObj.products.length * 20, 150, 20, 0)
+          doc.roundedRect(415, ((number + numberFirst - 1) * 20) + 90 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
             .fillAndStroke(`${dataObj.settings.secondaryColor}`)
             .fill('black').stroke()
             .text(`Total Vat`, 420, ((number + numberFirst - 1) * 20) + 95 + invoiceTableTop + dataObj.products.length * 20)
             .text(`${dataObj.totals.vat}`, 50, ((number + numberFirst - 1) * 20) + 95 + invoiceTableTop + dataObj.products.length * 20, { align: "right" })
 
-            .roundedRect(415, ((number + numberFirst - 1) * 20) + 120 + invoiceTableTop + dataObj.products.length * 20, 150, 20, 0)
+            .roundedRect(415, ((number + numberFirst - 1) * 20) + 110 + invoiceTableTop + dataObj.products.length * 20, 165, 20, 0)
             .fillAndStroke(`${dataObj.settings.primaryColor}`)
             .fill('black').stroke()
-            .text(`TOTAL`, 420, ((number + numberFirst - 1) * 20) + 125 + invoiceTableTop + dataObj.products.length * 20)
-            .text(`${dataObj.totals.total}`, 50, ((number + numberFirst - 1) * 20) + 125 + invoiceTableTop + dataObj.products.length * 20, { align: "right" })
+            .text(`TOTAL`, 420, ((number + numberFirst - 1) * 20) + 115 + invoiceTableTop + dataObj.products.length * 20)
+            .text(`${dataObj.totals.total}`, 50, ((number + numberFirst - 1) * 20) + 115 + invoiceTableTop + dataObj.products.length * 20, { align: "right" })
 
             .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, ((number + numberFirst) * 20) + 110 + invoiceTableTop + dataObj.products.length * 20)
 
         }
 
-        if (i < 19) {
+        if (i < 20) {
           console.log("1", i)
           const position = invoiceTableTop + (i + 0.5) * 20;
           generateTableRow(
@@ -574,12 +663,12 @@ module.exports = function (server) {
           );
 
         }
-        if (dataObj.products.length > 10 && dataObj.products.length < 20) {
+        if (dataObj.products.length > 10 && dataObj.products.length < 21) {
           console.log("legnth", dataObj.products.length)
 
           if (dataObj.products.length == i + 1) {
             doc.addPage({
-              margin: 50
+              margin: 40
             })
             pageNumber++;
 
@@ -595,7 +684,7 @@ module.exports = function (server) {
 
               .font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.invoiceId}`, 120, 40)
               .text(`${dataObj.date}`, 238, 40)
-              .text(`${dataObj.products.length}`, 360, 40)
+              .text(`${dataObj.products.length}`, 367, 40)
               .text(`${pageNumber}/${pageTotal}`, 483, 40)
 
             doc.font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, doc.page.height - 35, 520, 0, 0)
@@ -607,13 +696,13 @@ module.exports = function (server) {
             });
 
             doc
-              .roundedRect(415, 60 + (26 - 25) * 20, 150, 60, 0)
+              .roundedRect(415, 60 + (26 - 25) * 20, 165, 60, 0)
               .fillAndStroke(`${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
               .text(`Total Order`, 420, 65 + (26 - 25) * 20)
               .text(`${dataObj.totals.noDiscount}`, 420, 65 + (26 - 25) * 20, { align: "right" })
 
-              .roundedRect(415, 80 + (26 - 25) * 20, 150, 20, 0)
+              .roundedRect(415, 80 + (26 - 25) * 20, 165, 20, 0)
               .fillAndStroke(`${dataObj.settings.secondaryColor}`)
               .fill('black').stroke()
               .text(`Total Discount (10%)`, 420, 85 + (26 - 25) * 20)
@@ -623,7 +712,7 @@ module.exports = function (server) {
             // let numberFirst = 1
             for (let a = 1; a <= numberFirst; a++) {
 
-              doc.roundedRect(415, (a * 20) + 80 + (26 - 25) * 20, 150, 20, 0)
+              doc.roundedRect(415, (a * 20) + 80 + (26 - 25) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total ${dataObj.totals.vatCategories[a - 1].category}% Vat Category`, 420, (a * 20) + 85 + (26 - 25) * 20)
@@ -631,7 +720,7 @@ module.exports = function (server) {
 
             }
             doc
-              .roundedRect(415, (numberFirst * 20) + 100 + (26 - 25) * 20, 150, 20, 0)
+              .roundedRect(415, (numberFirst * 20) + 100 + (26 - 25) * 20, 165, 20, 0)
               .fillAndStroke(`${dataObj.settings.secondaryColor}`)
               .fill('black').stroke()
               .text(`Total Ex Vat`, 420, (numberFirst * 20) + 105 + (26 - 25) * 20)
@@ -641,7 +730,7 @@ module.exports = function (server) {
             // let number = 3;
 
             for (let i = 1; i <= number; i++) {
-              doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 120 + (26 - 25) * 20, 150, 20, 0)
+              doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 120 + (26 - 25) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`${dataObj.totals.vatCategories[i - 1].category}% Vat`, 420, ((numberFirst - 1 + i) * 20) + 125 + (26 - 25) * 20)
@@ -650,33 +739,33 @@ module.exports = function (server) {
             }
 
             doc
-              .roundedRect(415, (20 * (number + numberFirst - 1)) + 140 + (26 - 25) * 20, 150, 20, 0)
+              .roundedRect(415, (20 * (number + numberFirst - 1)) + 140 + (26 - 25) * 20, 165, 20, 0)
               .fillAndStroke(`${dataObj.settings.secondaryColor}`)
               .fill('black').stroke()
               .text(`Total Vat`, 420, (20 * (number + numberFirst - 1)) + 145 + (26 - 25) * 20)
               .text(`${dataObj.totals.vat}`, 420, (20 * (number + numberFirst - 1)) + 145 + (26 - 25) * 20, { align: "right" })
 
-              .roundedRect(415, (20 * (number + numberFirst - 1)) + 180 + (26 - 25) * 20, 150, 20, 0)
+              .roundedRect(415, (20 * (number + numberFirst - 1)) + 160 + (26 - 25) * 20, 165, 20, 0)
               .fillAndStroke(`${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
-              .text(`TOTAL`, 420, (20 * (number + numberFirst - 1)) + 185 + (26 - 25) * 20)
-              .text(`${dataObj.totals.total}`, 420, (20 * (number + numberFirst - 1)) + 185 + (26 - 25) * 20, { align: "right" })
+              .text(`TOTAL`, 420, (20 * (number + numberFirst - 1)) + 165 + (26 - 25) * 20)
+              .text(`${dataObj.totals.total}`, 420, (20 * (number + numberFirst - 1)) + 165 + (26 - 25) * 20, { align: "right" })
 
               .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, ((number + numberFirst) * 20) + 210 + (26 - 25) * 20)
 
           }
 
-        } else if (dataObj.products.length <= 19) {
+        } else if (dataObj.products.length <= 20) {
 
           if (dataObj.products.length == i + 1) {
             lastResult()
           }
         }
-        if (i >= 19 && i < 52) {
+        if (i >= 20 && i < 54) {
           console.log("pageNumber:", i)
-          if (i == 19) {
+          if (i == 20) {
             doc.addPage({
-              margin: 50
+              margin: 40
             })
             pageNumber++;
 
@@ -695,7 +784,7 @@ module.exports = function (server) {
 
               .font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.invoiceId}`, 120, 32)
               .text(`${dataObj.date}`, 238, 32)
-              .text(`${dataObj.products.length}`, 360, 32)
+              .text(`${dataObj.products.length}`, 367, 32)
               .text(`${pageNumber}/${pageTotal}`, 483, 32)
 
             // ---------current page -------------
@@ -723,7 +812,7 @@ module.exports = function (server) {
 
           }
 
-          const position = 50 + ((i - 19) + 1) * 20;
+          const position = 50 + ((i - 20) + 1) * 20;
           generateTableRow(
             doc,
             position,
@@ -741,13 +830,13 @@ module.exports = function (server) {
           if (i < 42) {
             if (dataObj.products.length == i + 1) {
               doc
-                .roundedRect(415, 30 + (dataObj.products.length - 17) * 20, 150, 20, 0)
+                .roundedRect(415, 30 + (dataObj.products.length - 17) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order`, 420, 35 + (dataObj.products.length - 17) * 20)
                 .text(`${dataObj.totals.noDiscount}`, 50, 35 + (dataObj.products.length - 17) * 20, { align: "right" })
 
-                .roundedRect(415, 50 + (dataObj.products.length - 17) * 20, 150, 20, 0)
+                .roundedRect(415, 50 + (dataObj.products.length - 17) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)`, 420, 55 + (dataObj.products.length - 17) * 20)
@@ -759,14 +848,14 @@ module.exports = function (server) {
               for (let a = 1; a <= numberFirst; a++) {
 
                 doc
-                  .roundedRect(415, (a * 20) + 50 + (dataObj.products.length - 17) * 20, 150, 20, 0)
+                  .roundedRect(415, (a * 20) + 50 + (dataObj.products.length - 17) * 20, 165, 20, 0)
                   .fillAndStroke(`${dataObj.settings.primaryColor}`)
                   .fill('black').stroke()
                   .text(`Total ${dataObj.totals.vatCategories[a - 1].category}% Vat Category`, 420, (a * 20) + 55 + (dataObj.products.length - 17) * 20)
                   .text(`${dataObj.totals.vatCategories[a - 1].totalPrice}  `, 50, (a * 20) + 55 + (dataObj.products.length - 17) * 20, { align: "right" })
               }
               doc
-                .roundedRect(415, (numberFirst * 20) + 70 + (dataObj.products.length - 17) * 20, 150, 20, 0)
+                .roundedRect(415, (numberFirst * 20) + 70 + (dataObj.products.length - 17) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat`, 420, (numberFirst * 20) + 75 + (dataObj.products.length - 17) * 20)
@@ -777,23 +866,23 @@ module.exports = function (server) {
 
               for (let i = 1; i <= number; i++) {
 
-                doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 90 + (dataObj.products.length - 17) * 20, 150, 20, 0)
+                doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 90 + (dataObj.products.length - 17) * 20, 165, 20, 0)
                   .fillAndStroke(`${dataObj.settings.primaryColor}`)
                   .fill('black').stroke()
                   .text(`${dataObj.totals.vatCategories[i - 1].category}% Vat`, 420, ((numberFirst - 1 + i) * 20) + 95 + (dataObj.products.length - 17) * 20)
                   .text(`${dataObj.totals.vatCategories[i - 1].totalVat}`, 50, ((numberFirst - 1 + i) * 20) + 95 + (dataObj.products.length - 17) * 20, { align: "right" })
               }
-              doc.roundedRect(415, ((number + numberFirst - 1) * 20) + 110 + (dataObj.products.length - 17) * 20, 150, 20, 0)
+              doc.roundedRect(415, ((number + numberFirst - 1) * 20) + 110 + (dataObj.products.length - 17) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat`, 420, ((number + numberFirst - 1) * 20) + 115 + (dataObj.products.length - 17) * 20)
                 .text(`${dataObj.totals.vat}`, 50, ((number + numberFirst - 1) * 20) + 115 + (dataObj.products.length - 17) * 20, { align: "right" })
 
-                .roundedRect(415, ((number + numberFirst - 1) * 20) + 150 + (dataObj.products.length - 17) * 20, 150, 20, 0)
+                .roundedRect(415, ((number + numberFirst - 1) * 20) + 130 + (dataObj.products.length - 17) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
-                .text(`TOTAL`, 420, ((number + numberFirst - 1) * 20) + 155 + (dataObj.products.length - 17) * 20)
-                .text(`${dataObj.totals.total}`, 50, ((number + numberFirst - 1) * 20) + 155 + (dataObj.products.length - 17) * 20, { align: "right" })
+                .text(`TOTAL`, 420, ((number + numberFirst - 1) * 20) + 135 + (dataObj.products.length - 17) * 20)
+                .text(`${dataObj.totals.total}`, 50, ((number + numberFirst - 1) * 20) + 135 + (dataObj.products.length - 17) * 20, { align: "right" })
 
                 .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, ((number + numberFirst) * 20) + 150 + (dataObj.products.length - 17) * 20)
 
@@ -803,7 +892,7 @@ module.exports = function (server) {
 
             if (dataObj.products.length == i + 1) {
               doc.addPage({
-                margin: 50
+                margin: 40
               })
               pageNumber++;
               doc
@@ -817,7 +906,7 @@ module.exports = function (server) {
 
                 .font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.invoiceId}`, 120, 40)
                 .text(`${dataObj.date}`, 238, 40)
-                .text(`${dataObj.products.length}`, 360, 40)
+                .text(`${dataObj.products.length}`, 367, 40)
                 .text(`${pageNumber}/${pageTotal}`, 483, 40)
               doc.font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, doc.page.height - 35, 520, 0, 0)
                 .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
@@ -828,13 +917,13 @@ module.exports = function (server) {
               });
 
               doc
-                .roundedRect(415, 60 + (26 - 25) * 20, 150, 60, 0)
+                .roundedRect(415, 60 + (26 - 25) * 20, 165, 60, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order`, 420, 65 + (26 - 25) * 20)
                 .text(`${dataObj.totals.noDiscount}`, 420, 65 + (26 - 25) * 20, { align: "right" })
 
-                .roundedRect(415, 80 + (26 - 25) * 20, 150, 20, 0)
+                .roundedRect(415, 80 + (26 - 25) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)`, 420, 85 + (26 - 25) * 20)
@@ -844,7 +933,7 @@ module.exports = function (server) {
               // let numberFirst = 1
               for (let a = 1; a <= numberFirst; a++) {
 
-                doc.roundedRect(415, (a * 20) + 80 + (26 - 25) * 20, 150, 20, 0)
+                doc.roundedRect(415, (a * 20) + 80 + (26 - 25) * 20, 165, 20, 0)
                   .fillAndStroke(`${dataObj.settings.primaryColor}`)
                   .fill('black').stroke()
                   .text(`Total ${dataObj.totals.vatCategories[a - 1].category}% Vat Category`, 420, (a * 20) + 85 + (26 - 25) * 20)
@@ -852,7 +941,7 @@ module.exports = function (server) {
 
               }
               doc
-                .roundedRect(415, (numberFirst * 20) + 100 + (26 - 25) * 20, 150, 20, 0)
+                .roundedRect(415, (numberFirst * 20) + 100 + (26 - 25) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat`, 420, (numberFirst * 20) + 105 + (26 - 25) * 20)
@@ -862,7 +951,7 @@ module.exports = function (server) {
               // let number = 3;
 
               for (let i = 1; i <= number; i++) {
-                doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 120 + (26 - 25) * 20, 150, 20, 0)
+                doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 120 + (26 - 25) * 20, 165, 20, 0)
                   .fillAndStroke(`${dataObj.settings.primaryColor}`)
                   .fill('black').stroke()
                   .text(`${dataObj.totals.vatCategories[i - 1].category}% Vat`, 420, ((numberFirst - 1 + i) * 20) + 125 + (26 - 25) * 20)
@@ -871,28 +960,28 @@ module.exports = function (server) {
               }
 
               doc
-                .roundedRect(415, (20 * (number + numberFirst - 1)) + 140 + (26 - 25) * 20, 150, 20, 0)
+                .roundedRect(415, (20 * (number + numberFirst - 1)) + 140 + (26 - 25) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat`, 420, (20 * (number + numberFirst - 1)) + 145 + (26 - 25) * 20)
                 .text(`${dataObj.totals.vat}`, 420, (20 * (number + numberFirst - 1)) + 145 + (26 - 25) * 20, { align: "right" })
 
-                .roundedRect(415, (20 * (number + numberFirst - 1)) + 180 + (26 - 25) * 20, 150, 20, 0)
+                .roundedRect(415, (20 * (number + numberFirst - 1)) + 160 + (26 - 25) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
-                .text(`TOTAL`, 420, (20 * (number + numberFirst - 1)) + 185 + (26 - 25) * 20)
-                .text(`${dataObj.totals.total}`, 420, (20 * (number + numberFirst - 1)) + 185 + (26 - 25) * 20, { align: "right" })
+                .text(`TOTAL`, 420, (20 * (number + numberFirst - 1)) + 165 + (26 - 25) * 20)
+                .text(`${dataObj.totals.total}`, 420, (20 * (number + numberFirst - 1)) + 165 + (26 - 25) * 20, { align: "right" })
 
                 .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, 230 + (26 - 25) * 20)
 
             }
           }
         }
-        if (i >= 52 && i < 85) {
+        if (i >= 54 && i < 88) {
 
-          if (i == 52) {
+          if (i == 54) {
             doc.addPage({
-              margin: 50
+              margin: 40
             })
             pageNumber++;
             // ---------current page -------------
@@ -910,7 +999,7 @@ module.exports = function (server) {
 
               .font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.invoiceId}`, 120, 32)
               .text(`${dataObj.date}`, 238, 32)
-              .text(`${dataObj.products.length}`, 360, 32)
+              .text(`${dataObj.products.length}`, 367, 32)
               .text(`${pageNumber}/${pageTotal}`, 483, 32)
 
             // ---------current page -------------
@@ -937,7 +1026,7 @@ module.exports = function (server) {
 
           }
 
-          const position = 50 + ((i - 52) + 1) * 20;
+          const position = 50 + ((i - 54) + 1) * 20;
           generateTableRow(
             doc,
             position,
@@ -955,13 +1044,13 @@ module.exports = function (server) {
           if (i < 75) {
             if (dataObj.products.length == i + 1) {
               doc
-                .roundedRect(415, 30 + (dataObj.products.length - 50) * 20, 150, 20, 0)
+                .roundedRect(415, 30 + (dataObj.products.length - 50) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order`, 420, 35 + (dataObj.products.length - 50) * 20)
                 .text(`${dataObj.totals.noDiscount}`, 50, 35 + (dataObj.products.length - 50) * 20, { align: "right" })
 
-                .roundedRect(415, 50 + (dataObj.products.length - 50) * 20, 150, 20, 0)
+                .roundedRect(415, 50 + (dataObj.products.length - 50) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)`, 420, 55 + (dataObj.products.length - 50) * 20)
@@ -973,14 +1062,14 @@ module.exports = function (server) {
               for (let a = 1; a <= numberFirst; a++) {
 
                 doc
-                  .roundedRect(415, (a * 20) + 50 + (dataObj.products.length - 50) * 20, 150, 20, 0)
+                  .roundedRect(415, (a * 20) + 50 + (dataObj.products.length - 50) * 20, 165, 20, 0)
                   .fillAndStroke(`${dataObj.settings.primaryColor}`)
                   .fill('black').stroke()
                   .text(`Total ${dataObj.totals.vatCategories[a - 1].category}% Vat Category`, 420, (a * 20) + 55 + (dataObj.products.length - 50) * 20)
                   .text(`${dataObj.totals.vatCategories[a - 1].totalPrice}  `, 50, (a * 20) + 55 + (dataObj.products.length - 50) * 20, { align: "right" })
               }
               doc
-                .roundedRect(415, (numberFirst * 20) + 70 + (dataObj.products.length - 50) * 20, 150, 20, 0)
+                .roundedRect(415, (numberFirst * 20) + 70 + (dataObj.products.length - 50) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat`, 420, (numberFirst * 20) + 75 + (dataObj.products.length - 50) * 20)
@@ -991,23 +1080,23 @@ module.exports = function (server) {
 
               for (let i = 1; i <= number; i++) {
 
-                doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 90 + (dataObj.products.length - 50) * 20, 150, 20, 0)
+                doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 90 + (dataObj.products.length - 50) * 20, 165, 20, 0)
                   .fillAndStroke(`${dataObj.settings.primaryColor}`)
                   .fill('black').stroke()
                   .text(`${dataObj.totals.vatCategories[i - 1].category}% Vat`, 420, ((numberFirst - 1 + i) * 20) + 95 + (dataObj.products.length - 50) * 20)
                   .text(`${dataObj.totals.vatCategories[i - 1].totalVat}`, 50, ((numberFirst - 1 + i) * 20) + 95 + (dataObj.products.length - 50) * 20, { align: "right" })
               }
-              doc.roundedRect(415, ((number + numberFirst - 1) * 20) + 110 + (dataObj.products.length - 50) * 20, 150, 20, 0)
+              doc.roundedRect(415, ((number + numberFirst - 1) * 20) + 110 + (dataObj.products.length - 50) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat`, 420, ((number + numberFirst - 1) * 20) + 115 + (dataObj.products.length - 50) * 20)
                 .text(`${dataObj.totals.vat}`, 50, ((number + numberFirst - 1) * 20) + 115 + (dataObj.products.length - 50) * 20, { align: "right" })
 
-                .roundedRect(415, ((number + numberFirst - 1) * 20) + 150 + (dataObj.products.length - 50) * 20, 150, 20, 0)
+                .roundedRect(415, ((number + numberFirst - 1) * 20) + 130 + (dataObj.products.length - 50) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
-                .text(`TOTAL`, 420, ((number + numberFirst - 1) * 20) + 155 + (dataObj.products.length - 50) * 20)
-                .text(`${dataObj.totals.total}`, 50, ((number + numberFirst - 1) * 20) + 155 + (dataObj.products.length - 50) * 20, { align: "right" })
+                .text(`TOTAL`, 420, ((number + numberFirst - 1) * 20) + 135 + (dataObj.products.length - 50) * 20)
+                .text(`${dataObj.totals.total}`, 50, ((number + numberFirst - 1) * 20) + 135 + (dataObj.products.length - 50) * 20, { align: "right" })
 
                 .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, ((number + numberFirst) * 20) + 150 + (dataObj.products.length - 50) * 20)
             }
@@ -1016,7 +1105,7 @@ module.exports = function (server) {
 
             if (dataObj.products.length == i + 1) {
               doc.addPage({
-                margin: 50
+                margin: 40
               })
               pageNumber++;
               doc
@@ -1030,7 +1119,7 @@ module.exports = function (server) {
 
                 .font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.invoiceId}`, 120, 40)
                 .text(`${dataObj.date}`, 238, 40)
-                .text(`${dataObj.products.length}`, 360, 40)
+                .text(`${dataObj.products.length}`, 367, 40)
                 .text(`${pageNumber}/${pageTotal}`, 483, 40)
               doc.font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, doc.page.height - 35, 520, 0, 0)
                 .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
@@ -1041,13 +1130,13 @@ module.exports = function (server) {
               });
 
               doc
-                .roundedRect(415, 60 + (26 - 25) * 20, 150, 60, 0)
+                .roundedRect(415, 60 + (26 - 25) * 20, 165, 60, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order`, 420, 65 + (26 - 25) * 20)
                 .text(`${dataObj.totals.noDiscount}`, 420, 65 + (26 - 25) * 20, { align: "right" })
 
-                .roundedRect(415, 80 + (26 - 25) * 20, 150, 20, 0)
+                .roundedRect(415, 80 + (26 - 25) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)`, 420, 85 + (26 - 25) * 20)
@@ -1057,7 +1146,7 @@ module.exports = function (server) {
               // let numberFirst = 1
               for (let a = 1; a <= numberFirst; a++) {
 
-                doc.roundedRect(415, (a * 20) + 80 + (26 - 25) * 20, 150, 20, 0)
+                doc.roundedRect(415, (a * 20) + 80 + (26 - 25) * 20, 165, 20, 0)
                   .fillAndStroke(`${dataObj.settings.primaryColor}`)
                   .fill('black').stroke()
                   .text(`Total ${dataObj.totals.vatCategories[a - 1].category}% Vat Category`, 420, (a * 20) + 85 + (26 - 25) * 20)
@@ -1065,7 +1154,7 @@ module.exports = function (server) {
 
               }
               doc
-                .roundedRect(415, (numberFirst * 20) + 100 + (26 - 25) * 20, 150, 20, 0)
+                .roundedRect(415, (numberFirst * 20) + 100 + (26 - 25) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat`, 420, (numberFirst * 20) + 105 + (26 - 25) * 20)
@@ -1075,7 +1164,7 @@ module.exports = function (server) {
               // let number = 3;
 
               for (let i = 1; i <= number; i++) {
-                doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 120 + (26 - 25) * 20, 150, 20, 0)
+                doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 120 + (26 - 25) * 20, 165, 20, 0)
                   .fillAndStroke(`${dataObj.settings.primaryColor}`)
                   .fill('black').stroke()
                   .text(`${dataObj.totals.vatCategories[i - 1].category}% Vat`, 420, ((numberFirst - 1 + i) * 20) + 125 + (26 - 25) * 20)
@@ -1084,17 +1173,17 @@ module.exports = function (server) {
               }
 
               doc
-                .roundedRect(415, (20 * (number + numberFirst - 1)) + 140 + (26 - 25) * 20, 150, 20, 0)
+                .roundedRect(415, (20 * (number + numberFirst - 1)) + 140 + (26 - 25) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat`, 420, (20 * (number + numberFirst - 1)) + 145 + (26 - 25) * 20)
                 .text(`${dataObj.totals.vat}`, 420, (20 * (number + numberFirst - 1)) + 145 + (26 - 25) * 20, { align: "right" })
 
-                .roundedRect(415, (20 * (number + numberFirst - 1)) + 180 + (26 - 25) * 20, 150, 20, 0)
+                .roundedRect(415, (20 * (number + numberFirst - 1)) + 160 + (26 - 25) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
-                .text(`TOTAL`, 420, (20 * (number + numberFirst - 1)) + 185 + (26 - 25) * 20)
-                .text(`${dataObj.totals.total}`, 420, (20 * (number + numberFirst - 1)) + 185 + (26 - 25) * 20, { align: "right" })
+                .text(`TOTAL`, 420, (20 * (number + numberFirst - 1)) + 165 + (26 - 25) * 20)
+                .text(`${dataObj.totals.total}`, 420, (20 * (number + numberFirst - 1)) + 165 + (26 - 25) * 20, { align: "right" })
 
                 .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, (20 * (number + numberFirst - 1)) + 185)
 
@@ -1103,11 +1192,11 @@ module.exports = function (server) {
           }
 
         }
-        if (i >= 85 && i < 118) {
+        if (i >= 88 && i < 122) {
 
-          if (i == 85) {
+          if (i == 88) {
             doc.addPage({
-              margin: 50
+              margin: 40
             })
             pageNumber++;
             // ---------current page -------------
@@ -1125,7 +1214,7 @@ module.exports = function (server) {
 
               .font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.invoiceId}`, 120, 32)
               .text(`${dataObj.date}`, 238, 32)
-              .text(`${dataObj.products.length}`, 360, 32)
+              .text(`${dataObj.products.length}`, 367, 32)
               .text(`${pageNumber}/${pageTotal}`, 483, 32)
 
             // ---------current page -------------
@@ -1152,7 +1241,7 @@ module.exports = function (server) {
               .fill('black').stroke()
           }
 
-          const position = 50 + ((i - 85) + 1) * 20;
+          const position = 50 + ((i - 88) + 1) * 20;
           generateTableRow(
             doc,
             position,
@@ -1170,13 +1259,13 @@ module.exports = function (server) {
           if (i < 108) {
             if (dataObj.products.length == i + 1) {
               doc
-                .roundedRect(415, 30 + (dataObj.products.length - 82) * 20, 150, 20, 0)
+                .roundedRect(415, 30 + (dataObj.products.length - 82) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order`, 420, 35 + (dataObj.products.length - 82) * 20)
                 .text(`${dataObj.totals.noDiscount}`, 50, 35 + (dataObj.products.length - 82) * 20, { align: "right" })
 
-                .roundedRect(415, 50 + (dataObj.products.length - 82) * 20, 150, 20, 0)
+                .roundedRect(415, 50 + (dataObj.products.length - 82) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)`, 420, 55 + (dataObj.products.length - 82) * 20)
@@ -1188,14 +1277,14 @@ module.exports = function (server) {
               for (let a = 1; a <= numberFirst; a++) {
 
                 doc
-                  .roundedRect(415, (a * 20) + 50 + (dataObj.products.length - 82) * 20, 150, 20, 0)
+                  .roundedRect(415, (a * 20) + 50 + (dataObj.products.length - 82) * 20, 165, 20, 0)
                   .fillAndStroke(`${dataObj.settings.primaryColor}`)
                   .fill('black').stroke()
                   .text(`Total ${dataObj.totals.vatCategories[a - 1].category}% Vat Category`, 420, (a * 20) + 55 + (dataObj.products.length - 82) * 20)
                   .text(`${dataObj.totals.vatCategories[a - 1].totalPrice}  `, 50, (a * 20) + 55 + (dataObj.products.length - 82) * 20, { align: "right" })
               }
               doc
-                .roundedRect(415, (numberFirst * 20) + 70 + (dataObj.products.length - 82) * 20, 150, 20, 0)
+                .roundedRect(415, (numberFirst * 20) + 70 + (dataObj.products.length - 82) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat`, 420, (numberFirst * 20) + 75 + (dataObj.products.length - 82) * 20)
@@ -1206,23 +1295,23 @@ module.exports = function (server) {
 
               for (let i = 1; i <= number; i++) {
 
-                doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 90 + (dataObj.products.length - 82) * 20, 150, 20, 0)
+                doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 90 + (dataObj.products.length - 82) * 20, 165, 20, 0)
                   .fillAndStroke(`${dataObj.settings.primaryColor}`)
                   .fill('black').stroke()
                   .text(`${dataObj.totals.vatCategories[i - 1].category}% Vat`, 420, ((numberFirst - 1 + i) * 20) + 95 + (dataObj.products.length - 82) * 20)
                   .text(`${dataObj.totals.vatCategories[i - 1].totalVat}`, 50, ((numberFirst - 1 + i) * 20) + 95 + (dataObj.products.length - 82) * 20, { align: "right" })
               }
-              doc.roundedRect(415, ((number + numberFirst - 1) * 20) + 110 + (dataObj.products.length - 82) * 20, 150, 20, 0)
+              doc.roundedRect(415, ((number + numberFirst - 1) * 20) + 110 + (dataObj.products.length - 82) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat`, 420, ((number + numberFirst - 1) * 20) + 115 + (dataObj.products.length - 82) * 20)
                 .text(`${dataObj.totals.vat}`, 50, ((number + numberFirst - 1) * 20) + 115 + (dataObj.products.length - 82) * 20, { align: "right" })
 
-                .roundedRect(415, ((number + numberFirst - 1) * 20) + 150 + (dataObj.products.length - 82) * 20, 150, 20, 0)
+                .roundedRect(415, ((number + numberFirst - 1) * 20) + 130 + (dataObj.products.length - 82) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
-                .text(`TOTAL`, 420, ((number + numberFirst - 1) * 20) + 155 + (dataObj.products.length - 82) * 20)
-                .text(`${dataObj.totals.total}`, 50, ((number + numberFirst - 1) * 20) + 155 + (dataObj.products.length - 82) * 20, { align: "right" })
+                .text(`TOTAL`, 420, ((number + numberFirst - 1) * 20) + 135 + (dataObj.products.length - 82) * 20)
+                .text(`${dataObj.totals.total}`, 50, ((number + numberFirst - 1) * 20) + 135 + (dataObj.products.length - 82) * 20, { align: "right" })
 
                 .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, ((number + numberFirst) * 20) + 150 + (dataObj.products.length - 82) * 20)
 
@@ -1232,7 +1321,7 @@ module.exports = function (server) {
 
             if (dataObj.products.length == i + 1) {
               doc.addPage({
-                margin: 50
+                margin: 40
               })
               pageNumber++;
               doc
@@ -1246,7 +1335,7 @@ module.exports = function (server) {
 
                 .font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.invoiceId}`, 120, 40)
                 .text(`${dataObj.date}`, 238, 40)
-                .text(`${dataObj.products.length}`, 360, 40)
+                .text(`${dataObj.products.length}`, 367, 40)
                 .text(`${pageNumber}/${pageTotal}`, 483, 40)
               doc.font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, doc.page.height - 35, 520, 0, 0)
                 .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
@@ -1257,13 +1346,13 @@ module.exports = function (server) {
               });
 
               doc
-                .roundedRect(415, 60 + (26 - 25) * 20, 150, 60, 0)
+                .roundedRect(415, 60 + (26 - 25) * 20, 165, 60, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order`, 420, 65 + (26 - 25) * 20)
                 .text(`${dataObj.totals.noDiscount}`, 420, 65 + (26 - 25) * 20, { align: "right" })
 
-                .roundedRect(415, 80 + (26 - 25) * 20, 150, 20, 0)
+                .roundedRect(415, 80 + (26 - 25) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)`, 420, 85 + (26 - 25) * 20)
@@ -1273,7 +1362,7 @@ module.exports = function (server) {
               // let numberFirst = 1
               for (let a = 1; a <= numberFirst; a++) {
 
-                doc.roundedRect(415, (a * 20) + 80 + (26 - 25) * 20, 150, 20, 0)
+                doc.roundedRect(415, (a * 20) + 80 + (26 - 25) * 20, 165, 20, 0)
                   .fillAndStroke(`${dataObj.settings.primaryColor}`)
                   .fill('black').stroke()
                   .text(`Total ${dataObj.totals.vatCategories[a - 1].category}% Vat Category`, 420, (a * 20) + 85 + (26 - 25) * 20)
@@ -1281,7 +1370,7 @@ module.exports = function (server) {
 
               }
               doc
-                .roundedRect(415, (numberFirst * 20) + 100 + (26 - 25) * 20, 150, 20, 0)
+                .roundedRect(415, (numberFirst * 20) + 100 + (26 - 25) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat`, 420, (numberFirst * 20) + 105 + (26 - 25) * 20)
@@ -1291,7 +1380,7 @@ module.exports = function (server) {
               // let number = 3;
 
               for (let i = 1; i <= number; i++) {
-                doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 120 + (26 - 25) * 20, 150, 20, 0)
+                doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 120 + (26 - 25) * 20, 165, 20, 0)
                   .fillAndStroke(`${dataObj.settings.primaryColor}`)
                   .fill('black').stroke()
                   .text(`${dataObj.totals.vatCategories[i - 1].category}% Vat`, 420, ((numberFirst - 1 + i) * 20) + 125 + (26 - 25) * 20)
@@ -1300,17 +1389,17 @@ module.exports = function (server) {
               }
 
               doc
-                .roundedRect(415, (20 * (number + numberFirst - 1)) + 140 + (26 - 25) * 20, 150, 20, 0)
+                .roundedRect(415, (20 * (number + numberFirst - 1)) + 140 + (26 - 25) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat`, 420, (20 * (number + numberFirst - 1)) + 145 + (26 - 25) * 20)
                 .text(`${dataObj.totals.vat}`, 420, (20 * (number + numberFirst - 1)) + 145 + (26 - 25) * 20, { align: "right" })
 
-                .roundedRect(415, (20 * (number + numberFirst - 1)) + 180 + (26 - 25) * 20, 150, 20, 0)
+                .roundedRect(415, (20 * (number + numberFirst - 1)) + 160 + (26 - 25) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
-                .text(`TOTAL`, 420, (20 * (number + numberFirst - 1)) + 185 + (26 - 25) * 20)
-                .text(`${dataObj.totals.total}`, 420, (20 * (number + numberFirst - 1)) + 185 + (26 - 25) * 20, { align: "right" })
+                .text(`TOTAL`, 420, (20 * (number + numberFirst - 1)) + 165 + (26 - 25) * 20)
+                .text(`${dataObj.totals.total}`, 420, (20 * (number + numberFirst - 1)) + 165 + (26 - 25) * 20, { align: "right" })
 
                 .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50,(20 * (number + numberFirst - 1)) + 185 + (26 - 25) * 20)
 
@@ -1320,11 +1409,11 @@ module.exports = function (server) {
           }
 
         }
-        if (i >= 118 && i < 306) {
+        if (i >= 122 && i < 306) {
 
-          if (i == 118) {
+          if (i == 122) {
             doc.addPage({
-              margin: 50
+              margin: 40
             })
             pageNumber++;
 
@@ -1343,7 +1432,7 @@ module.exports = function (server) {
 
               .font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.invoiceId}`, 120, 32)
               .text(`${dataObj.date}`, 238, 32)
-              .text(`${dataObj.products.length}`, 360, 32)
+              .text(`${dataObj.products.length}`, 367, 32)
               .text(`${pageNumber}/${pageTotal}`, 483, 32)
 
             // ---------current page -------------
@@ -1370,7 +1459,7 @@ module.exports = function (server) {
 
           }
 
-          const position = 50 + ((i - 118) + 1) * 20;
+          const position = 50 + ((i - 122) + 1) * 20;
           generateTableRow(
             doc,
             position,
@@ -1388,13 +1477,13 @@ module.exports = function (server) {
           if (i < 140) {
             if (dataObj.products.length == i + 1) {
               doc
-                .roundedRect(415, 30 + (dataObj.products.length - 115) * 20, 150, 20, 0)
+                .roundedRect(415, 30 + (dataObj.products.length - 115) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order`, 420, 35 + (dataObj.products.length - 115) * 20)
                 .text(`${dataObj.totals.noDiscount}`, 50, 35 + (dataObj.products.length - 115) * 20, { align: "right" })
 
-                .roundedRect(415, 50 + (dataObj.products.length - 115) * 20, 150, 20, 0)
+                .roundedRect(415, 50 + (dataObj.products.length - 115) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)`, 420, 55 + (dataObj.products.length - 115) * 20)
@@ -1406,14 +1495,14 @@ module.exports = function (server) {
               for (let a = 1; a <= numberFirst; a++) {
 
                 doc
-                  .roundedRect(415, (a * 20) + 50 + (dataObj.products.length - 115) * 20, 150, 20, 0)
+                  .roundedRect(415, (a * 20) + 50 + (dataObj.products.length - 115) * 20, 165, 20, 0)
                   .fillAndStroke(`${dataObj.settings.primaryColor}`)
                   .fill('black').stroke()
                   .text(`Total ${dataObj.totals.vatCategories[a - 1].category}% Vat Category`, 420, (a * 20) + 55 + (dataObj.products.length - 115) * 20)
                   .text(`${dataObj.totals.vatCategories[a - 1].totalPrice}  `, 50, (a * 20) + 55 + (dataObj.products.length - 115) * 20, { align: "right" })
               }
               doc
-                .roundedRect(415, (numberFirst * 20) + 70 + (dataObj.products.length - 115) * 20, 150, 20, 0)
+                .roundedRect(415, (numberFirst * 20) + 70 + (dataObj.products.length - 115) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat`, 420, (numberFirst * 20) + 75 + (dataObj.products.length - 115) * 20)
@@ -1424,23 +1513,23 @@ module.exports = function (server) {
 
               for (let i = 1; i <= number; i++) {
 
-                doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 90 + (dataObj.products.length - 115) * 20, 150, 20, 0)
+                doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 90 + (dataObj.products.length - 115) * 20, 165, 20, 0)
                   .fillAndStroke(`${dataObj.settings.primaryColor}`)
                   .fill('black').stroke()
                   .text(`${dataObj.totals.vatCategories[i - 1].category}% Vat`, 420, ((numberFirst - 1 + i) * 20) + 95 + (dataObj.products.length - 115) * 20)
                   .text(`${dataObj.totals.vatCategories[i - 1].totalVat}`, 50, ((numberFirst - 1 + i) * 20) + 95 + (dataObj.products.length - 115) * 20, { align: "right" })
               }
-              doc.roundedRect(415, ((number + numberFirst - 1) * 20) + 110 + (dataObj.products.length - 115) * 20, 150, 20, 0)
+              doc.roundedRect(415, ((number + numberFirst - 1) * 20) + 110 + (dataObj.products.length - 115) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat`, 420, ((number + numberFirst - 1) * 20) + 115 + (dataObj.products.length - 115) * 20)
                 .text(`${dataObj.totals.vat}`, 50, ((number + numberFirst - 1) * 20) + 115 + (dataObj.products.length - 115) * 20, { align: "right" })
 
-                .roundedRect(415, ((number + numberFirst - 1) * 20) + 150 + (dataObj.products.length - 115) * 20, 150, 20, 0)
+                .roundedRect(415, ((number + numberFirst - 1) * 20) + 130 + (dataObj.products.length - 115) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
-                .text(`TOTAL`, 420, ((number + numberFirst - 1) * 20) + 155 + (dataObj.products.length - 115) * 20)
-                .text(`${dataObj.totals.total}`, 50, ((number + numberFirst - 1) * 20) + 155 + (dataObj.products.length - 115) * 20, { align: "right" })
+                .text(`TOTAL`, 420, ((number + numberFirst - 1) * 20) + 135 + (dataObj.products.length - 115) * 20)
+                .text(`${dataObj.totals.total}`, 50, ((number + numberFirst - 1) * 20) + 135 + (dataObj.products.length - 115) * 20, { align: "right" })
 
                 .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, ((number + numberFirst - 1) * 20) + 155 + (dataObj.products.length - 115) * 20)
 
@@ -1450,7 +1539,7 @@ module.exports = function (server) {
 
             if (dataObj.products.length == i + 1) {
               doc.addPage({
-                margin: 50
+                margin: 40
               })
               pageNumber++;
               console.log("page Number : ", pageNumber)
@@ -1465,7 +1554,7 @@ module.exports = function (server) {
 
                 .font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.invoiceId}`, 120, 40)
                 .text(`${dataObj.date}`, 238, 40)
-                .text(`${dataObj.products.length}`, 360, 40)
+                .text(`${dataObj.products.length}`, 367, 40)
                 .text(`${pageNumber}/${pageTotal}`, 483, 40)
               doc.font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, doc.page.height - 35, 520, 0, 0)
                 .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
@@ -1476,13 +1565,13 @@ module.exports = function (server) {
               });
 
               doc
-                .roundedRect(415, 60 + (26 - 25) * 20, 150, 60, 0)
+                .roundedRect(415, 60 + (26 - 25) * 20, 165, 60, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Order`, 420, 65 + (26 - 25) * 20)
                 .text(`${dataObj.totals.noDiscount}`, 420, 65 + (26 - 25) * 20, { align: "right" })
 
-                .roundedRect(415, 80 + (26 - 25) * 20, 150, 20, 0)
+                .roundedRect(415, 80 + (26 - 25) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Discount (10%)`, 420, 85 + (26 - 25) * 20)
@@ -1492,7 +1581,7 @@ module.exports = function (server) {
               // let numberFirst = 1
               for (let a = 1; a <= numberFirst; a++) {
 
-                doc.roundedRect(415, (a * 20) + 80 + (26 - 25) * 20, 150, 20, 0)
+                doc.roundedRect(415, (a * 20) + 80 + (26 - 25) * 20, 165, 20, 0)
                   .fillAndStroke(`${dataObj.settings.primaryColor}`)
                   .fill('black').stroke()
                   .text(`Total ${dataObj.totals.vatCategories[a - 1].category}% Vat Category`, 420, (a * 20) + 85 + (26 - 25) * 20)
@@ -1500,7 +1589,7 @@ module.exports = function (server) {
 
               }
               doc
-                .roundedRect(415, (numberFirst * 20) + 100 + (26 - 25) * 20, 150, 20, 0)
+                .roundedRect(415, (numberFirst * 20) + 100 + (26 - 25) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Ex Vat`, 420, (numberFirst * 20) + 105 + (26 - 25) * 20)
@@ -1510,7 +1599,7 @@ module.exports = function (server) {
               // let number = 3;
 
               for (let i = 1; i <= number; i++) {
-                doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 120 + (26 - 25) * 20, 150, 20, 0)
+                doc.roundedRect(415, ((numberFirst - 1 + i) * 20) + 120 + (26 - 25) * 20, 165, 20, 0)
                   .fillAndStroke(`${dataObj.settings.primaryColor}`)
                   .fill('black').stroke()
                   .text(`${dataObj.totals.vatCategories[i - 1].category}% Vat`, 420, ((numberFirst - 1 + i) * 20) + 125 + (26 - 25) * 20)
@@ -1519,17 +1608,17 @@ module.exports = function (server) {
               }
 
               doc
-                .roundedRect(415, (20 * (number + numberFirst - 1)) + 140 + (26 - 25) * 20, 150, 20, 0)
+                .roundedRect(415, (20 * (number + numberFirst - 1)) + 140 + (26 - 25) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.secondaryColor}`)
                 .fill('black').stroke()
                 .text(`Total Vat`, 420, (20 * (number + numberFirst - 1)) + 145 + (26 - 25) * 20)
                 .text(`${dataObj.totals.vat}`, 420, (20 * (number + numberFirst - 1)) + 145 + (26 - 25) * 20, { align: "right" })
 
-                .roundedRect(415, (20 * (number + numberFirst - 1)) + 180 + (26 - 25) * 20, 150, 20, 0)
+                .roundedRect(415, (20 * (number + numberFirst - 1)) + 160 + (26 - 25) * 20, 165, 20, 0)
                 .fillAndStroke(`${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
-                .text(`TOTAL`, 420, (20 * (number + numberFirst - 1)) + 185 + (26 - 25) * 20)
-                .text(`${dataObj.totals.total}`, 420, (20 * (number + numberFirst - 1)) + 185 + (26 - 25) * 20, { align: "right" })
+                .text(`TOTAL`, 420, (20 * (number + numberFirst - 1)) + 165 + (26 - 25) * 20)
+                .text(`${dataObj.totals.total}`, 420, (20 * (number + numberFirst - 1)) + 165 + (26 - 25) * 20, { align: "right" })
 
                 .text(`Payment Terms : ${dataObj.settings.paymentTerms}`, 50, (20 * (number + numberFirst - 1)) + 185 + (26 - 25) * 20)
 
