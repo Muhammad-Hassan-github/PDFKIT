@@ -1,3 +1,4 @@
+// import  * "../../roboto/Roboto-Regular.ttf"
 let dataObj = {
   "headers": {
     "title": "Order to",
@@ -406,26 +407,26 @@ module.exports = function (server) {
         .roundedRect(365, 30, 220, 210, 10)
         .fillAndStroke(`${dataObj.settings.primaryColor}`, `${dataObj.settings.primaryColor}`)
         .fill('black').stroke()
-        .fontSize(15).font('Helvetica-Bold').text(`${dataObj.headers.title}:`, 40, 110)
-        .fontSize(12).font('Times-Bold').text(`${dataObj.customer.name}`, 40, 140)
+        .fontSize(15).font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.headers.title}:`, 40, 110)
+        .fontSize(12).font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.customer.name}`, 40, 140)
         .fontSize(9)
-        .font('Times-Roman').text(`${dataObj.customer.street}  ${dataObj.customer.streetNumber}`, 40, 170)
+        .font(__dirname + '/roboto/Roboto-Regular.ttf').text(`${dataObj.customer.street}  ${dataObj.customer.streetNumber}`, 40, 170)
         .text(`${dataObj.customer.zip}, ${dataObj.customer.city}`, 40, 180)
         .text(`${dataObj.customer.country}`, 40, 190)
 
-        .text(`Debtor: ${dataObj.customer.debtorId}`, 40, 220)
+        doc.font(__dirname + '/roboto/Roboto-Bold.ttf').text(`Debtor: ${dataObj.customer.debtorId}`, 40, 220)
         .text(`Vat: ${dataObj.profile.vat}`, 40, 230)
-
-        .text("Tel:", 380, 110)
+     
+        .font(__dirname + '/roboto/Roboto-Regular.ttf').text("Tel:", 380, 110)
         .text("Mobile:", 380, 130)
         .text("Email:", 380, 150)
         .text("Website:", 380, 170)
         .text("CoC:", 380, 190)
         .text("Vat:", 380, 210)
 
-        .fontSize(10).font('Helvetica-Bold').text(`${dataObj.profile.name}`, 0, 50, { align: "right" })
-        .fontSize(9).font('Times-Roman').text(`${dataObj.profile.street}  ${dataObj.profile.streetNumber}`, 0, 70, { align: "right" })
-        .text(`${dataObj.profile.zip}, ${dataObj.profile.city}`, 0, 80, { align: "right" })
+        .fontSize(10).font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.profile.name}`, 0, 50, { align: "right" })
+        .fontSize(9).font(__dirname + '/roboto/Roboto-Regular.ttf').text(`${dataObj.profile.street}  ${dataObj.profile.streetNumber}`, 0, 70, { align: "right" })
+         .font(__dirname + '/roboto/Roboto-Regular.ttf').text(`${dataObj.profile.zip}, ${dataObj.profile.city}`, 0, 80, { align: "right" })
         .text(`${dataObj.profile.country}`, 0, 90, { align: "right" })
 
         .text(`${dataObj.profile.telephone}`, 0, 110, { align: "right" })
@@ -445,25 +446,25 @@ module.exports = function (server) {
         .text("Products", 350, 275)
         .text("Page", 480, 275)
 
-        .font('Times-Bold').text(`${dataObj.invoiceId}`, 120, 285)
-        .text(`${dataObj.date}`, 240, 285)
+        .font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.invoiceId}`, 120, 285)
+        .text(`${dataObj.date}`, 238, 285)
         .text(`${dataObj.products.length}`, 360, 285)
-        .text(`${pageNumber}/${pageTotal}`, 480, 285)
+        .text(`${pageNumber}/${pageTotal}`, 483, 285)
 
-        .font('Times-Roman').roundedRect(50, 340, 520, 0, 0)
+        .font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, 340, 520, 0, 0)
         .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
         .fill('black').stroke()
 
-        .font('Times-Bold').text("#", 50, 325)
+        .font(__dirname + '/roboto/Roboto-Bold.ttf').text("#", 50, 325)
         .text("Code", 70, 325)
         .text("Description", 130, 325)
-        .text("Contents", 355, 325)
+        .text("Contents", 357, 325)
         .text("Vat", 405, 325)
         .text("Qty", 435, 325)
         .text("Price", 480, 325)
         .text("Total", 0, 325, { align: "right" })
 
-      doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
+      doc.font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, doc.page.height - 35, 520, 0, 0)
         .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
         .fill('black').stroke()
       doc.text('footer footer  footer  footer  footer  footer', 250, doc.page.height - 30, {
@@ -475,9 +476,9 @@ module.exports = function (server) {
     function generateTableRow(doc, y, c1, c2, c3, c4, c5, c6, c7, c8) {
       doc
         .fontSize(10)
-        .font('Times-Roman')
-        .font('Times-Bold').text(c1, 50, y)
-        .font('Times-Roman').text(c2, 70, y)
+        .font(__dirname + '/roboto/Roboto-Regular.ttf')
+        .font(__dirname + '/roboto/Roboto-Bold.ttf').text(c1, 50, y)
+        .font(__dirname + '/roboto/Roboto-Regular.ttf').text(c2, 70, y)
         .fontSize(8).text(c3, 130, y, {
           width: 230,
           align: 'left'
@@ -497,7 +498,8 @@ module.exports = function (server) {
         console.log(i)
         const item = dataObj.products[i];
         function lastResult() {
-          doc
+          doc .
+            font(__dirname + '/roboto/Roboto-Regular.ttf')
             .roundedRect(415, 10 + invoiceTableTop + dataObj.products.length * 20, 150, 20, 0)
             .fillAndStroke(`${dataObj.settings.primaryColor}`)
             .fill('black').stroke()
@@ -591,12 +593,12 @@ module.exports = function (server) {
               .text("Products", 350, 30)
               .text("Page", 480, 30)
 
-              .font('Times-Bold').text(`${dataObj.invoiceId}`, 120, 40)
-              .text(`${dataObj.date}`, 240, 40)
+              .font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.invoiceId}`, 120, 40)
+              .text(`${dataObj.date}`, 238, 40)
               .text(`${dataObj.products.length}`, 360, 40)
-              .text(`${pageNumber}/${pageTotal}`, 480, 40)
+              .text(`${pageNumber}/${pageTotal}`, 483, 40)
 
-            doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
+            doc.font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, doc.page.height - 35, 520, 0, 0)
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
             doc.text('footer footer  footer  footer  footer  footer', 250, doc.page.height - 30, {
@@ -691,14 +693,14 @@ module.exports = function (server) {
               .text("Page", 480, 22)
 
 
-              .font('Times-Bold').text(`${dataObj.invoiceId}`, 120, 32)
-              .text(`${dataObj.date}`, 240, 32)
+              .font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.invoiceId}`, 120, 32)
+              .text(`${dataObj.date}`, 238, 32)
               .text(`${dataObj.products.length}`, 360, 32)
-              .text(`${pageNumber}/${pageTotal}`, 480, 32)
+              .text(`${pageNumber}/${pageTotal}`, 483, 32)
 
             // ---------current page -------------
 
-            doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
+            doc.font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, doc.page.height - 35, 520, 0, 0)
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
             doc.text('footer footer  footer  footer  footer  footer', 250, doc.page.height - 30, {
@@ -706,16 +708,16 @@ module.exports = function (server) {
               lineBreak: false,
             });
 
-            doc.font('Times-Bold').text("#", 50, 50)
+            doc.font(__dirname + '/roboto/Roboto-Bold.ttf').text("#", 50, 50)
               .text("Code", 70, 50)
               .text("Description", 130, 50)
-              .text("Contents", 355, 50)
+              .text("Contents", 357, 50)
               .text("Qty", 405, 50)
               .text("Vat", 435, 50)
               .text("Price", 480, 50)
               .text("Total", 0, 50, { align: "right" })
 
-              .font('Times-Roman').roundedRect(50, 65, 520, 0, 0)
+              .font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, 65, 520, 0, 0)
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
 
@@ -813,11 +815,11 @@ module.exports = function (server) {
                 .text("Products", 350, 30)
                 .text("Page", 480, 30)
 
-                .font('Times-Bold').text(`${dataObj.invoiceId}`, 120, 40)
-                .text(`${dataObj.date}`, 240, 40)
+                .font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.invoiceId}`, 120, 40)
+                .text(`${dataObj.date}`, 238, 40)
                 .text(`${dataObj.products.length}`, 360, 40)
-                .text(`${pageNumber}/${pageTotal}`, 480, 40)
-              doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
+                .text(`${pageNumber}/${pageTotal}`, 483, 40)
+              doc.font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, doc.page.height - 35, 520, 0, 0)
                 .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
               doc.text('footer footer  footer  footer  footer  footer', 250, doc.page.height - 30, {
@@ -906,13 +908,13 @@ module.exports = function (server) {
               .text("Page", 480, 22)
 
 
-              .font('Times-Bold').text(`${dataObj.invoiceId}`, 120, 32)
-              .text(`${dataObj.date}`, 240, 32)
+              .font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.invoiceId}`, 120, 32)
+              .text(`${dataObj.date}`, 238, 32)
               .text(`${dataObj.products.length}`, 360, 32)
-              .text(`${pageNumber}/${pageTotal}`, 480, 32)
+              .text(`${pageNumber}/${pageTotal}`, 483, 32)
 
             // ---------current page -------------
-            doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
+            doc.font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, doc.page.height - 35, 520, 0, 0)
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
             doc.text('footer footer  footer  footer  footer  footer', 250, doc.page.height - 30, {
@@ -920,16 +922,16 @@ module.exports = function (server) {
               lineBreak: false,
             });
 
-            doc.font('Times-Bold').text("#", 50, 50)
+            doc.font(__dirname + '/roboto/Roboto-Bold.ttf').text("#", 50, 50)
               .text("Code", 70, 50)
               .text("Description", 130, 50)
-              .text("Contents", 355, 50)
+              .text("Contents", 357, 50)
               .text("Qty", 405, 50)
               .text("Vat", 435, 50)
               .text("Price", 480, 50)
               .text("Total", 0, 50, { align: "right" })
 
-              .font('Times-Roman').roundedRect(50, 65, 520, 0, 0)
+              .font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, 65, 520, 0, 0)
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
 
@@ -1026,11 +1028,11 @@ module.exports = function (server) {
                 .text("Products", 350, 30)
                 .text("Page", 480, 30)
 
-                .font('Times-Bold').text(`${dataObj.invoiceId}`, 120, 40)
-                .text(`${dataObj.date}`, 240, 40)
+                .font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.invoiceId}`, 120, 40)
+                .text(`${dataObj.date}`, 238, 40)
                 .text(`${dataObj.products.length}`, 360, 40)
-                .text(`${pageNumber}/${pageTotal}`, 480, 40)
-              doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
+                .text(`${pageNumber}/${pageTotal}`, 483, 40)
+              doc.font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, doc.page.height - 35, 520, 0, 0)
                 .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
               doc.text('footer footer  footer  footer  footer  footer', 250, doc.page.height - 30, {
@@ -1121,14 +1123,14 @@ module.exports = function (server) {
               .text("Page", 480, 22)
 
 
-              .font('Times-Bold').text(`${dataObj.invoiceId}`, 120, 32)
-              .text(`${dataObj.date}`, 240, 32)
+              .font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.invoiceId}`, 120, 32)
+              .text(`${dataObj.date}`, 238, 32)
               .text(`${dataObj.products.length}`, 360, 32)
-              .text(`${pageNumber}/${pageTotal}`, 480, 32)
+              .text(`${pageNumber}/${pageTotal}`, 483, 32)
 
             // ---------current page -------------
 
-            doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
+            doc.font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, doc.page.height - 35, 520, 0, 0)
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
             doc.text('footer footer  footer  footer  footer  footer', 250, doc.page.height - 30, {
@@ -1136,16 +1138,16 @@ module.exports = function (server) {
               lineBreak: false,
             });
 
-            doc.font('Times-Bold').text("#", 50, 50)
+            doc.font(__dirname + '/roboto/Roboto-Bold.ttf').text("#", 50, 50)
               .text("Code", 70, 50)
               .text("Description", 130, 50)
-              .text("Contents", 355, 50)
+              .text("Contents", 357, 50)
               .text("Qty", 405, 50)
               .text("Vat", 435, 50)
               .text("Price", 480, 50)
               .text("Total", 0, 50, { align: "right" })
 
-              .font('Times-Roman').roundedRect(50, 65, 520, 0, 0)
+              .font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, 65, 520, 0, 0)
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
           }
@@ -1242,11 +1244,11 @@ module.exports = function (server) {
                 .text("Products", 350, 30)
                 .text("Page", 480, 30)
 
-                .font('Times-Bold').text(`${dataObj.invoiceId}`, 120, 40)
-                .text(`${dataObj.date}`, 240, 40)
+                .font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.invoiceId}`, 120, 40)
+                .text(`${dataObj.date}`, 238, 40)
                 .text(`${dataObj.products.length}`, 360, 40)
-                .text(`${pageNumber}/${pageTotal}`, 480, 40)
-              doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
+                .text(`${pageNumber}/${pageTotal}`, 483, 40)
+              doc.font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, doc.page.height - 35, 520, 0, 0)
                 .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
               doc.text('footer footer  footer  footer  footer  footer', 250, doc.page.height - 30, {
@@ -1339,13 +1341,13 @@ module.exports = function (server) {
               .text("Page", 480, 22)
 
 
-              .font('Times-Bold').text(`${dataObj.invoiceId}`, 120, 32)
-              .text(`${dataObj.date}`, 240, 32)
+              .font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.invoiceId}`, 120, 32)
+              .text(`${dataObj.date}`, 238, 32)
               .text(`${dataObj.products.length}`, 360, 32)
-              .text(`${pageNumber}/${pageTotal}`, 480, 32)
+              .text(`${pageNumber}/${pageTotal}`, 483, 32)
 
             // ---------current page -------------
-            doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
+            doc.font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, doc.page.height - 35, 520, 0, 0)
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
             doc.text('footer footer  footer  footer  footer  footer', 250, doc.page.height - 30, {
@@ -1353,16 +1355,16 @@ module.exports = function (server) {
               lineBreak: false,
             });
 
-            doc.font('Times-Bold').text("#", 50, 50)
+            doc.font(__dirname + '/roboto/Roboto-Bold.ttf').text("#", 50, 50)
               .text("Code", 70, 50)
               .text("Description", 130, 50)
-              .text("Contents", 355, 50)
+              .text("Contents", 357, 50)
               .text("Qty", 405, 50)
               .text("Vat", 435, 50)
               .text("Price", 480, 50)
               .text("Total", 0, 50, { align: "right" })
 
-              .font('Times-Roman').roundedRect(50, 65, 520, 0, 0)
+              .font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, 65, 520, 0, 0)
               .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
               .fill('black').stroke()
 
@@ -1461,11 +1463,11 @@ module.exports = function (server) {
                 .text("Products", 350, 30)
                 .text("Page", 480, 30)
 
-                .font('Times-Bold').text(`${dataObj.invoiceId}`, 120, 40)
-                .text(`${dataObj.date}`, 240, 40)
+                .font(__dirname + '/roboto/Roboto-Bold.ttf').text(`${dataObj.invoiceId}`, 120, 40)
+                .text(`${dataObj.date}`, 238, 40)
                 .text(`${dataObj.products.length}`, 360, 40)
-                .text(`${pageNumber}/${pageTotal}`, 480, 40)
-              doc.font('Times-Roman').roundedRect(50, doc.page.height - 35, 520, 0, 0)
+                .text(`${pageNumber}/${pageTotal}`, 483, 40)
+              doc.font(__dirname + '/roboto/Roboto-Regular.ttf').roundedRect(50, doc.page.height - 35, 520, 0, 0)
                 .fillAndStroke('white', `${dataObj.settings.primaryColor}`)
                 .fill('black').stroke()
               doc.text('footer footer  footer  footer  footer  footer', 250, doc.page.height - 30, {
